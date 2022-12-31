@@ -32,8 +32,30 @@
 
     .news_contents{
         border-top: 1px solid #B0B0B0;
-        border-bottom: 1px solid #B0B0B0;
         height: 120px;
-        width: 45vw;
+        width: 43vw;
+        padding-left:20px;
+        position: relative;
+        
+    }
+
+    .news_contents p{
+        position: absolute;
+        top: 0px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 0.025em;
+        color: #767676;
+    }
+
+    .news_contents h1{
+        position: absolute;
+        top: 32px;
+        font-family: 'A P-OTF A1Gothic StdN';
+        font-weight: 500;
+        font-size: 22px;
+        letter-spacing: -0.01em;
+        color: #373737;
     }
 }

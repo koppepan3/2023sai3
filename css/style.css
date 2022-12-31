@@ -26,6 +26,8 @@ header{
     position: fixed;
     top: 0px;
     left: 0px;
+    background-color: white;
+    z-index: 100;
 }
 /*スマホ用のスタイル*/
 @media only screen and (max-width: 600px) {
@@ -36,7 +38,6 @@ header{
     header{
         width: 100%;
         height: 60px;
-        background-color:white;
         border-bottom: 1px solid #BFBFBF ;
     }
 
