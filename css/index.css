@@ -16,20 +16,24 @@
 
     #section_news{
         position: relative;
+        height: 360px
     }
 
     .title_svg{
         height: 70px;
     }
 
-    .news_holder{
+    #news_holder{
         position: absolute;
         top: 0px;
         right: 0px;
+        height: 360px;
     }
 
     .news_contents{
         border-top: 1px solid #B0B0B0;
         border-bottom: 1px solid #B0B0B0;
+        height: 120px;
+        width: 45vw;
     }
 }
