@@ -7,4 +7,29 @@
     #topImage_desktop{
         width:100%;
     }
+
+    .section{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 80px;
+    }
+
+    #section_news{
+        position: relative;
+    }
+
+    .title_svg{
+        height: 70px;
+    }
+
+    .news_holder{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .news_contents{
+        border-top: 1px solid #B0B0B0;
+        border-bottom: 1px solid #B0B0B0;
+    }
 }
