@@ -57,11 +57,11 @@
 
     .news_contents h1{
         position: absolute;
-        top: 32px;
-        font-family: 'A P-OTF A1Gothic StdN';
-        font-weight: 500;
-        font-size: 22px;
-        letter-spacing: -0.01em;
+        top: 38px;
+        font-family: 'Yu Gothic';
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.04em;
         color: #373737;
     }
 }
