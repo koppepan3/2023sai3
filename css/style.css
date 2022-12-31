@@ -1,0 +1,23 @@
+/* ページ内にid指定でリンクする際にスクロールアニメーションを表示するため*/
+html{scroll-behavior: smooth;}
+
+/*スタイルリセット＋リンクホバーアニメーション追加*/
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-text-size-adjust: 100%;
+}
+
+a{
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a:hover,
+a:active{
+    text-decoration: none;
+    cursor: pointer;
+}
