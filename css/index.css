@@ -20,7 +20,13 @@
     }
 
     .title_svg{
-        height: 70px;
+        height: 80px;
+    }
+
+    #news_link{
+        position: absolute;
+        top: 110px;
+        width: 110px;
     }
 
     #news_holder{
