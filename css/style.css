@@ -21,3 +21,28 @@ a:active{
     text-decoration: none;
     cursor: pointer;
 }
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+/*スマホ用のスタイル*/
+@media only screen and (max-width: 600px) {
+}
+
+/*タブレット・パソコン用のスタイル*/
+@media only screen and (min-width: 600px) {
+    header{
+        width: 100%;
+        height: 60px;
+        background-color:white;
+        border-bottom: 1px solid #BFBFBF ;
+    }
+
+    #header_icon{
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+}
