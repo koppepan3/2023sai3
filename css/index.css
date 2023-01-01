@@ -64,4 +64,41 @@
         letter-spacing: 0.04em;
         color: #373737;
     }
+
+    .theme_all{
+        position: relative;
+        width: 95%;
+        margin-right: 5%;
+        height: 611px;
+        background: #F4F0E9;
+        border-radius: 0px 60px 60px 0px;
+    }
+
+    .theme_contents p{
+        font-family: 'Noto Sans Arabic', sans-serif;
+        font-weight: 535;
+        font-size: 20px;
+        letter-spacing: 0.12em;
+    }
+
+    .theme_contents{
+        position: absolute;
+        top: 40%;
+        right: 10%;
+        height: 120px;
+        width: 43vw;
+    }
+
+    #theme_title{
+        position: absolute;
+        top: 5%;
+        left: 15%;
+    }
+
+    #theme_era{
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        height: 100px;
+    }
 }
