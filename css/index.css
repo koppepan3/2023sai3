@@ -42,9 +42,14 @@
         width: 43vw;
         padding-left:20px;
         position: relative;
-        
+        transition: all 0.7s;
     }
 
+    .news_contents:hover{
+        background-color: #E7E7E7;
+        transform: translateY(-10px);
+    }
+    
     .news_contents p{
         position: absolute;
         top: 0px;
