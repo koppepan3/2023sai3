@@ -20,7 +20,7 @@
     }
 
     .title_svg{
-        height: 80px;
+        height: 75px;
     }
 
     #news_link{
@@ -69,21 +69,24 @@
         position: relative;
         width: 95%;
         margin-right: 5%;
-        height: 611px;
+        height: 520px;
         background: #F4F0E9;
         border-radius: 0px 60px 60px 0px;
     }
 
     .theme_contents p{
-        font-family: 'Noto Sans Arabic', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
         font-weight: 535;
-        font-size: 20px;
+        font-size: 16px;
+        line-height: 300%;
         letter-spacing: 0.12em;
+        color: #2E2E2E;
+        font-stretch: 75;
     }
 
     .theme_contents{
         position: absolute;
-        top: 40%;
+        top: 35%;
         right: 10%;
         height: 120px;
         width: 43vw;
@@ -91,14 +94,14 @@
 
     #theme_title{
         position: absolute;
-        top: 5%;
-        left: 15%;
+        top: 7%;
+        left: 15vw;
     }
 
-    #theme_era{
+    #theme_2023{
         position: absolute;
         top: 50%;
-        left: 15%;
-        height: 100px;
+        left: 22%;
+        height: 65px;
     }
 }
