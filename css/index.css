@@ -82,7 +82,7 @@
     .theme_contents p{
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 535;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 300%;
         letter-spacing: 0.12em;
         color: #2E2E2E;
@@ -91,7 +91,7 @@
 
     .theme_contents{
         position: absolute;
-        top: 35%;
+        top: 32%;
         right: 10%;
         height: 120px;
         width: 43vw;
