@@ -1,9 +1,75 @@
 /*スマホ用のスタイル*/
 @media only screen and (max-width: 600px) {
+    #topImage_mobile{
+        width:100%;
+    }
+
+    #topImage_desktop{
+        display: none;
+    }
+
+    .section{
+        width: 88%;
+        margin-left: 6%;
+        margin-top: 40px;
+    }
+
+    .title{
+        display: inline-block;
+    }
+
+    .title_svg{
+        height: 55px;
+    }
+
+    #news_link{
+        width: 90px;
+        display: inline-block;
+        float: right;
+        margin-top: 15px;
+    }
+
+    #news_holder{
+        margin-top: 10px;
+    }
+
+    .news_contents{
+        border-top: 1px solid #B0B0B0;
+        height: 80px;
+        width: 100%;
+        padding-left:8px;
+        position: relative;
+    }
+
+    .news_contents p{
+        position: absolute;
+        top: 0px;
+        margin: 10px 0;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 11px;
+        letter-spacing: 0.025em;
+        color: #767676;
+    }
+
+    .news_contents h1{
+        position: absolute;
+        top: 28px;
+        font-family: 'Noto Sans JP';
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 100%;
+        letter-spacing: 0.03em;
+        color: #373737;
+    }
 }
 
 /*タブレット・パソコン用のスタイル*/
 @media only screen and (min-width: 600px) {
+    #topImage_mobile{
+        display: none;
+    }
+
     #topImage_desktop{
         width:100%;
     }

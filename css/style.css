@@ -31,6 +31,17 @@ header{
 }
 /*スマホ用のスタイル*/
 @media only screen and (max-width: 600px) {
+    header{
+        width: 100%;
+        height: 45px;
+        border-bottom: 1px solid #BFBFBF ;
+    }
+
+    #header_icon{
+        height: 35px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
 }
 
 /*タブレット・パソコン用のスタイル*/
