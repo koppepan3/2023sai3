@@ -13,28 +13,14 @@
     
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    
-    
-    
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-    
-    /*
-    scroll-snap-points-x: repeat(300px);
-    scroll-snap-type: mandatory;
-    */
   }
+
   .slides::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    display: none;
   }
-  .slides::-webkit-scrollbar-thumb {
-    background: black;
-    border-radius: 10px;
-  }
-  .slides::-webkit-scrollbar-track {
-    background: transparent;
-  }
+  
+  
   .slides > div {
     scroll-snap-align: start;
     flex-shrink: 0;
@@ -53,9 +39,7 @@
     align-items: center;
     font-size: 100px;
   }
-  .slides > div:target {
-  /*   transform: scale(0.8); */
-  }
+
   .author-info {
     background: rgba(0, 0, 0, 0.75);
     color: white;
@@ -114,5 +98,4 @@
     align-items: center;
     justify-content: center;
     background: linear-gradient(to bottom, #74ABE2, #5563DE);
-    font-family: 'Ropa Sans', sans-serif;
   }
