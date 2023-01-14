@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="index.css">
     <title>Document</title>
-  </head>
-  <body>
-    <div class="slider">
-      <div class="slides">
-        <div><img class="content-photo" src="photo/NCM10.jpg" alt=""></div>
-        <div><img class="content-photo" src="photo/NCM5.jpg" alt=""></div>
-        <div><img class="content-photo" src="photo/NCM6.jpg" alt=""></div>
-        <div><img class="content-photo" src="photo/NCM7.jpg" alt=""></div>
-        <div><img class="content-photo" src="photo/NCM9.jpg" alt=""></div>
-      </div>
+</head>
+<body>
+<section class="carousel" aria-label="Gallery">
+    <div class="carousel__viewport">
+       <div id="carousel__slide1" class="carousel__slide">
+          <img  class="slide_photo" src="photo/NCM10.jpg">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide4" class="carousel__prev"></a>
+          <a href="#carousel__slide2" class="carousel__next"></a>
+       </div>
+       <div id="carousel__slide2" class="carousel__slide">
+          <img class="slide_photo" src="photo/NCM5.jpg">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide1" class="carousel__prev"></a>
+          <a href="#carousel__slide3" class="carousel__next"></a>
+       </div>
+       <div id="carousel__slide3" class="carousel__slide">
+          <img class="slide_photo" src="photo/NCM6.jpg">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide2" class="carousel__prev"></a>
+          <a href="#carousel__slide4" class="carousel__next"></a>
+       </div>
+       <div id="carousel__slide4" class="carousel__slide">
+          <img class="slide_photo" src="photo/NCM7.jpg">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide3" class="carousel__prev"></a>
+          <a href="#carousel__slide1" class="carousel__next"></a>
+       </div>
     </div>
-  </body>
+  </section>
+</body>
 </html>
