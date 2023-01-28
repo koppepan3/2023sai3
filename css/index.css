@@ -47,7 +47,7 @@
         margin: 8px 0;
         font-family: 'Zen Kaku Gothic New', sans-serif;
         font-weight: bold;
-        font-size: 13px;
+        font-size: 12px;
         letter-spacing: 0.05em;
         color: #767676;
     }
@@ -60,7 +60,7 @@
         font-size: 17px;
         line-height: 100%;
         letter-spacing: 0.03em;
-        color: #373737;
+        color: #414141;
     }
 
     .theme_all{
@@ -86,9 +86,9 @@
     .theme_contents{
         position: absolute;
         top: 48px;
-        left: 6vw;
+        left: 7vw;
         height: 120px;
-        width: 88vw;
+        width: 86vw;
     }
 
     #theme_title{
