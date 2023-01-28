@@ -44,20 +44,20 @@
     .news_contents p{
         position: absolute;
         top: 0px;
-        margin: 10px 0;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 500;
-        font-size: 11px;
-        letter-spacing: 0.025em;
+        margin: 8px 0;
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        letter-spacing: 0.05em;
         color: #767676;
     }
 
     .news_contents h1{
         position: absolute;
         top: 28px;
-        font-family: 'Noto Sans JP';
-        font-weight: 500;
-        font-size: 16px;
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+        font-weight: bold;
+        font-size: 17px;
         line-height: 100%;
         letter-spacing: 0.03em;
         color: #373737;
@@ -74,10 +74,10 @@
     }
 
     .theme_contents p{
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 240%;
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 220%;
         letter-spacing: 0.08em;
         color: #2E2E2E;
         font-stretch: 75;
@@ -85,10 +85,10 @@
 
     .theme_contents{
         position: absolute;
-        top: 45px;
-        left: 8vw;
+        top: 48px;
+        left: 6vw;
         height: 120px;
-        width: 84vw;
+        width: 88vw;
     }
 
     #theme_title{
