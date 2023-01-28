@@ -68,7 +68,7 @@
         width: 95%;
         margin-top: 80px;
         margin-right: 5%;
-        height: 340px;
+        height: 360px;
         background: #F4F0E9;
         border-radius: 0px 40px 40px 0px;
     }
@@ -76,19 +76,19 @@
     .theme_contents p{
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 500;
-        font-size: 15.5px;
-        line-height: 200%;
-        letter-spacing: 0.10em;
+        font-size: 15px;
+        line-height: 240%;
+        letter-spacing: 0.08em;
         color: #2E2E2E;
         font-stretch: 75;
     }
 
     .theme_contents{
         position: absolute;
-        top: 40px;
-        left: 7vw;
+        top: 45px;
+        left: 8vw;
         height: 120px;
-        width: 86vw;
+        width: 84vw;
     }
 
     #theme_title{
