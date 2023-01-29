@@ -19,7 +19,7 @@
     }
 
     .title_svg{
-        height: 60px;
+        height: 55px;
     }
 
     #news_link{
@@ -66,29 +66,29 @@
     .theme_all{
         position: relative;
         width: 95%;
-        margin-top: 80px;
+        margin-top: 100px;
         margin-right: 5%;
-        height: 360px;
+        height: 390px;
         background: #F4F0E9;
         border-radius: 0px 40px 40px 0px;
     }
 
     .theme_contents p{
         font-family: 'Zen Kaku Gothic New', sans-serif;
-        font-weight: bold;
+        font-weight: medium;
         font-size: 16px;
-        line-height: 220%;
-        letter-spacing: 0.08em;
+        line-height: 240%;
+        letter-spacing: 0.07    em;
         color: #2E2E2E;
         font-stretch: 75;
     }
 
     .theme_contents{
         position: absolute;
-        top: 48px;
-        left: 7vw;
+        top: 44px;
+        left: 8vw;
         height: 120px;
-        width: 86vw;
+        width: 84vw;
     }
 
     #theme_title{
@@ -99,9 +99,9 @@
 
     #theme_2023{
         position: absolute;
-        top: -15px;
-        right: 35px;
-        height: 50px;
+        top: -33px;
+        right: 30px;
+        height: 58px;
     }
 }
 
