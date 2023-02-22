@@ -35,7 +35,7 @@
 
     .news_contents{
         border-top: 1px solid #DEDEDE;
-        height: 80px;
+        height: 85px;
         width: 100%;
         padding-left:8px;
         position: relative;
@@ -54,7 +54,7 @@
 
     .news_contents h1{
         position: absolute;
-        top: 28px;
+        top: 30px;
         font-family: 'Zen Kaku Gothic New', sans-serif;
         font-weight: 700;
         font-size: 17px;
