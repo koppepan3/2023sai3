@@ -19,7 +19,7 @@
     }
 
     .title_svg{
-        height: 55px;
+        height: 52px;
     }
 
     #news_link{
@@ -34,7 +34,7 @@
     }
 
     .news_contents{
-        border-top: 1px solid #B0B0B0;
+        border-top: 1px solid #DEDEDE;
         height: 80px;
         width: 100%;
         padding-left:8px;
@@ -46,20 +46,20 @@
         top: 0px;
         margin: 8px 0;
         font-family: 'Zen Kaku Gothic New', sans-serif;
-        font-weight: bold;
-        font-size: 12px;
+        font-weight: 700;
+        font-size: 11px;
         letter-spacing: 0.05em;
-        color: #515151;
+        color: #767676;
     }
 
     .news_contents h1{
         position: absolute;
         top: 28px;
         font-family: 'Zen Kaku Gothic New', sans-serif;
-        font-weight: bold;
+        font-weight: 700;
         font-size: 17px;
         line-height: 100%;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.05em;
         color: #414141;
     }
 
