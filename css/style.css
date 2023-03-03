@@ -38,9 +38,153 @@ header{
     }
 
     #header_icon{
-        height: 35px;
-        margin-top: 5px;
-        margin-left: 10px;
+        width:125px;
+        top: 13px;
+        left: 13px;
+        position: fixed;
+        margin: 0;
+        z-index: 904;
+    }
+
+    .justbackground{
+        position: fixed;
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        z-index: 902;
+    }
+
+    /*　ハンバーガーボタン　*/
+    .hamburger {
+        display : block;
+        position: fixed;
+        z-index : 903;
+        right : 13px;
+        top   : 12px;
+        width : 42px;
+        height: 42px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .hamburger span {
+        display : block;
+        position: absolute;
+        width   : 30px;
+        height  : 2px ;
+        left    : 6px;
+        background : #555;
+        -webkit-transition: 0.3s ease-in-out;
+        -moz-transition   : 0.3s ease-in-out;
+        transition        : 0.3s ease-in-out;
+    }
+    .hamburger span:nth-child(1) {
+        top: 10px;
+    }
+    .hamburger span:nth-child(2) {
+        top: 20px;
+    }
+    .hamburger span:nth-child(3) {
+        top: 30px;
+    }
+    
+    /* ナビ開いてる時のボタン */
+    .hamburger.active span:nth-child(1) {
+        top : 16px;
+        left: 6px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform   : rotate(-45deg);
+        transform        : rotate(-45deg);
+    }
+    
+    .hamburger.active span:nth-child(2),
+    .hamburger.active span:nth-child(3) {
+        top: 16px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform   : rotate(45deg);
+        transform        : rotate(45deg);
+    }
+
+
+    nav.hamburger_list {
+        margin: 0;
+        padding: 13px 23px;
+        border: 0;
+        position: fixed;
+        z-index : -900;
+        display: none;
+        opacity: 0;
+        top  : 60px;
+        left : 0%;
+        color: #000;
+        text-align: left;
+        transition: all 0.6s;
+        width: 100%;
+        height: 160px;
+    }
+      
+    /* このクラスを、jQueryで付与・削除する */
+    nav.hamburger_list.active {
+        display: block;
+        z-index : 902;
+        opacity: 100%;
+    }
+
+    nav.hamburger_list p{
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0.005em;
+        color: #7D7D7D;
+        margin: 0 0 4px 2px;
+    }
+
+    nav.hamburger_list h1{
+        font-family: 'Zen Kaku Gothic Antique';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 100%;
+        letter-spacing: 0.07em;
+        color: #343434;
+        margin: 2px 0 30px 0;
+    }
+
+    nav.hamburger_list h3{
+        font-family: 'Zen Kaku Gothic Antique';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        color: #4D4D4D;
+        margin: 25px 10px;
+
+    }
+
+    nav.hamburger_list a{
+        text-decoration: none;
+        color: black;
+    }
+
+    /*丸の拡大*/
+    .circle-bg{
+        position: fixed;
+        z-index:3;
+        /*丸の形*/
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: #ffffff;
+        /*丸のスタート位置と形状*/
+        transform: scale(0);/*scaleをはじめは0に*/
+        right:-50px;
+        top:-50px;
+        transition: all .6s;/*0.6秒かけてアニメーション*/
+    }
+
+    .circle-bg.circleactive{
+        transform: scale(50);/*クラスが付与されたらscaleを拡大*/
     }
 }
 
