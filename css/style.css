@@ -132,21 +132,21 @@ header{
     nav.hamburger_list p{
         font-family: 'Noto Sans JP', sans-serif;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 400;
         font-size: 12px;
         line-height: 100%;
-        letter-spacing: 0.005em;
+        letter-spacing: 0.04em;
         color: #7D7D7D;
-        margin: 0 0 4px 2px;
+        margin: 0 0 6px 2px;
     }
 
     nav.hamburger_list h1{
         font-family: 'Zen Kaku Gothic Antique';
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
+        font-size: 20px;
         line-height: 100%;
-        letter-spacing: 0.07em;
+        letter-spacing: -0.005em;
         color: #343434;
         margin: 2px 0 30px 0;
     }
@@ -154,17 +154,21 @@ header{
     nav.hamburger_list h3{
         font-family: 'Zen Kaku Gothic Antique';
         font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
+        font-weight: 500;
+        font-size: 15px;
         line-height: 100%;
         color: #343434;
-        margin: 25px 0;
-
+        margin: 20px 0;
+        letter-spacing: -0.005em;
     }
 
     nav.hamburger_list a{
         text-decoration: none;
         color: black;
+    }
+
+    #header_contents h1{
+        margin: 2px 0 20px 0 !important;
     }
 
     #header_articles p{
