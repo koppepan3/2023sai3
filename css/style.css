@@ -7,6 +7,7 @@ body{
     padding: 0;
     border: 0;
     -webkit-text-size-adjust: 100%;
+    z-index: 10;
 }
 
 a{
@@ -110,8 +111,7 @@ header{
         padding: 13px 23px;
         border: 0;
         position: fixed;
-        z-index : -900;
-        display: none;
+        z-index : 0;
         opacity: 0;
         top  : 60px;
         left : 0%;
@@ -124,7 +124,6 @@ header{
       
     /* このクラスを、jQueryで付与・削除する */
     nav.hamburger_list.active {
-        display: block;
         z-index : 902;
         opacity: 100%;
     }
