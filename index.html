@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>彩西祭2023</title>
         <meta name=”description” content="メタディスクリプション" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/index.css">
         <!-- Favicon設定-->
@@ -81,6 +82,16 @@
         <div id="section_contents" class="section">
             <div class="title">
                 <img class="title_svg" src="files/contents.svg">
+                <div #swiperRef="" class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="files/photo/NCM10.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="files/photo/NCM5.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="files/photo/NCM6.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="files/photo/NCM7.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </div>
         <div id="section_articles" class="section">
@@ -107,6 +118,7 @@
                 });
             });
         </script>
-
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>
