@@ -250,15 +250,15 @@
     }
       
     .append-buttons button {
-        display: inline-block;
+        /* display: inline-block; */
         cursor: pointer;
     }
       
     /* 前へ次への矢印カスタマイズ */
     .swiper-button-prev,
     .swiper-button-next {
-        height: 1000px;
-        width: 1000px;
+        height: 60px;
+        width: 60px;
     }
     /* 前へ次への矢印カスタマイズ */
     .swiper-button-prev:after,
@@ -272,11 +272,11 @@
     }
     /* 前への矢印カスタマイズ */
     .swiper-button-prev:after {
-        background-image: url(photo/hidari.svg);
+        background-image: url(files/hidari.svg);
     }
     /* 次への矢印カスタマイズ */
     .swiper-button-next:after {
-        background-image: url(photo/migi.svg);
+        background-image: url(files/migi.svg);
     }
     /* 画像サイズ調整 */
     .swiper-slide img {
@@ -285,15 +285,15 @@
     }
       
     /* 前への矢印 */
-    .swiper-button-prev {
+    /* .swiper-button-prev {
         top: 0px;
-        left: 75em;
+        left: 0px;
     }
     /* 次への矢印 */
-    .swiper-button-next {
+    /* .swiper-button-next {
         top: 0px;
-        right: 10em;
-    }
+        right: 0px;
+    } */ */
     /* ページネーション */
     .swiper-horizontal > .swiper-pagination-bullets,
     .swiper-pagination-bullets.swiper-pagination-horizontal,
