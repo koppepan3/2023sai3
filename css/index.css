@@ -238,7 +238,6 @@
     }
       
     .swiper {
-        top: 100px;
         width: 100%;
         height: 50%;
         margin: 20px auto;
@@ -246,7 +245,7 @@
       
     .append-buttons {
         text-align: center;
-        margin-top: 20px;
+        /* margin-top: 20px; */
     }
       
     .append-buttons button {
@@ -259,6 +258,7 @@
     .swiper-button-next {
         height: 60px;
         width: 60px;
+        top: 225%;
     }
     /* 前へ次への矢印カスタマイズ */
     .swiper-button-prev:after,
@@ -267,7 +267,7 @@
         background-size: contain;
         content: "";
         height: 60px;
-        margin: auto;
+        /* margin: auto; */
         width: 60px;
     }
     /* 前への矢印カスタマイズ */
@@ -278,22 +278,16 @@
     .swiper-button-next:after {
         background-image: url(../files/migi.svg);
     }
-    /* 画像サイズ調整 */
-    .swiper-slide img {
-        height: auto;
-        width: 100%;
-    }
+
       
     /* 前への矢印 */
-    /* .swiper-button-prev {
-        top: 0px;
-        left: 0px;
-    }
+    .swiper-button-prev {
+        left: 75%;
+    } 
     /* 次への矢印 */
-    /* .swiper-button-next {
-        top: 0px;
-        right: 0px;
-    } */ */
+    .swiper-button-next {
+        right: 15%;
+    } 
     /* ページネーション */
     .swiper-horizontal > .swiper-pagination-bullets,
     .swiper-pagination-bullets.swiper-pagination-horizontal,
