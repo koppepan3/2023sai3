@@ -272,11 +272,11 @@
     }
     /* 前への矢印カスタマイズ */
     .swiper-button-prev:after {
-        background-image: url(files/hidari.svg);
+        background-image: url(../files/hidari.svg);
     }
     /* 次への矢印カスタマイズ */
     .swiper-button-next:after {
-        background-image: url(files/migi.svg);
+        background-image: url(../files/migi.svg);
     }
     /* 画像サイズ調整 */
     .swiper-slide img {
