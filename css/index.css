@@ -235,6 +235,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        position: relative;
     }
       
     .swiper {
@@ -294,5 +295,11 @@
     .swiper-pagination-custom,
     .swiper-pagination-fraction {
         bottom: 50px;
+    }
+
+    .swiper_pamphlet::after{
+        content: '';
+        background-image: url("../files/pamphlet_title.svg");
+        bottom: -10px;
     }
 }
