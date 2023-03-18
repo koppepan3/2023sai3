@@ -371,4 +371,28 @@
     #articles2{
         left: 45%;
     }
+
+    footer{
+        position: relative;
+        background-color: #F5F5F5;
+        height: 350px;
+    }
+
+    footer img{
+        margin-top: 50px;
+        width: 20%;
+    }
+
+    footer p{
+        position: absolute;
+        bottom: 10px;
+    }   
+    
+    .footer_contents{
+        margin-left: 10%;
+    }
+
+    .footer_items{
+        margin: 20px;
+    }
 }
