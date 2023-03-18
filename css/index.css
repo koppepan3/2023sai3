@@ -217,11 +217,16 @@
         height: 65px;
     }
 
+    #section_contents{
+        position: relative;
+    }
+
     .swiper {
         width: 100%;
         height: 100%;
-      }
-      
+    }
+    
+
     .swiper-slide {
         text-align: center;
         background: #fff;
@@ -238,28 +243,22 @@
         position: relative;
     }
       
-    .swiper {
-        width: 100%;
-        height: 50%;
-        margin: 20px auto;
-    }
-      
     .append-buttons {
         text-align: center;
-        /* margin-top: 20px; */
     }
       
     .append-buttons button {
-        /* display: inline-block; */
+        display: inline-block;
         cursor: pointer;
     }
       
     /* 前へ次への矢印カスタマイズ */
     .swiper-button-prev,
     .swiper-button-next {
+        position: absolute;
         height: 60px;
         width: 60px;
-        top: 225%;
+        top: 20px;
     }
     /* 前へ次への矢印カスタマイズ */
     .swiper-button-prev:after,
@@ -268,7 +267,6 @@
         background-size: contain;
         content: "";
         height: 60px;
-        /* margin: auto; */
         width: 60px;
     }
     /* 前への矢印カスタマイズ */
@@ -283,7 +281,7 @@
       
     /* 前への矢印 */
     .swiper-button-prev {
-        left: 75%;
+        left: 70%;
     } 
     /* 次への矢印 */
     .swiper-button-next {
