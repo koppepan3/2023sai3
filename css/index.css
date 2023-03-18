@@ -290,10 +290,45 @@
     .swiper-pagination-fraction {
         bottom: 50px;
     }
+    #swiper_pamphlet,#swiper_themeillust,#swiper_kurat,#swiper_map,#swiper_tenji,#swiper_komi{
+        position: relative;
+        padding-bottom: 21px;
+    }
 
-    .swiper_pamphlet::after{
+    #swiper_pamphlet:after,#swiper_themeillust:after,#swiper_kurat:after,#swiper_map:after,#swiper_tenji:after,#swiper_komi:after{
         content: '';
-        background-image: url("../files/pamphlet_title.svg");
-        bottom: -10px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        height: 15px;
+        width: 100%;
+        z-index: 900;
+    }
+
+    #swiper_pamphlet:after{
+        background-image: url(../files/contents/pamphlet_title.svg);
+    }
+
+    #swiper_themeillust:after{
+        background-image: url(../files/contents/themeillust_title.svg);
+    }
+
+    #swiper_kurat:after{
+        background-image: url(../files/contents/kurat_title.svg);
+    }
+
+    #swiper_map:after{
+        background-image: url(../files/contents/map_title.svg);
+    }
+
+    #swiper_tenji:after{
+        background-image: url(../files/contents/tenji_title.svg);
+    }
+
+    #swiper_komi:after{
+        background-image: url(../files/contents/komi_title.svg);
     }
 }
