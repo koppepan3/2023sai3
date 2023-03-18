@@ -281,11 +281,7 @@
       
     /* 前への矢印 */
     .swiper-button-prev {
-        left: 70%;
-    } 
-    /* 次への矢印 */
-    .swiper-button-next {
-        right: 15%;
+        left: 85%;
     } 
     /* ページネーション */
     .swiper-horizontal > .swiper-pagination-bullets,
