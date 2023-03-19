@@ -1,5 +1,5 @@
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 4,
+    slidesPerView: 1,
     centeredSlides: false,
     spaceBetween: 30,
     pagination: {
@@ -9,5 +9,15 @@ var swiper = new Swiper(".mySwiper", {
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      // 600px以上の場合
+      1200: {
+        slidesPerView: 4
+      },
+      // 600px以上の場合
+      600: {
+        slidesPerView: 3
+      }
     },
   });
