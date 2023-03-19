@@ -26,14 +26,14 @@
             <!--  ハンバーガーボタン  -->
             <div class="hamburger"><span></span><span></span><span></span></div>
             <nav class="hamburger_list">
-                <a href="index.html" id="header_top"><p>Top</p><h1>トップページ</h1></a>
-                <a href="index.html" id="header_contents"><p>Contents</p><h1>コンテンツ</h1></a>
-                <a href="index.html"><h3>デジタル版パンフレット</h3></a>
-                <a href="index.html"><h3>テーマイラスト紹介</h3></a>
-                <a href="index.html"><h3>校内マップ</h3></a>
-                <a href="index.html"><h3>展示内容紹介</h3></a>
-                <a href="articles.html" id="header_articles"><p>Articles</p><h1>記事一覧</h1></a>
-                <a href="about.html" id="header_about"><p>About</p><h1>彩西祭について</h1></a>
+                <div class="header_menu"><a href="index.html" class="header_menu"><h1>トップページ</h1></a></div>
+                <div class="header_menu toggle_menu"><a href="index.html" class="header_menu"><h1>コンテンツ</h1></a><div class="subMenu"><span></span><span></span></div></div>
+                <a class="menu_open" href="index.html"><h3>デジタル版パンフレット</h3></a>
+                <a class="menu_open" href="index.html"><h3>テーマイラスト紹介</h3></a>
+                <a class="menu_open" href="index.html"><h3>校内マップ</h3></a>
+                <a class="menu_open" href="index.html"><h3>展示内容紹介</h3></a>
+                <div class="header_menu"><a href="articles.html" "><h1>記事一覧</h1></a></div>
+                <div class="header_menu"><a href="about.html" class="header_menu"><h1>彩西祭について</h1></a></div>
             </nav>
             <div class="circle-bg"></div>
         </header>
@@ -178,6 +178,19 @@
                         $(".circle-bg").removeClass('circleactive');//丸背景にcircleactiveクラスを付与
                     }
                 });
+
+                $('.subMenu').click(function() {
+                    $(this).toggleClass('active');
+                    
+                    if ($(this).hasClass('active')) {
+                        $('.subMenu').addClass('active');
+                        $('.menu_open').addClass('active');
+                    } else {
+                        $('.subMenu').removeClass('active');
+                        $('.menu_open').removeClass('active');
+                    }
+                });
+
             });
         </script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
