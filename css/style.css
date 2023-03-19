@@ -34,8 +34,10 @@ header{
 @media only screen and (max-width: 600px) {
     header{
         width: 100%;
-        height: 45px;
+        height: 60px;
         border-bottom: 1px solid #BFBFBF ;
+        background-color: white;
+        z-index: 90;
     }
 
     #header_icon{
@@ -47,13 +49,6 @@ header{
         z-index: 904;
     }
 
-    .justbackground{
-        position: fixed;
-        width: 100%;
-        height: 60px;
-        background-color: white;
-        z-index: 902;
-    }
 
     /*　ハンバーガーボタン　*/
     .hamburger {
@@ -108,10 +103,10 @@ header{
 
     nav.hamburger_list {
         margin: 0;
-        padding: 13px 23px;
+        padding:  0;
         border: 0;
         position: fixed;
-        z-index : 0;
+        z-index : -1;
         opacity: 0;
         top  : 60px;
         left : 0%;
@@ -120,34 +115,86 @@ header{
         transition: all 0.6s;
         width: 100%;
         height: 160px;
+        pointer-events: none;
     }
       
     /* このクラスを、jQueryで付与・削除する */
     nav.hamburger_list.active {
         z-index : 902;
         opacity: 100%;
+        pointer-events: auto;
     }
 
-    nav.hamburger_list p{
-        font-family: 'Noto Sans JP', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 100%;
-        letter-spacing: 0.04em;
-        color: #7D7D7D;
-        margin: 0 0 6px 2px;
+    .menu_open h3{
+        -webkit-transition: 0.3s ease-in-out;
+        -moz-transition   : 0.3s ease-in-out;
+        transition        : 0.3s ease-in-out;
+        translate: 0px -200px;
+        z-index: 80;
+        pointer-events: none;
+        display: none;
+    }
+
+    .menu_open.active h3{
+        translate:0px 0px;
+        pointer-events: auto;
+        display: block;
+    }
+
+    .subMenu{
+        position: absolute;
+        right: 0px;
+        height: 100%;
+        width: 20px;
+        top: 0px;
+    }
+
+    .subMenu span{
+        display : block;
+        position: absolute;
+        width   : 16px;
+        height  : 2px ;
+        right    : 3vw;
+        top: calc(100% / 2);
+        background : #464646;
+        -webkit-transition: 0.3s ease-in-out;
+        -moz-transition   : 0.3s ease-in-out;
+        transition        : 0.3s ease-in-out;
+    }
+
+    .subMenu span:nth-child(2){
+        -webkit-transform: rotate(90deg);
+        -moz-transform   : rotate(90deg);
+        transform        : rotate(90deg);
+    }
+
+    .subMenu.active span:nth-child(2){
+        opacity: 0;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform   : rotate(-90deg);
+        transform        : rotate(-90deg);
+    }
+
+    .header_menu{
+        position: relative;
+        width: 86vw;
+        margin:0 0 0 5vw;
+        padding:  25px 2vw;
+        border-top:0.5px solid #CCCCCC;
+        background-color: white;
+        z-index: 90;
     }
 
     nav.hamburger_list h1{
         font-family: 'Zen Kaku Gothic Antique';
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 17px;
         line-height: 100%;
         letter-spacing: -0.005em;
-        color: #343434;
-        margin: 2px 0 30px 0;
+        color: #464646;
+        margin: 0;
+        padding: 0;
     }
 
     nav.hamburger_list h3{
@@ -156,14 +203,19 @@ header{
         font-weight: 500;
         font-size: 15px;
         line-height: 100%;
-        color: #343434;
-        margin: 20px 0;
         letter-spacing: -0.005em;
+        color: #343434;
+        margin: 10px 7vw 30px;
     }
 
     nav.hamburger_list a{
         text-decoration: none;
         color: black;
+        margin:0px;
+        padding: 0px;
+        width: fit-content;
+        display: block;
+        border: none !important;
     }
 
     #header_contents h1{
