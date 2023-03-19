@@ -111,7 +111,7 @@
     .swiper {
         width: 100%;
         height: 100%;
-        margin-top: 30px;
+        margin: 10px 0 50px;
     }
     
 
@@ -130,59 +130,11 @@
         object-fit: cover;
         position: relative;
     }
-      
-    .append-buttons {
-        text-align: center;
-    }
-      
-    .append-buttons button {
-        display: inline-block;
-        cursor: pointer;
-    }
-      
-    /* 前へ次への矢印カスタマイズ */
-    .swiper-button-prev,.swiper-button-next
-     {
-        position: absolute;
-        height: 60px;
-        width: 60px;
-        top: 30px;
-    }
-    /* 前へ次への矢印カスタマイズ */
-    .swiper-button-prev:after,
-    .swiper-button-next:after {
-        background-repeat: no-repeat;
-        background-size: contain;
-        content: "";
-        height: 55px;
-        width: 55px;
-    }
-    /* 前への矢印カスタマイズ */
-    .swiper-button-prev:after {
-        background-image: url(../files/hidari.svg);
-    }
-    /* 次への矢印カスタマイズ */
-    .swiper-button-next:after {
-        background-image: url(../files/migi.svg);
-    }
-
-    /* 前への矢印 */
-    .swiper-button-prev{
-        left:calc(100% - 140px);
-    } 
-
-    .swiper-button-next{
-        right: 0px;
-    }
-      
     
-    /* ページネーション */
-    .swiper-horizontal > .swiper-pagination-bullets,
-    .swiper-pagination-bullets.swiper-pagination-horizontal,
-    .swiper-pagination-custom,
-    .swiper-pagination-fraction {
-        bottom: 50px;
+    .swiper-button-prev,.swiper-button-next{
+        display: none;
     }
+
     #swiper_pamphlet,#swiper_themeillust,#swiper_kurat,#swiper_map,#swiper_tenji,#swiper_komi{
         position: relative;
         padding-bottom: 23px;
@@ -196,7 +148,7 @@
         position: absolute;
         bottom: 0px;
         left: 2px;
-        height: 0.9vw;
+        height: 4vw;
         width: 100%;
         z-index: 900;
     }
@@ -228,42 +180,66 @@
     #section_articles{
         position: relative;
         content: "";
-        height: 600px;
+    }
+
+    .articles_holder{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
     }
 
     .articles_contents{
+        position: relative;
+        padding: 17px 0 7px;
+        margin: 0;
+        width: 100%;
+        border-bottom: 0.5px solid #888888;
+    }
+
+    .articles_description{
         position: absolute;
-        margin-top: 40px;
-        width: 350px;
+        top: 12px;
+        left: 38%;
+        width: 60%;
     }
 
     #articles_link{
         position: absolute;
-        left: 85%;
+        width: 25vw;
+        right: 0%;
         top: 20px;
     }
 
+    .articles_contents img{
+        margin-left: 2%;
+        width: 33%;
+        display: inline-block;
+    }
+
     .articles_contents p{
-        top: 0px;
-        font-family: 'Noto Sans JP', sans-serif;
+        display: inline-block;
+        font-family: 'Zen Kaku Gothic New';
+        font-style: normal;
         font-weight: 500;
-        font-size: 15px;
-        letter-spacing: 0.025em;
+        font-size: 11px;
+        line-height: 100%;
+        letter-spacing: 0.05em;
         color: #767676;
+        margin: 0;
     }
 
     .articles_contents h1{
-        top: 38px;
-        font-family: 'Yu Gothic';
+        display: inline-block;
+        font-family: 'Zen Kaku Gothic New';
+        font-style: normal;
         font-weight: 700;
-        font-size: 20px;
-        letter-spacing: 0.04em;
-        color: #373737;
+        font-size: 15.5px;
+        line-height: 100%;
+        letter-spacing: 0.06em;
+        color: #4E4E4E;
+        margin: 10px 0 0 0;
     }
 
-    #articles2{
-        left: 45%;
-    }
 
     footer{
         position: relative;
