@@ -272,6 +272,10 @@
         display: none;
     }
 
+    header{
+        display: none;
+    }
+
     #topImage_desktop{
         width:100%;
     }
@@ -547,21 +551,28 @@
         height: 350px;
     }
 
-    footer img{
+    .footer_icon{
         margin-top: 50px;
         width: 20%;
     }
-
-    footer p{
-        position: absolute;
-        bottom: 10px;
-    }   
     
     .footer_contents{
+        position: relative;
         margin-left: 10%;
+        display: flex;
     }
 
     .footer_items{
-        margin: 20px;
+        margin: 0px 0px 0px 100px;
+    }
+
+    .school_addres{
+        position: absolute;
+        margin-top: 250px;
+    }
+
+    footer a{
+        display: block;
+        margin-top: 50px;
     }
 }
