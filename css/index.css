@@ -103,6 +103,191 @@
         right: 30px;
         height: 58px;
     }
+
+    #section_contents{
+        position: relative;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+    }
+    
+
+    .swiper-slide {
+        text-align: center;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+    }
+      
+    .append-buttons {
+        text-align: center;
+    }
+      
+    .append-buttons button {
+        display: inline-block;
+        cursor: pointer;
+    }
+      
+    /* 前へ次への矢印カスタマイズ */
+    .swiper-button-prev,.swiper-button-next
+     {
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        top: 30px;
+    }
+    /* 前へ次への矢印カスタマイズ */
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+        background-repeat: no-repeat;
+        background-size: contain;
+        content: "";
+        height: 55px;
+        width: 55px;
+    }
+    /* 前への矢印カスタマイズ */
+    .swiper-button-prev:after {
+        background-image: url(../files/hidari.svg);
+    }
+    /* 次への矢印カスタマイズ */
+    .swiper-button-next:after {
+        background-image: url(../files/migi.svg);
+    }
+
+    /* 前への矢印 */
+    .swiper-button-prev{
+        left:calc(100% - 140px);
+    } 
+
+    .swiper-button-next{
+        right: 0px;
+    }
+      
+    
+    /* ページネーション */
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 50px;
+    }
+    #swiper_pamphlet,#swiper_themeillust,#swiper_kurat,#swiper_map,#swiper_tenji,#swiper_komi{
+        position: relative;
+        padding-bottom: 23px;
+    }
+
+    #swiper_pamphlet:after,#swiper_themeillust:after,#swiper_kurat:after,#swiper_map:after,#swiper_tenji:after,#swiper_komi:after{
+        content: '';
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        bottom: 0px;
+        left: 2px;
+        height: 0.9vw;
+        width: 100%;
+        z-index: 900;
+    }
+
+    #swiper_pamphlet:after{
+        background-image: url(../files/contents/pamphlet_title.svg);
+    }
+
+    #swiper_themeillust:after{
+        background-image: url(../files/contents/themeillust_title.svg);
+    }
+
+    #swiper_kurat:after{
+        background-image: url(../files/contents/kurat_title.svg);
+    }
+
+    #swiper_map:after{
+        background-image: url(../files/contents/map_title.svg);
+    }
+
+    #swiper_tenji:after{
+        background-image: url(../files/contents/tenji_title.svg);
+    }
+
+    #swiper_komi:after{
+        background-image: url(../files/contents/komi_title.svg);
+    }
+
+    #section_articles{
+        position: relative;
+        content: "";
+        height: 600px;
+    }
+
+    .articles_contents{
+        position: absolute;
+        margin-top: 40px;
+        width: 350px;
+    }
+
+    #articles_link{
+        position: absolute;
+        left: 85%;
+        top: 20px;
+    }
+
+    .articles_contents p{
+        top: 0px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 0.025em;
+        color: #767676;
+    }
+
+    .articles_contents h1{
+        top: 38px;
+        font-family: 'Yu Gothic';
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.04em;
+        color: #373737;
+    }
+
+    #articles2{
+        left: 45%;
+    }
+
+    footer{
+        position: relative;
+        background-color: #F5F5F5;
+        height: 350px;
+    }
+
+    footer img{
+        margin-top: 50px;
+        width: 20%;
+    }
+
+    footer p{
+        position: absolute;
+        bottom: 10px;
+    }   
+    
+    .footer_contents{
+        margin-left: 10%;
+    }
+
+    .footer_items{
+        margin: 20px;
+    }
 }
 
 /*タブレット・パソコン用のスタイル*/
