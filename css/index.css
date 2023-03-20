@@ -180,6 +180,7 @@
     #section_articles{
         position: relative;
         content: "";
+        margin-bottom: 30px;
     }
 
     .articles_holder{
@@ -247,22 +248,47 @@
         height: 350px;
     }
 
-    footer img{
-        margin-top: 50px;
-        width: 20%;
+    .footer_icon img{
+        margin-top: 35px;
+        width: 34vw;
     }
-
-    footer p{
-        position: absolute;
-        bottom: 10px;
-    }   
     
     .footer_contents{
+        position: relative;
         margin-left: 10%;
+        display: flex;
+        height: 350px;
+    }
+
+    #footer_items_1{
+        left: 0;
+    }
+
+    #footer_items_2{
+        left: 40vw;
     }
 
     .footer_items{
-        margin: 20px;
+        position: absolute;
+        top: 95px;
+    }
+
+    .footer_items img{
+        height: 3.5vw;
+    }
+
+    .school_addres{
+        position: absolute;
+        bottom: 10px;
+    }
+
+    .school_addres img{
+        width: 75vw;
+    }
+
+    footer a{
+        display: block;
+        margin-top: 25px;
     }
 }
 
@@ -548,31 +574,55 @@
     footer{
         position: relative;
         background-color: #F5F5F5;
-        height: 350px;
+        height: 300px;
     }
 
     .footer_icon{
-        margin-top: 50px;
-        width: 20%;
+        position: absolute;
+        top: 50px;
+    }
+
+    .footer_icon img{
+        width: 170px;
+        
     }
     
     .footer_contents{
         position: relative;
         margin-left: 10%;
         display: flex;
+        height: 300px;
+    }
+
+
+    #footer_items_1{
+        left: 400px;
+    }
+
+    #footer_items_2{
+        left: 650px;
     }
 
     .footer_items{
-        margin: 0px 0px 0px 100px;
+        position: absolute;
+        top: 30px;
+    }
+
+    .footer_items img{
+        height: 15px;
     }
 
     .school_addres{
         position: absolute;
-        margin-top: 250px;
+        bottom: 20px;
+    }
+
+    .school_addres img{
+        width: 330px;
     }
 
     footer a{
         display: block;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 }
