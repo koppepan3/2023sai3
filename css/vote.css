@@ -1,0 +1,51 @@
+/*スマホ用のスタイル*/
+@media only screen and (max-width: 600px) {
+    #topImage_mobile{
+        width:100%;
+    }
+
+    #topImage_desktop{
+        display: none;
+    }
+
+    .section{
+        width: 88%;
+        margin-left: 6%;
+        margin-top: 40px;
+    }
+
+    .title{
+        display: inline-block;
+    }
+
+    .title_svg{
+        height: 52px;
+    }
+
+    #section_howtovote p{
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+        font-weight: medium;
+        font-size: 14px;
+        line-height: 240%;
+        letter-spacing: 0.07    em;
+        color: #2E2E2E;
+        font-stretch: 75;
+    }
+
+    #stamps_background{
+        width: 100%;
+        margin-top: 70px;
+        height: 320px;
+        background: #F4F0E9;
+        border-radius:40px 40px 0px 0px;
+    }
+
+    #section_stamps>.title{
+        margin-top: 50px;
+    }
+}
+
+/*タブレット・パソコン用のスタイル*/
+@media only screen and (min-width: 600px) {
+
+}

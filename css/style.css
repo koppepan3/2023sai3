@@ -245,7 +245,57 @@ header{
     .circle-bg.circleactive{
         transform: scale(50);/*クラスが付与されたらscaleを拡大*/
     }
+
+    footer{
+        position: relative;
+        background-color: #F5F5F5;
+        height: 350px;
+    }
+
+    .footer_icon img{
+        margin-top: 35px;
+        width: 34vw;
+    }
+    
+    .footer_contents{
+        position: relative;
+        margin-left: 10%;
+        display: flex;
+        height: 350px;
+    }
+
+    #footer_items_1{
+        left: 0;
+    }
+
+    #footer_items_2{
+        left: 40vw;
+    }
+
+    .footer_items{
+        position: absolute;
+        top: 95px;
+    }
+
+    .footer_items img{
+        height: 3.5vw;
+    }
+
+    .school_addres{
+        position: absolute;
+        bottom: 10px;
+    }
+
+    .school_addres img{
+        width: 75vw;
+    }
+
+    footer a{
+        display: block;
+        margin-top: 25px;
+    }
 }
+
 
 /*タブレット・パソコン用のスタイル*/
 @media only screen and (min-width: 600px) {
@@ -261,6 +311,60 @@ header{
         margin-left: 30px;
     }
 
+    footer{
+        position: relative;
+        background-color: #F5F5F5;
+        height: 300px;
+    }
+
+    .footer_icon{
+        position: absolute;
+        top: 50px;
+    }
+
+    .footer_icon img{
+        width: 170px;
+        
+    }
+    
+    .footer_contents{
+        position: relative;
+        margin-left: 10%;
+        display: flex;
+        height: 300px;
+    }
+
+
+    #footer_items_1{
+        left: 400px;
+    }
+
+    #footer_items_2{
+        left: 650px;
+    }
+
+    .footer_items{
+        position: absolute;
+        top: 30px;
+    }
+
+    .footer_items img{
+        height: 15px;
+    }
+
+    .school_addres{
+        position: absolute;
+        bottom: 20px;
+    }
+
+    .school_addres img{
+        width: 330px;
+    }
+
+    footer a{
+        display: block;
+        margin-top: 30px;
+    }
    
   
 }
