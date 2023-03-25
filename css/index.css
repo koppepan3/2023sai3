@@ -488,6 +488,7 @@
     .articles_holder{
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-around;
     }
 
     .articles_contents{
