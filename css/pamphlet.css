@@ -1,0 +1,121 @@
+/*スマホ用のスタイル*/
+@media only screen and (max-width: 600px) {
+
+}
+
+/*タブレット・パソコン用のスタイル*/
+@media only screen and (min-width: 600px) {
+    #topImage_desktop{
+        width: 100%;
+    }
+
+    .section{
+        position: relative;
+        content: "";
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 80px;
+    }
+
+    #pamphlet_icon{
+        margin-left: 10px;
+    }
+
+    
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .append-buttons {
+        text-align: center;
+    }
+      
+    .append-buttons button {
+        display: inline-block;
+        cursor: pointer;
+    }
+      
+    /* 前へ次への矢印カスタマイズ */
+    .swiper-button-prev,.swiper-button-next
+     {
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        top: 40px;
+    }
+    /* 前へ次への矢印カスタマイズ */
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+        background-repeat: no-repeat;
+        background-size: contain;
+        content: "";
+        height: 55px;
+        width: 55px;
+    }
+    /* 前への矢印カスタマイズ */
+    .swiper-button-prev:after {
+        background-image: url(../files/hidari.svg);
+    }
+    /* 次への矢印カスタマイズ */
+    .swiper-button-next:after {
+        background-image: url(../files/migi.svg);
+    }
+
+    /* 前への矢印 */
+    .swiper-button-prev{
+        left:calc(100% - 140px);
+    } 
+
+    .swiper-button-next{
+        right: 0px;
+    }
+      
+   /* ページネーションの基本スタイル */
+    .swiper-pagination-bullet {
+        background-color: transparent;
+        background-image: url(../files/pamphlet_before.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: unset; 
+        height: 15px;
+        opacity: 1; 
+        width: 15px;
+    }
+    
+    .swiper-pagination-bullet-active {
+        background-image: url(../files/pamphlet_after.svg);
+        height: 15px;
+        width: 15px;
+    }
+
+    .swiper-slide img {
+      height: auto;
+      width: 100%;
+    }
+
+    .swiper-pagination{
+        position: relative;
+        margin-top: 50px;
+    }
+}
