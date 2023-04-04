@@ -1,0 +1,29 @@
+/*スマホ用のスタイル*/
+@media only screen and (max-width: 600px) {
+
+}
+
+/*タブレット・パソコン用のスタイル*/
+@media only screen and (min-width: 600px) {
+    #topImage_desktop{
+        width: 100%;
+    }
+
+    .section{
+        position: relative;
+        content: "";
+        width: 600px;
+        margin-left: calc(50vw - 300px);
+        margin-top: 80px;
+    }
+
+    .map_letter img{
+        height: 60px;
+    }
+
+    .map_box img{
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+}

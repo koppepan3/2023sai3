@@ -428,6 +428,7 @@ header{
     footer{
         position: relative;
         background-color: #F5F5F5;
+        margin-top: 80px;
         height: 300px;
     }
 
