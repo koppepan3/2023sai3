@@ -1,0 +1,43 @@
+/*スマホ用のスタイル*/
+@media only screen and (max-width: 600px) {
+   
+}
+
+/*タブレット・パソコン用のスタイル*/
+@media only screen and (min-width: 600px) {
+    #topImage_mobile{
+        display: none;
+    }
+
+    #topImage_desktop{
+        width:100%;
+    }
+
+    .section{
+        position: relative;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 80px;
+    }
+
+    .illust{
+        margin-top: 80px;
+    }
+
+    .illust p{
+        top: 0px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        letter-spacing: 0.025em;
+        line-height: 240.5%;
+        color: #2E2E2E;
+    }
+
+    .illust img{
+        width:auto;
+        height:auto;
+        max-width:100%;
+        max-height:100%;
+    }
+}
