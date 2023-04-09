@@ -21,28 +21,28 @@
         margin-top: 80px;
     }
 
-    #ariticle_img img{
+    #article_img img{
         width:auto;
         height:auto;
         max-width:100%;
         max-height:100%;
     }
 
-    #ariticle_title{
+    #article_title h1{
         top: 0px;
         font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 250;
-        font-size: 38px;
+        font-weight: 500;
+        font-size: 28px;
         letter-spacing: 0.025em;
         line-height: 240.5%;
         color: black;
     }
 
-    #ariticle_text p{
-        top: 0px;
+    #article_text p{
+        margin-top: 40px;
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 500;
-        font-size: 24px;
+        font-size: 18px;
         letter-spacing: 0.025em;
         line-height: 240.5%;
         color: black;
