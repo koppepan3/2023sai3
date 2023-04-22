@@ -41,8 +41,8 @@ header{
     }
 
     #header_icon{
-        width:125px;
-        top: 13px;
+        width:120px;
+        top: 6px;
         left: 13px;
         position: fixed;
         margin: 0;
@@ -218,10 +218,6 @@ header{
         border: none !important;
     }
 
-    #header_contents h1{
-        margin: 2px 0 20px 0 !important;
-    }
-
     #header_articles p{
         margin: 30px 0 4px 2px !important;
     }
@@ -308,8 +304,8 @@ header{
     }
 
     #header_icon{
-        width:125px;
-        top: 10px;
+        width:120px;
+        top: 4px;
         left: 20px;
         position: fixed;
         margin: 0;
