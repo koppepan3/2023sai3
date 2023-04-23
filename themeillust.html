@@ -21,6 +21,22 @@
             rel="stylesheet">
     </head>
     <body>
+        <header>
+            <a href="index.html"><img id="header_icon" src="files/header_icon.png"></a>
+            <!--  ハンバーガーボタン  -->
+            <div class="hamburger"><span></span><span></span><span></span></div>
+            <nav class="hamburger_list">
+                <div id="header_top" class="header_menu"><a href="index.html" class="header_menu"><h1>トップページ</h1></a></div>
+                <div id="header_contents" class="header_menu toggle_menu"><a href="index.html#section_contents" class="header_menu"><h1>コンテンツ</h1></a><div class="subMenu"><span></span><span></span></div></div>
+                <a class="menu_open" href="pamphlet.html"><h3>デジタル版パンフレット</h3></a>
+                <a class="menu_open" href="themeillust.html"><h3>テーマイラスト紹介</h3></a>
+                <a class="menu_open" href="map.html"><h3>校内マップ</h3></a>
+                <a class="menu_open" href="tenji.html"><h3>展示内容紹介</h3></a>
+                <div id="header_articles" class="header_menu"><a href="articles.html"><h1>記事一覧</h1></a></div>
+                <div id="header_about" class="header_menu"><a href="about.html" class="header_menu"><h1>彩西祭について</h1></a></div>
+            </nav>
+            <div class="circle-bg"></div>
+        </header>
         <div id="topImage">
             <img id="topImage_desktop" src="files/themeillust_top.png" alt="">
         </div>
@@ -49,5 +65,36 @@
                 <div class="school_addres"><img src="files/school_addres.svg" alt=""></div>
             </div>
         </footer>
+        <!--jQuery読み込み-->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <!--Hamburger buttond JS-->
+        <script>
+            $(function() {
+                $('.hamburger').click(function() {
+                    $(this).toggleClass('active');
+                    
+                    if ($(this).hasClass('active')) {
+                        $('.hamburger_list').addClass('active');
+                        $(".circle-bg").addClass('circleactive');//丸背景にcircleactiveクラスを付与
+                    } else {
+                        $('.hamburger_list').removeClass('active');
+                        $(".circle-bg").removeClass('circleactive');//丸背景にcircleactiveクラスを付与
+                    }
+                });
+
+                $('.subMenu').click(function() {
+                    $(this).toggleClass('active');
+                    
+                    if ($(this).hasClass('active')) {
+                        $('.subMenu').addClass('active');
+                        $('.menu_open').addClass('active');
+                    } else {
+                        $('.subMenu').removeClass('active');
+                        $('.menu_open').removeClass('active');
+                    }
+                });
+
+            });
+        </script>
     </body>
 </html>

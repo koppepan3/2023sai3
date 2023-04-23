@@ -89,6 +89,37 @@
                 <div class="school_addres"><img src="files/school_addres.svg" alt=""></div>
             </div>
         </footer>
+        <!--jQuery読み込み-->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <!--Hamburger buttond JS-->
+        <script>
+            $(function() {
+                $('.hamburger').click(function() {
+                    $(this).toggleClass('active');
+                    
+                    if ($(this).hasClass('active')) {
+                        $('.hamburger_list').addClass('active');
+                        $(".circle-bg").addClass('circleactive');//丸背景にcircleactiveクラスを付与
+                    } else {
+                        $('.hamburger_list').removeClass('active');
+                        $(".circle-bg").removeClass('circleactive');//丸背景にcircleactiveクラスを付与
+                    }
+                });
+
+                $('.subMenu').click(function() {
+                    $(this).toggleClass('active');
+                    
+                    if ($(this).hasClass('active')) {
+                        $('.subMenu').addClass('active');
+                        $('.menu_open').addClass('active');
+                    } else {
+                        $('.subMenu').removeClass('active');
+                        $('.menu_open').removeClass('active');
+                    }
+                });
+
+            });
+        </script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
         <!-- Initialize Swiper -->
         <script>
