@@ -1,0 +1,183 @@
+/* スマホ用のスタイル */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* タブレット・パソコン用のスタイル */
+@media only screen and (min-width: 600px) {
+    .toppic_container{
+        width: 100%;
+        height: 25vw;
+        margin:0 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .top_pics{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        object-fit: cover;
+    }
+
+    .type_selector {
+        background-color: #fff;
+        width: 800px;
+        height: 72px;
+        margin: 0 auto;
+        border: solid 1px #000;
+        border-radius: 4px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 10;
+        margin-top: 60px;
+    }
+
+    .type_selector ul{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .type_selector li{
+        width: 260px;
+        height: 100%;
+        line-height: 70px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        text-align: center;
+        list-style: none;
+        display: list-item;
+        position: relative;
+    }
+
+    .type_selector span{
+        transform: translateY(4px);
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 1.2px;
+        font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
+        font-weight: 600;
+        color: #000000;
+        display: inline-block;
+        white-space: pre;
+        pointer-events: none;
+        vertical-align: baseline;
+        position: relative;    
+    }
+
+    #type_all:before,#type_important:before{
+        content: "";
+        width: 2px;
+        height: 32px;
+        background-color: #C3CCD5;
+        border-radius: 8px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .type_selector li.active span:before {
+        opacity: 1;
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+
+    .type_selector span:before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        background-color: #225f8c;
+        border-radius: 50%;
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        opacity: 0;
+        -webkit-transform: translate(-50%, -20px);
+        transform: translate(-50%, -20px);
+        -webkit-transition: opacity 0.3s cubic-bezier(1, 0.15, 0.25, 1);
+        transition: opacity 0.3s cubic-bezier(1, 0.15, 0.25, 1);
+        -webkit-transition-property: opacity,-webkit-transform;
+        transition-property: opacity,-webkit-transform;
+        transition-property: opacity,transform;
+        transition-property: opacity,transform,-webkit-transform;
+    }
+
+
+    .type_selector li.active span:after {
+        width: 140%;
+    }
+    .type_selector span:after {
+        content: "";
+        width: 0;
+        height: 4px;
+        background-color: #225f8c;
+        border-radius: 4px;
+        position: absolute;
+        bottom: -24px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        -webkit-transition: width 0.3s cubic-bezier(1, 0.15, 0.25, 1);
+        transition: width 0.3s cubic-bezier(1, 0.15, 0.25, 1);
+    }
+
+    .section{
+        position: relative;
+        content: "";
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 80px;
+    }
+
+    #section_articles{
+        position: relative;
+        content: "";
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 60px;
+    }
+
+    .articles_holder{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .articles_contents{
+        margin-top: 40px;
+        margin-right: 80px;
+        width: 350px;
+    }
+
+    .articles_contents p{
+        top: 0px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 0.025em;
+        color: #767676;
+    }
+
+    .articles_contents h1{
+        top: 38px;
+        font-family: 'Yu Gothic';
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.04em;
+        color: #373737;
+    }
+
+}
