@@ -1,0 +1,65 @@
+/*スマホ用のスタイル*/
+@media only screen and (max-width: 600px) {
+    #topImage{
+        width: 100%;
+        height: 50vw;
+        margin:0 0;
+        padding: 60px 0 0;
+    }
+
+    #topImage_desktop{
+        width: 100%;
+        height: 100%;
+        margin: 0 0;
+        padding: 0;
+        object-fit: cover;
+    }
+
+    .section{
+        position: relative;
+        width: 88%;
+        margin-left: 6%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .map_letter img{
+        height: 20px;
+        margin: 6px;
+    }
+
+    .map_box img{
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+/*タブレット・パソコン用のスタイル*/
+@media only screen and (min-width: 600px) {
+    #topImage_desktop{
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .section{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 80px;
+    }
+
+    p{
+        top: 0px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 240.5%;
+        letter-spacing: 0.12em;
+        color: #2E2E2E;
+    }
+
+    .name{
+        text-align: right;
+    }
+}
