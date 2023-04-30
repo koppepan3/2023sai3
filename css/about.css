@@ -16,22 +16,32 @@
     }
 
     .section{
-        position: relative;
         width: 88%;
         margin-left: 6%;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
 
-    .map_letter img{
-        height: 20px;
-        margin: 6px;
+    .section_sutitle{
+        height: 6vw;
     }
 
-    .map_box img{
-        text-align: center;
-        height: auto;
-        width: 100%;
+    p{
+        font-family: 'Zen Kaku Gothic New';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 230.5%;
+        letter-spacing: 0.025em;
+        color: #2E2E2E;
+    }
+
+    .name{
+        text-align: right;
+    }
+
+    .name img{
+        height: 15vw;
     }
 }
 
@@ -49,6 +59,10 @@
         margin-top: 80px;
     }
 
+    .section_sutitle{
+        height: 1.8vw;
+    }
+
     p{
         top: 0px;
         font-family: 'Noto Sans JP', sans-serif;
@@ -61,5 +75,9 @@
 
     .name{
         text-align: right;
+    }
+
+    .name img{
+        height: 3.6vw;
     }
 }
