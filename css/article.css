@@ -48,7 +48,7 @@
         color: black;
     }
 
-    #section_articles{
+    .body_content{
         position: relative;
         content: "";
         width: 70%;
@@ -63,10 +63,10 @@
     }
 
     .articles_contents{
-        /* position: absolute; */
         margin-top: 40px;
         margin-right: 80px;
         width: 350px;
+        opacity: 1;
     }
 
     #articles_link{

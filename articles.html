@@ -42,8 +42,8 @@
             </nav>
             <div class="circle-bg"></div>
         </header>
-        <div class="toppic_container">
-            <img class="top_pics" src="files/article_list_top.png">
+        <div id="topImage">
+            <img id="topImage_desktop" src="files/article_list_top.png">
         </div>
         <div class="body_content">
             <div class="type_selector">
@@ -53,64 +53,125 @@
                     <a href="#" onclick="select_others();"><li id="type_others"><span>その他</span></li></a>
                 </ul>
             </div>
-            <div id="section_articles" class="section">
-                <div class="articles_holder">
+
+            <div class="flex_active" id="flex-container_all" >
+                <div class="flex_contents">
                     <a href="#">
-                        <div id="articles1" class="articles_contents">
-                            <img src="files/articles_img.svg" alt="">
-                            <div class="articles_description">
-                                <p>2023.5.25 ｜ 重要連絡</p>
-                                <h1>全校制作が完成しました</h1>
-                            </div>
+                        <img src="files/articles_img.svg" alt="">
+                        <div class="articles_description">
+                            <p>2023.5.25 ｜ 重要連絡</p>
+                            <h1>全校制作が完成しました</h1>
                         </div>
-                    </a>
+                   </a>
+               </div>
+               <div class="flex_contents">
                     <a href="#">
-                        <div id="articles2" class="articles_contents">
-                            <img src="files/articles_img.svg" alt="">
-                            <div class="articles_description">
-                                <p>2023.5.25 ｜ 重要連絡</p>
-                                <h1>全校制作が完成しました</h1>
-                            </div>
+                        <img src="files/articles_img.svg" alt="">
+                        <div class="articles_description">
+                            <p>2023.5.25 ｜ 重要連絡</p>
+                            <h1>全校制作が完成しました</h1>
                         </div>
-                    </a>
+                   </a>
+                </div>
+                <div class="flex_contents">
                     <a href="#">
-                        <div id="articles3" class="articles_contents">
-                            <img src="files/articles_img.svg" alt="">
-                            <div class="articles_description">
-                                <p>2023.5.25 ｜ 重要連絡</p>
-                                <h1>全校制作が完成しました</h1>
-                            </div>
+                        <img src="files/articles_img.svg" alt="">
+                        <div class="articles_description">
+                            <p>2023.5.25 ｜ 重要連絡</p>
+                            <h1>全校制作が完成しました</h1>
                         </div>
-                    </a>
+                   </a>
+                </div>
+                <div class="flex_contents">
                     <a href="#">
-                        <div id="articles4" class="articles_contents">
-                            <img src="files/articles_img.svg" alt="">
-                            <div class="articles_description">
-                                <p>2023.5.25 ｜ 重要連絡</p>
-                                <h1>全校制作が完成しました</h1>
-                            </div>
+                        <img src="files/articles_img.svg" alt="">
+                        <div class="articles_description">
+                            <p>2023.5.25 ｜ 重要連絡</p>
+                            <h1>全校制作が完成しました</h1>
                         </div>
-                    </a>
+                   </a>
+                </div>
+                <div class="flex_contents">
                     <a href="#">
-                        <div id="articles5" class="articles_contents">
-                            <img src="files/articles_img.svg" alt="">
-                            <div class="articles_description">
-                                <p>2023.5.25 ｜ 重要連絡</p>
-                                <h1>全校制作が完成しました</h1>
-                            </div>
+                        <img src="files/articles_img.svg" alt="">
+                        <div class="articles_description">
+                            <p>2023.5.25 ｜ 重要連絡</p>
+                            <h1>全校制作が完成しました</h1>
                         </div>
-                    </a>
-                    <!--最後のみボーダーを消すスタイル追加-->
+                   </a>
+                </div>
+                <!--最後のみボーダーを消すスタイル追加-->
+                <div class="flex_contents" style="border:none;">
                     <a href="#">
-                        <div id="articles6" class="articles_contents" style="border:none;">
-                            <img src="files/articles_img.svg" alt="">
-                            <div class="articles_description">
-                                <p>2023.5.25 ｜ 重要連絡</p>
-                                <h1>全校制作が完成しました</h1>
-                            </div>
+                        <img src="files/articles_img.svg" alt="">
+                        <div class="articles_description">
+                            <p>2023.5.25 ｜ 重要連絡</p>
+                            <h1>全校制作が完成しました</h1>
                         </div>
                     </a>
                 </div>
+            </div>
+
+            <div class="" id="flex-container_important" >
+                <div class="flex_contents">
+                    <a href="#">
+                        <img src="files/articles_img.svg" alt="">
+                        <div class="articles_description">
+                            <p>2023.5.25 ｜ 重要連絡</p>
+                            <h1>全校制作が完成しました</h1>
+                        </div>
+                   </a>
+               </div>
+               <div class="flex_contents">
+                    <a href="#">
+                        <img src="files/articles_img.svg" alt="">
+                        <div class="articles_description">
+                            <p>2023.5.25 ｜ 重要連絡</p>
+                            <h1>全校制作が完成しました</h1>
+                        </div>
+                   </a>
+                </div>
+                <div class="flex_contents">
+                    <a href="#">
+                        <img src="files/articles_img.svg" alt="">
+                        <div class="articles_description">
+                            <p>2023.5.25 ｜ 重要連絡</p>
+                            <h1>全校制作が完成しました</h1>
+                        </div>
+                   </a>
+                </div>
+                <div class="flex_contents">
+                    <a href="#">
+                        <img src="files/articles_img.svg" alt="">
+                        <div class="articles_description">
+                            <p>2023.5.25 ｜ 重要連絡</p>
+                            <h1>全校制作が完成しました</h1>
+                        </div>
+                   </a>
+                </div>
+                <div class="flex_contents">
+                    <a href="#">
+                        <img src="files/articles_img.svg" alt="">
+                        <div class="articles_description">
+                            <p>2023.5.25 ｜ 重要連絡</p>
+                            <h1>全校制作が完成しました</h1>
+                        </div>
+                   </a>
+                </div>
+                <!--最後のみボーダーを消すスタイル追加-->
+                <div class="flex_contents" style="border:none;">
+                    <a href="#">
+                        <img src="files/articles_img.svg" alt="">
+                        <div class="articles_description">
+                            <p>2023.5.25 ｜ 重要連絡</p>
+                            <h1>全校制作が完成しました</h1>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="" id="flex-container_others" >
+
             </div>
         </div>
         <footer>
@@ -128,18 +189,35 @@
                 <div class="school_addres"><img src="files/school_addres.svg" alt=""></div>
             </div>
         </footer>
+        <!--jQuery読み込み-->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <!--Hamburger buttond JS-->
         <script>
             $(function() {
                 $('.hamburger').click(function() {
                     $(this).toggleClass('active');
-            
+                    
                     if ($(this).hasClass('active')) {
                         $('.hamburger_list').addClass('active');
+                        $(".circle-bg").addClass('circleactive');//丸背景にcircleactiveクラスを付与
                     } else {
                         $('.hamburger_list').removeClass('active');
+                        $(".circle-bg").removeClass('circleactive');//丸背景にcircleactiveクラスを付与
                     }
                 });
+
+                $('.subMenu').click(function() {
+                    $(this).toggleClass('active');
+                    
+                    if ($(this).hasClass('active')) {
+                        $('.subMenu').addClass('active');
+                        $('.menu_open').addClass('active');
+                    } else {
+                        $('.subMenu').removeClass('active');
+                        $('.menu_open').removeClass('active');
+                    }
+                });
+
             });
         </script>
         <script>
