@@ -182,7 +182,7 @@ a:active{
         width: 60%;
     }
 
-    .flex_contents{
+    .articles_contents{
         position: relative;
         padding: 17px 0 7px;
         margin: 0;
@@ -190,13 +190,13 @@ a:active{
         border-bottom: 0.5px solid #888888;
     }
 
-    .flex_contents img{
+    .articles_contents img{
         margin-left: 2%;
         width: 33%;
         display: inline-block;
     }
 
-    .flex_contents p{
+    .articles_contents p{
         display: inline-block;
         font-family: 'Zen Kaku Gothic New';
         font-style: normal;
@@ -208,7 +208,7 @@ a:active{
         margin: 0;
     }
 
-    .flex_contents h1{
+    .articles_contents h1{
         display: inline-block;
         font-family: 'Zen Kaku Gothic New';
         font-style: normal;
@@ -377,14 +377,14 @@ a:active{
         justify-content: center;
     }
 
-    .flex_contents{
+    .articles_contents{
         margin-top: 40px;
         margin-right: 40px;
         width: 400px;
         opacity: 1;
     }
 
-    .flex_contents p{
+    .articles_contents p{
         top: 0px;
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 500;
@@ -393,7 +393,7 @@ a:active{
         color: #767676;
     }
 
-    .flex_contents h1{
+    .articles_contents h1{
         top: 38px;
         font-family: 'Yu Gothic';
         font-weight: 700;
