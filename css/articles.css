@@ -28,20 +28,21 @@ a:active{
     }
 
     .body_content{
-        margin:  0 auto;
-        width: 80%;
+        margin:  0 5vw;
+        width: 90%;
         max-width: 1440px;
         padding-top: 90px;
         padding-bottom: 50px;
     }
 
+
     .type_selector {
         background-color: #fff;
-        width: 800px;
-        height: 72px;
+        width: 90vw;
+        height: 50px;
         margin: 0 auto;
         border: solid 1px #000;
-        border-radius: 4px;
+        border-radius: 3px;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
         position: relative;
@@ -60,7 +61,7 @@ a:active{
     }
 
     .type_selector li{
-        width: 260px;
+        width: 29vw;
         height: 100%;
         line-height: 70px;
         -webkit-box-sizing: border-box;
@@ -72,14 +73,13 @@ a:active{
     }
 
     .type_selector span{
-        transform: translateY(4px);
         margin: 0;
         padding: 0;
         outline: 0;
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 12px;
+        line-height: 12px;
         letter-spacing: 1.2px;
-        font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
+        font-family: 'Noto Sans JP';
         font-weight: 600;
         color: #000000;
         display: inline-block;
@@ -91,8 +91,8 @@ a:active{
 
     #type_all:before,#type_important:before{
         content: "";
-        width: 2px;
-        height: 32px;
+        width: 1.4px;
+        height: 24px;
         background-color: #C3CCD5;
         border-radius: 8px;
         position: absolute;
@@ -110,12 +110,12 @@ a:active{
 
     .type_selector span:before {
         content: "";
-        width: 6px;
-        height: 6px;
+        width: 5px;
+        height: 5px;
         background-color: #225f8c;
         border-radius: 50%;
         position: absolute;
-        top: -10px;
+        top: -11px;
         left: 50%;
         opacity: 0;
         -webkit-transform: translate(-50%, -20px);
@@ -135,11 +135,11 @@ a:active{
     .type_selector span:after {
         content: "";
         width: 0;
-        height: 4px;
+        height: 3px;
         background-color: #225f8c;
         border-radius: 4px;
         position: absolute;
-        bottom: -24px;
+        bottom: -21px;
         left: 50%;
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
@@ -152,15 +152,15 @@ a:active{
     }
 
     #flex-container_all{
-        margin: 50px 0;
+        margin: 40px 0;
         width: 100%;
         display: none;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-     #flex-container_important{
-        margin: 50px 0;
+    #flex-container_important{
+        margin: 40px 0;
         width: 100%;
         display: none;
         flex-wrap: wrap;
@@ -168,63 +168,56 @@ a:active{
     }
 
     #flex-container_others{
-        margin: 50px 0;
+        margin: 40px 0;
         width: 100%;
         display: none;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    #article_img img{
-        width:auto;
-        height:auto;
-        max-width:100%;
-        max-height:100%;
-    }
-
-    #article_title h1{
-        top: 0px;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 500;
-        font-size: 28px;
-        letter-spacing: 0.025em;
-        line-height: 240.5%;
-        color: black;
-    }
-
-    #article_text p{
-        margin-top: 40px;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 500;
-        font-size: 18px;
-        letter-spacing: 0.025em;
-        line-height: 240.5%;
-        color: black;
+    .articles_description{
+        position: absolute;
+        top: 12px;
+        left: 38%;
+        width: 60%;
     }
 
     .flex_contents{
-        margin-top: 40px;
-        margin-right: 40px;
-        width: 400px;
-        opacity: 1;
+        position: relative;
+        padding: 17px 0 7px;
+        margin: 0;
+        width: 100%;
+        border-bottom: 0.5px solid #888888;
+    }
+
+    .flex_contents img{
+        margin-left: 2%;
+        width: 33%;
+        display: inline-block;
     }
 
     .flex_contents p{
-        top: 0px;
-        font-family: 'Noto Sans JP', sans-serif;
+        display: inline-block;
+        font-family: 'Zen Kaku Gothic New';
+        font-style: normal;
         font-weight: 500;
-        font-size: 15px;
-        letter-spacing: 0.025em;
+        font-size: 11px;
+        line-height: 100%;
+        letter-spacing: 0.05em;
         color: #767676;
+        margin: 0;
     }
 
     .flex_contents h1{
-        top: 38px;
-        font-family: 'Yu Gothic';
+        display: inline-block;
+        font-family: 'Zen Kaku Gothic New';
+        font-style: normal;
         font-weight: 700;
-        font-size: 20px;
-        letter-spacing: 0.04em;
-        color: #373737;
+        font-size: 15.5px;
+        line-height: 100%;
+        letter-spacing: 0.06em;
+        color: #4E4E4E;
+        margin: 10px 0 0 0;
     }
 }
 
@@ -382,33 +375,6 @@ a:active{
         display: none;
         flex-wrap: wrap;
         justify-content: center;
-    }
-
-    #article_img img{
-        width:auto;
-        height:auto;
-        max-width:100%;
-        max-height:100%;
-    }
-
-    #article_title h1{
-        top: 0px;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 500;
-        font-size: 28px;
-        letter-spacing: 0.025em;
-        line-height: 240.5%;
-        color: black;
-    }
-
-    #article_text p{
-        margin-top: 40px;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 500;
-        font-size: 18px;
-        letter-spacing: 0.025em;
-        line-height: 240.5%;
-        color: black;
     }
 
     .flex_contents{
