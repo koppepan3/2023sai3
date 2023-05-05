@@ -175,50 +175,7 @@ a:active{
         justify-content: center;
     }
 
-    .articles_description{
-        position: absolute;
-        top: 12px;
-        left: 38%;
-        width: 60%;
-    }
-
-    .articles_contents{
-        position: relative;
-        padding: 17px 0 7px;
-        margin: 0;
-        width: 100%;
-        border-bottom: 0.5px solid #888888;
-    }
-
-    .articles_contents img{
-        margin-left: 2%;
-        width: 33%;
-        display: inline-block;
-    }
-
-    .articles_contents p{
-        display: inline-block;
-        font-family: 'Zen Kaku Gothic New';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 11px;
-        line-height: 100%;
-        letter-spacing: 0.05em;
-        color: #767676;
-        margin: 0;
-    }
-
-    .articles_contents h1{
-        display: inline-block;
-        font-family: 'Zen Kaku Gothic New';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 15.5px;
-        line-height: 100%;
-        letter-spacing: 0.06em;
-        color: #4E4E4E;
-        margin: 10px 0 0 0;
-    }
+    
 }
 
 
@@ -358,7 +315,7 @@ a:active{
         width: 100%;
         display: none;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
     }
 
      #flex-container_important{
@@ -366,7 +323,7 @@ a:active{
         width: 100%;
         display: none;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     #flex-container_others{
@@ -374,31 +331,6 @@ a:active{
         width: 100%;
         display: none;
         flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .articles_contents{
-        margin-top: 40px;
-        margin-right: 40px;
-        width: 400px;
-        opacity: 1;
-    }
-
-    .articles_contents p{
-        top: 0px;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 500;
-        font-size: 15px;
-        letter-spacing: 0.025em;
-        color: #767676;
-    }
-
-    .articles_contents h1{
-        top: 38px;
-        font-family: 'Yu Gothic';
-        font-weight: 700;
-        font-size: 20px;
-        letter-spacing: 0.04em;
-        color: #373737;
+        justify-content: space-around;
     }
 }
