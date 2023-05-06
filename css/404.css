@@ -1,11 +1,48 @@
 @media only screen and (max-width: 600px) {
-    
+    body{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 80px;
+    }
+
+    #section_404{
+        margin-top: 10px;
+    }
+
+    #section_img{
+        width: 80px;
+        margin-top: 70px;
+    }
+
+    .section h1{
+        font-family: 'Zen Kaku Gothic New';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        color: #2e2e2e;
+    }
+
+    .section p{
+        font-family: 'Zen Kaku Gothic New';
+        font-style: normal;
+        font-size: 14px;
+        color: #2e2e2e;
+        margin-top: 10px;
+    }
+
+    #link{
+        text-decoration: underline;
+        margin-top: 0;
+    }
+
+    #section_text{
+        width: 100%;
+    }
 }
 
 
 
 @media only screen and (min-width: 600px) {
-    
     body{
         width: 70%;
         margin-left: 15%;
