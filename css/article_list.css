@@ -1,0 +1,89 @@
+
+ /*スマホ用のスタイル*/
+ @media only screen and (max-width: 600px) {
+    .articles_contents{
+        position: relative;
+        padding: 17px 0 7px;
+        margin: 0;
+        width: 100%;
+        border-bottom: 0.5px solid #888888;
+    }
+
+    .articles_contents img{
+        margin-left: 2%;
+        width: 33%;
+        display: inline-block;
+    }
+
+    .articles_contents p{
+        display: inline-block;
+        font-family: 'Zen Kaku Gothic New';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 100%;
+        letter-spacing: 0.05em;
+        color: #767676;
+        margin: 0;
+    }
+
+    .articles_contents h1{
+        display: inline-block;
+        font-family: 'Zen Kaku Gothic New';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15.5px;
+        line-height: 100%;
+        letter-spacing: 0.06em;
+        color: #4E4E4E;
+        margin: 10px 0 0 0;
+    }
+    
+    .articles_description{
+        position: absolute;
+        top: 12px;
+        left: 38%;
+        width: 60%;
+    }
+ }
+ 
+ /*タブレット・パソコン用のスタイル*/
+ @media only screen and (min-width: 600px) {
+    .articles_contents{
+        /* position: absolute; */
+        margin-top: 38px;
+        margin-right: 50px;
+        width: 350px;
+        transition: all 0.7s;
+        opacity: 1;
+    }
+
+    .articles_contents:hover{
+        opacity: 0.8;
+        transform: translateY(-10px);
+    }
+
+    .articles_contents img{
+        margin: 0;
+        width: 400px;
+    }
+    
+    .articles_contents p{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 0.025em;
+        color: #767676;
+        margin: 5px 2px 0;
+    }
+    
+    .articles_contents h1{
+        font-family: 'Yu Gothic';
+        font-weight: 700;
+        font-size: 19px;
+        letter-spacing: 0.04em;
+        color: #373737;
+        margin: 10px 2px 0;
+    }
+    
+ }

@@ -1,4 +1,4 @@
-/*スマホ用のスタイル*/
+ /*スマホ用のスタイル*/
 @media only screen and (max-width: 600px) {
    
 }
@@ -48,25 +48,21 @@
         color: black;
     }
 
-    .body_content{
+    #section_articles{
         position: relative;
         content: "";
         width: 70%;
         margin-left: 15%;
         margin-top: 80px;
     }
-
     .articles_holder{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
-    .articles_contents{
-        margin-top: 40px;
-        margin-right: 80px;
-        width: 350px;
-        opacity: 1;
+    .title img{
+        height: 75px;
     }
 
     #articles_link{
@@ -75,24 +71,4 @@
         top: 20px;
     }
 
-    .articles_contents p{
-        top: 0px;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 500;
-        font-size: 15px;
-        letter-spacing: 0.025em;
-        color: #767676;
-    }
-
-    .articles_contents h1{
-        top: 38px;
-        font-family: 'Yu Gothic';
-        font-weight: 700;
-        font-size: 20px;
-        letter-spacing: 0.04em;
-        color: #373737;
-    }
-
-
-    
 }
