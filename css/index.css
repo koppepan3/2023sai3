@@ -183,7 +183,7 @@
         margin-bottom: 30px;
     }
 
-    .articles_holder{
+    #articles_holder{
         display: flex;
         flex-wrap: wrap;
         margin-top: 10px;
@@ -435,7 +435,7 @@
         content: "";
     }
 
-    .articles_holder{
+    #articles_holder{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;

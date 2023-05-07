@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>彩西祭2023</title>
-        <meta name="description" content="メタディスクリプション" />
+        <meta name="description" content="2023年度浜松西高等学校・同中等部文化祭「彩西祭」公式ウェブサイトへようこそ。当日の情報から準備の様子まで、様々なことを発信していきます。" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/index.css">
@@ -13,7 +13,7 @@
         <link rel="apple-touch-icon" href="">
         <link type="image/x-icon" rel="icon" href="favicon.ico">
         <!-- OG image settings-->
-        <meta property="og:description" content="メタディスクリプション">
+        <meta property="og:description" content="2023年度浜松西高等学校・同中等部文化祭「彩西祭」公式ウェブサイトへようこそ。当日の情報から準備の様子まで、様々なことを発信していきます。">
         <meta property="og:image" content="file/og_image.png">
         <!--Google Fonts読み込み-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -101,62 +101,7 @@
                 <img class="title_svg" src="files/articles.svg">
             </div>
             <a href="articles.html"><img id="articles_link" src="files/news_link.svg"></a>
-            <div class="articles_holder">
-                <a href="#">
-                    <div id="articles1" class="articles_contents">
-                        <img src="files/articles_img.svg" alt="">
-                        <div class="articles_description">
-                        <p>2023.5.25 ｜ 重要連絡</p>
-                        <h1>全校制作が完成しました</h1>
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div id="articles2" class="articles_contents">
-                        <img src="files/articles_img.svg" alt="">
-                        <div class="articles_description">
-                            <p>2023.5.25 ｜ 重要連絡</p>
-                            <h1>全校制作が完成しました</h1>
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div id="articles3" class="articles_contents">
-                        <img src="files/articles_img.svg" alt="">
-                        <div class="articles_description">
-                            <p>2023.5.25 ｜ 重要連絡</p>
-                            <h1>全校制作が完成しました</h1>
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div id="articles4" class="articles_contents">
-                        <img src="files/articles_img.svg" alt="">
-                        <div class="articles_description">
-                            <p>2023.5.25 ｜ 重要連絡</p>
-                            <h1>全校制作が完成しました</h1>
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div id="articles5" class="articles_contents">
-                        <img src="files/articles_img.svg" alt="">
-                        <div class="articles_description">
-                            <p>2023.5.25 ｜ 重要連絡</p>
-                            <h1>全校制作が完成しました</h1>
-                        </div>
-                    </div>
-                </a>
-                <!--最後のみボーダーを消すスタイル追加-->
-                <a href="#">
-                    <div id="articles6" class="articles_contents" style="border:none;">
-                        <img src="files/articles_img.svg" alt="">
-                        <div class="articles_description">
-                            <p>2023.5.25 ｜ 重要連絡</p>
-                            <h1>全校制作が完成しました</h1>
-                        </div>
-                    </div>
-                </a>
+            <div id="articles_holder">
             </div>
         </div>
         <footer>
@@ -203,6 +148,12 @@
                     }
                 });
 
+            });
+        </script>
+        <!--EmbedPost読み込み JS-->
+        <script>
+            $(function(){
+                $("#articles_holder").load("latestposts.html");
             });
         </script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>

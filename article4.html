@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>新着投稿-彩西祭2023</title>
+        <meta name="description" content="2023年度浜松西高等学校・同中等部文化祭「彩西祭」公式ウェブサイトへようこそ。当日の情報から準備の様子まで、様々なことを発信していきます。" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/article.css">
+        <link rel="stylesheet" href="css/article_list.css">
+        <!-- Favicon設定-->
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link type="image/x-icon" rel="icon" href="favicon.ico">
+        <!-- Googlebot-->
+        <meta name="robots" content="noindex">
+        <!-- OG image settings-->
+        <meta property="og:description" content="2023年度浜松西高等学校・同中等部文化祭「彩西祭」公式ウェブサイトへようこそ。当日の情報から準備の様子まで、様々なことを発信していきます。">
+        <meta property="og:image" content="file/og_image.png">
+        <!--Google Fonts読み込み-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Zen+Kaku+Gothic+Antique:wght@500;700&family=Zen+Kaku+Gothic+New:wght@500;700&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img id="header_icon" src="files/header_icon.png"></a>
+            <!--  ハンバーガーボタン  -->
+            <div class="hamburger"><span></span><span></span><span></span></div>
+            <nav class="hamburger_list">
+                <div id="header_top" class="header_menu"><a href="index.html" class="header_menu"><h1>トップページ</h1></a></div>
+                <div id="header_contents" class="header_menu toggle_menu"><a href="index.html#section_contents" class="header_menu"><h1>コンテンツ</h1></a><div class="subMenu"><span></span><span></span></div></div>
+                <a class="menu_open" href="pamphlet.html"><h3>デジタル版パンフレット</h3></a>
+                <a class="menu_open" href="themeillust.html"><h3>テーマイラスト紹介</h3></a>
+                <a class="menu_open" href="map.html"><h3>校内マップ</h3></a>
+                <a class="menu_open" href="tenji.html"><h3>展示内容紹介</h3></a>
+                <div id="header_articles" class="header_menu"><a href="articles.html"><h1>記事一覧</h1></a></div>
+                <div id="header_about" class="header_menu"><a href="about.html" class="header_menu"><h1>彩西祭について</h1></a></div>
+            </nav>
+            <div class="circle-bg"></div>
+        </header>
+        <div id="topImage">
+            <img id="topImage_desktop" src="files/articles/article_top_4.png" alt="">
+        </div>
+        <div class="section">
+            <div id="article_title"><h1>彩西祭のロゴが決定しました！</h1></div>
+            <div id="article_organization">
+                <img src="files/articles/icon_kouhou.png" alt="">
+                <div id="organization_text">
+                    <h2>総務班広報</h2>
+                    <h3>2023.5.8</h3>
+                </div>
+            </div>
+            <div id="article_text">
+                <p>　３月にロゴを募集したところ、今年度は２点の応募がありました。採用された１点はこのホームページのロゴにも使われています。こだわり抜かれた作品をぜひご覧ください。</p>
+            </div>
+        </div>
+        <!--
+        <div id="article_img" class="section"><img src="files/article_example.png" alt=""></div>-->
+        <div id="section_articles" class="section">
+            <div class="title">
+                <img class="title_svg" src="files/articles.svg">
+            </div>
+            <a href="articles.html"><img id="articles_link" src="files/news_link.svg"></a>
+            <div id="articles_holder">
+            </div>
+        </div>
+        <footer>
+            <div class="footer_contents">
+                <div class="footer_icon"><img src="files/header_icon.svg" alt=""></div>
+                <div class="footer_items" id="footer_items_1">
+                    <a href="about.html"><img src="files/footer_about.svg" alt=""></a>
+                    <a href="map.html"><img src="files/footer_map.svg" alt=""></a>
+                    <a href="timetable.html"><img src="files/footer_timetable.svg" alt=""></a>
+                </div>
+                <div class="footer_items" id="footer_items_2">
+                    <a href="disply.html"><img src="files/footer_display.svg" alt=""></a>
+                    <a href="http://www.edu.pref.shizuoka.jp/hamamatsunishi-h/home.nsf/IndexFormView?OpenView"><img src="files/footer_HP.svg" alt=""></a>
+                </div>
+                <div class="school_addres"><img src="files/school_addres.svg" alt=""></div>
+            </div>
+        </footer>
+        <!--jQuery読み込み-->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <!--Hamburger buttond JS-->
+        <script>
+            $(function() {
+                $('.hamburger').click(function() {
+                    $(this).toggleClass('active');
+                    
+                    if ($(this).hasClass('active')) {
+                        $('.hamburger_list').addClass('active');
+                        $(".circle-bg").addClass('circleactive');//丸背景にcircleactiveクラスを付与
+                    } else {
+                        $('.hamburger_list').removeClass('active');
+                        $(".circle-bg").removeClass('circleactive');//丸背景にcircleactiveクラスを付与
+                    }
+                });
+
+                $('.subMenu').click(function() {
+                    $(this).toggleClass('active');
+                    
+                    if ($(this).hasClass('active')) {
+                        $('.subMenu').addClass('active');
+                        $('.menu_open').addClass('active');
+                    } else {
+                        $('.subMenu').removeClass('active');
+                        $('.menu_open').removeClass('active');
+                    }
+                });
+
+            });
+        </script>
+        <!--EmbedPost読み込み JS-->
+        <script>
+            $(function(){
+                $("#articles_holder").load("latestposts.html");
+            });
+        </script>
+    </body>
+</html>
