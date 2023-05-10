@@ -23,6 +23,10 @@ a:active{
     cursor: pointer;
 }
 
+.link{
+    text-decoration:underline !important;
+}
+
 header{
     position: fixed;
     top: 0px;
