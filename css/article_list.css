@@ -29,11 +29,11 @@
 
     .articles_contents h1{
         display: inline-block;
-        font-family: 'Zen Kaku Gothic New';
+        font-family: 'Noto Sans JP';
         font-style: normal;
         font-weight: 700;
-        font-size: 15.5px;
-        line-height: 120%;
+        font-size: 15px;
+        line-height: 130%;
         letter-spacing: 0.06em;
         color: #4E4E4E;
         margin: 10px 0 0 0;
@@ -78,7 +78,7 @@
     }
     
     .articles_contents h1{
-        font-family: 'Yu Gothic';
+        font-family: 'Yu Gothic','Noto Sans JP';
         font-weight: 700;
         font-size: 19px;
         letter-spacing: 0.04em;
