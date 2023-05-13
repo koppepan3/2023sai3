@@ -90,6 +90,42 @@
         top: 20px;
     }
 
+    #article_organization{
+        position: relative;
+    }
+    #article_organization img{
+        width: 40px;
+        height: 40px;
+    }
+
+    #organization_text h2{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.12em;
+        line-height: 100%;
+        color: black;
+        margin: 3px 0;
+    }
+
+    #organization_text h3{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0.035em;
+        color: #2E2E2E;
+        margin: 8px 0;
+    }
+
+    #organization_text{
+        position: absolute;
+        top: 0;
+        left: 55px;
+    }   
+
     #loadpost{
         width: 100%;
     }
