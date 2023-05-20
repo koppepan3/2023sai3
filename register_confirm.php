@@ -1,4 +1,6 @@
-
+<?php 
+    if(isset($_GET['entered'])) { $group = $_GET['entered']; }
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -27,6 +29,43 @@
 
             gtag('config', 'G-V9BGKPTSGR');
         </script>
+        <style>
+            #topImage_mobile{
+                width:100%;
+            }
+
+            #recorded{
+                margin-top: 20px;
+                width: 90vw;
+                margin-left:5vw;
+            }
+
+            #recorded h1{
+                font-family: 'Zen Kaku Gothic New';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 18px;
+                color: #2e2e2e;
+            }
+
+            #recorded p{
+                font-family: 'Zen Kaku Gothic New';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 30px;
+                background-color: black;
+                display: inline-block;
+                text-align: center;
+            }
+
+            #button{
+                text-align: center;
+                margin-bottom: 60px;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -49,13 +88,11 @@
         <div id="topImage">
             <img id="topImage_mobile" src="files/vote_top.png">
         </div>
-        <div id="section_howtovote" class="section">
-            <p>入場を記録しました。</p>
-            <p>11HR:<?php if(isset($_COOKIE['11'])) { echo $_COOKIE['11'];} ?>
-            12HR:<?php if(isset($_COOKIE['12'])) { echo $_COOKIE['12'];} ?>
-            13HR:<?php if(isset($_COOKIE['13'])) { echo $_COOKIE['13'];} ?>
-            14HR:<?php if(isset($_COOKIE['14'])) { echo $_COOKIE['14'];} ?>
-            </p>
+        <div id="recorded" class="section">
+            <h1><?php echo $group;?>への入場を記録しました。</h1>
+            <div id="button">
+                <a href="vote.php"><p>スタンプ一覧をみる</p></a>
+            </div>
         </div>
 
 

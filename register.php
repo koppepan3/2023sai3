@@ -1,8 +1,8 @@
 <?php 
-    if(isset($_GET['code'])) { $authentication_code = $_GET['code']; }
+    if(isset($_GET['code'])) { $group = $_GET['code']; }
 
-    setcookie($authentication_code,0);
-    header('location: register_confirm.php');
+    setcookie($group,1);
+    header('location: register_confirm.php?entered='.$group);
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,6 +12,6 @@
         <title>記録中-彩西祭2023</title>
     </head>
     <body>
-
+        <p>入場を記録しています。<br>画面が切り替わらない場合は<a href="register_confirm.php?entered=<?php echo $group; ?>">こちら</a>から移動してください</p>
     </body>
 </html>
