@@ -2,7 +2,7 @@
     if(isset($_GET['code'])) { $authentication_code = $_GET['code']; }
 
     setcookie($authentication_code,0);
-    header('location: vote.php');
+    header('location: register_confirm.php');
 ?>
 <!DOCTYPE html>
 <html>

@@ -51,6 +51,11 @@
         </div>
         <div id="section_howtovote" class="section">
             <p>入場を記録しました。</p>
+            <p>11HR:<?php if(isset($_COOKIE['11'])) { echo $_COOKIE['11'];} ?>
+            12HR:<?php if(isset($_COOKIE['12'])) { echo $_COOKIE['12'];} ?>
+            13HR:<?php if(isset($_COOKIE['13'])) { echo $_COOKIE['13'];} ?>
+            14HR:<?php if(isset($_COOKIE['14'])) { echo $_COOKIE['14'];} ?>
+            </p>
         </div>
 
 
