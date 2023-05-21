@@ -43,6 +43,14 @@
     #section_stamps>.title{
         margin-top: 50px;
     }
+
+    .stamp_imgs{
+        opacity: 1;
+    }
+
+    .stamp_unavailable{
+        opacity: 0.2 !important;
+    }
 }
 
 /*タブレット・パソコン用のスタイル*/

@@ -1,7 +1,8 @@
 <?php 
-    if(isset($_GET['code'])) { $group = $_GET['code']; }
-
-    setcookie($group,1);
+    if(isset($_GET['code'])) { $group_code = $_GET['code']; }
+    setcookie($group_code,1);
+    include "translate.php";
+    $group = translate($group_code);
     header('location: register_confirm.php?entered='.$group);
 ?>
 <!DOCTYPE html>

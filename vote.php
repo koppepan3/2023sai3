@@ -61,6 +61,12 @@
                 <div class="title" id="news_title">
                     <img class="title_svg" src="files/stamps.svg">
                 </div>
+                <div id="stamps">
+                    <img class="stamp_imgs stamp_unavailable" id="group11" src="vote/stamp_temp.svg">
+                    <img class="stamp_imgs stamp_unavailable" id="group12" src="vote/stamp_temp.svg">
+                    <img class="stamp_imgs stamp_unavailable" id="group13" src="vote/stamp_temp.svg">
+                    <img class="stamp_imgs stamp_unavailable" id="group14" src="vote/stamp_temp.svg">
+                </div>
                 <p>11HR:<?php if(isset($_COOKIE['11'])) { echo $_COOKIE['11'];} ?>
             12HR:<?php if(isset($_COOKIE['12'])) { echo $_COOKIE['12'];} ?>
             13HR:<?php if(isset($_COOKIE['13'])) { echo $_COOKIE['13'];} ?>
@@ -118,5 +124,19 @@
         </script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
         <script src="index.js"></script>
+        <?php
+        $count = 11;
+        while($count <= 51) {
+            if(isset($_COOKIE[$count])){
+            if($_COOKIE[$count] == 1){
+            ?>
+        <script>
+            $(<?php echo "\"#group".$count."\""; ?>).removeClass("stamp_unavailable");
+        </script>
+        <?php
+            }}
+           $count++;
+        }
+        ?>
     </body>
 </html>
