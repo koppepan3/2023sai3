@@ -1,14 +1,8 @@
 @media only screen and (max-width: 600px) {
-    body{
-        width: 100%;
-        margin-left: 0%;
-        margin-top: 80px;
-    }
-
-    #section_404{
-        width: 90%;
-        margin-left: 5%;
-        margin-top: 10px;
+    .section{
+        width: 88%;
+        margin-left: 6%;
+        margin-top: 50px;
         margin-bottom: 150px;
     }
 
@@ -46,15 +40,11 @@
 
 
 @media only screen and (min-width: 600px) {
-    body{
+    .section{
         width: 70%;
         margin-left: 15%;
-        margin-top: 80px;
-    }
-
-    #section_404{
+        margin-top: 200px;
         display: flex;
-        margin-top: 150px;
     }
 
     #section_img{
