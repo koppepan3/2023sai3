@@ -49,60 +49,60 @@
             <div class="circle-bg"></div>
         </header>
         <h1>投票</h1>
-        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScoQ9qllKNb7BU6SHNCXMxxlj4cZ20PQBQ2O1FxU5BddVed6Q/formResponse" method="post">
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLScoQ9qllKNb7BU6SHNCXMxxlj4cZ20PQBQ2O1FxU5BddVed6Q/formResponse" method="post">
             <div id="question1">
                 <h1>当てはまるものを選んでください</h1>
-                <input type="radio" name="entry.1503197076">中等部生<br>
-                <input type="radio" name="entry.1503197076">高校生<br>
-                <input type="radio" name="entry.1503197076">一般の方<br>
+                <input type="radio" name="entry.1503197076" value="中等部生">中等部生<br>
+                <input type="radio" name="entry.1503197076" value="高校生">高校生<br>
+                <input type="radio" name="entry.1503197076" value="一般の方">一般の方<br>
             </div>
             <div id="question2">
                 <h1>所属するHRを選んでください</h1>
-                <input type="radio" name="entry.538058966">1AHR<br>
-                <input type="radio" name="entry.538058966">1BHR<br>
-                <input type="radio" name="entry.538058966">1CHR<br>
-                <input type="radio" name="entry.538058966">1DHR<br>
-                <input type="radio" name="entry.538058966">2AHR<br>
-                <input type="radio" name="entry.538058966">2BHR<br>
-                <input type="radio" name="entry.538058966">2CHR<br>
-                <input type="radio" name="entry.538058966">2DHR<br>
-                <input type="radio" name="entry.538058966">3AHR<br>
-                <input type="radio" name="entry.538058966">3BHR<br>
-                <input type="radio" name="entry.538058966">3CHR<br>
-                <input type="radio" name="entry.538058966">3DHR<br>
-                <input type="radio" name="entry.538058966">11HR<br>
-                <input type="radio" name="entry.538058966">12HR<br>
-                <input type="radio" name="entry.538058966">13HR<br>
-                <input type="radio" name="entry.538058966">14HR<br>
-                <input type="radio" name="entry.538058966">15HR<br>
-                <input type="radio" name="entry.538058966">16HR<br>
-                <input type="radio" name="entry.538058966">17HR<br>
-                <input type="radio" name="entry.538058966">21HR<br>
-                <input type="radio" name="entry.538058966">22HR<br>
-                <input type="radio" name="entry.538058966">23HR<br>
-                <input type="radio" name="entry.538058966">24HR<br>
-                <input type="radio" name="entry.538058966">25HR<br>
-                <input type="radio" name="entry.538058966">26HR<br>
-                <input type="radio" name="entry.538058966">31HR<br>
-                <input type="radio" name="entry.538058966">32HR<br>
-                <input type="radio" name="entry.538058966">33HR<br>
-                <input type="radio" name="entry.538058966">34HR<br>
-                <input type="radio" name="entry.538058966">35HR<br>
-                <input type="radio" name="entry.538058966">36HR<br>
+                <input type="radio" name="entry.538058966" value="1AHR">1AHR<br>
+                <input type="radio" name="entry.538058966" value="1BHR">1BHR<br>
+                <input type="radio" name="entry.538058966" value="1CHR">1CHR<br>
+                <input type="radio" name="entry.538058966" value="1DHR">1DHR<br>
+                <input type="radio" name="entry.538058966" value="2AHR">2AHR<br>
+                <input type="radio" name="entry.538058966" value="2BHR">2BHR<br>
+                <input type="radio" name="entry.538058966" value="2CHR">2CHR<br>
+                <input type="radio" name="entry.538058966" value="2DHR">2DHR<br>
+                <input type="radio" name="entry.538058966" value="3AHR">3AHR<br>
+                <input type="radio" name="entry.538058966" value="3BHR">3BHR<br>
+                <input type="radio" name="entry.538058966" value="3CHR">3CHR<br>
+                <input type="radio" name="entry.538058966" value="3DHR">3DHR<br>
+                <input type="radio" name="entry.538058966" value="11HR">11HR<br>
+                <input type="radio" name="entry.538058966" value="12HR">12HR<br>
+                <input type="radio" name="entry.538058966" value="13HR">13HR<br>
+                <input type="radio" name="entry.538058966" value="14HR">14HR<br>
+                <input type="radio" name="entry.538058966" value="15HR">15HR<br>
+                <input type="radio" name="entry.538058966" value="16HR">16HR<br>
+                <input type="radio" name="entry.538058966" value="17HR">17HR<br>
+                <input type="radio" name="entry.538058966" value="21HR">21HR<br>
+                <input type="radio" name="entry.538058966" value="22HR">22HR<br>
+                <input type="radio" name="entry.538058966" value="23HR">23HR<br>
+                <input type="radio" name="entry.538058966" value="24HR">24HR<br>
+                <input type="radio" name="entry.538058966" value="25HR">25HR<br>
+                <input type="radio" name="entry.538058966" value="26HR">26HR<br>
+                <input type="radio" name="entry.538058966" value="31HR">31HR<br>
+                <input type="radio" name="entry.538058966" value="32HR">32HR<br>
+                <input type="radio" name="entry.538058966" value="33HR">33HR<br>
+                <input type="radio" name="entry.538058966" value="34HR">34HR<br>
+                <input type="radio" name="entry.538058966" value="35HR">35HR<br>
+                <input type="radio" name="entry.538058966" value="36HR">36HR<br>
             </div>
             <div id="question3">
                 <h1>所属する部活動を選んでください</h1>
-                <input type="radio" name="entry.290451178">科学研究部自然化学班<br>
-                <input type="radio" name="entry.290451178">科学研究部工学情報班<br>
-                <input type="radio" name="entry.290451178">国際文化部<br>
-                <input type="radio" name="entry.290451178">演劇部<br>
-                <input type="radio" name="entry.290451178">美術写真部美術班<br>
-                <input type="radio" name="entry.290451178">美術写真部写真班<br>
-                <input type="radio" name="entry.290451178">吹奏楽部<br>
-                <input type="radio" name="entry.290451178">弦楽部<br>
-                <input type="radio" name="entry.290451178">百人一首部<br>
-                <input type="radio" name="entry.290451178">生活文化部<br>
-                <input type="radio" name="entry.290451178">その他<br>
+                <input type="radio" name="entry.290451178" value="科学研究部自然化学班">科学研究部自然化学班<br>
+                <input type="radio" name="entry.290451178" value="科学研究部工学情報班">科学研究部工学情報班<br>
+                <input type="radio" name="entry.290451178" value="国際文化部">国際文化部<br>
+                <input type="radio" name="entry.290451178" value="演劇部">演劇部<br>
+                <input type="radio" name="entry.290451178" value="美術写真部美術班">美術写真部美術班<br>
+                <input type="radio" name="entry.290451178" value="美術写真部写真班">美術写真部写真班<br>
+                <input type="radio" name="entry.290451178" value="吹奏楽部">吹奏楽部<br>
+                <input type="radio" name="entry.290451178" value="弦楽部">弦楽部<br>
+                <input type="radio" name="entry.290451178" value="百人一首部">百人一首部<br>
+                <input type="radio" name="entry.290451178" value="生活文化部">生活文化部<br>
+                <input type="radio" name="entry.290451178" value="その他">その他<br>
             </div>
             <div id="question4">
                 <h1>HR展賞<br>入場した展示を0点～2点の中で評価してください</h1>
@@ -111,164 +111,164 @@
                 <h2>2点</h2>
                 <div id="11HR">
                     <label for="">11HR</label>
-                    <input type="radio" name="entry.885215657">
-                    <input type="radio" name="entry.885215657">
-                    <input type="radio" name="entry.885215657">
+                    <input type="radio" name="entry.885215657" value="０点">
+                    <input type="radio" name="entry.885215657" value="１点">
+                    <input type="radio" name="entry.885215657" value="２点">
                 </div>
                 <div id="12HR">
                     <label for="">12HR</label>
-                    <input type="radio" name="entry.1150789038">
-                    <input type="radio" name="entry.1150789038">
-                    <input type="radio" name="entry.1150789038">
+                    <input type="radio" name="entry.1150789038" value="０点">
+                    <input type="radio" name="entry.1150789038" value="１点">
+                    <input type="radio" name="entry.1150789038" value="２点">
                 </div>
                 <div id="13HR">
                     <label for="">13HR</label>
-                    <input type="radio" name="entry.1923943701">
-                    <input type="radio" name="entry.1923943701">
-                    <input type="radio" name="entry.1923943701">
+                    <input type="radio" name="entry.1923943701" value="０点">
+                    <input type="radio" name="entry.1923943701" value="１点">
+                    <input type="radio" name="entry.1923943701" value="２点">
                 </div>
                 <div id="14HR">
                     <label for="">14HR</label>
-                    <input type="radio" name="entry.755345731">
-                    <input type="radio" name="entry.755345731">
-                    <input type="radio" name="entry.755345731">
+                    <input type="radio" name="entry.755345731" value="０点">
+                    <input type="radio" name="entry.755345731" value="１点">
+                    <input type="radio" name="entry.755345731" value="２点">
                 </div>
                 <div id="15HR">
                     <label for="">15HR</label>
-                    <input type="radio" name="entry.72649444">
-                    <input type="radio" name="entry.72649444">
-                    <input type="radio" name="entry.72649444">
+                    <input type="radio" name="entry.72649444" value="０点">
+                    <input type="radio" name="entry.72649444" value="１点">
+                    <input type="radio" name="entry.72649444" value="２点">
                 </div>
                 <div id="16HR">
                     <label for="">16HR</label>
-                    <input type="radio" name="entry.797552058">
-                    <input type="radio" name="entry.797552058">
-                    <input type="radio" name="entry.797552058">
+                    <input type="radio" name="entry.797552058" value="０点">
+                    <input type="radio" name="entry.797552058" value="１点">
+                    <input type="radio" name="entry.797552058" value="２点">
                 </div>
                 <div id="17HR">
                     <label for="">17HR</label>
-                    <input type="radio" name="entry.36314777">
-                    <input type="radio" name="entry.36314777">
-                    <input type="radio" name="entry.36314777">
+                    <input type="radio" name="entry.36314777" value="０点">
+                    <input type="radio" name="entry.36314777" value="１点">
+                    <input type="radio" name="entry.36314777" value="２点">
                 </div>
                 <div id="21HR">
                     <label for="">21HR</label>
-                    <input type="radio" name="entry.1356478900">
-                    <input type="radio" name="entry.1356478900">
-                    <input type="radio" name="entry.1356478900">
+                    <input type="radio" name="entry.1356478900" value="０点">
+                    <input type="radio" name="entry.1356478900" value="１点">
+                    <input type="radio" name="entry.1356478900" value="２点">
                 </div>
                 <div id="22HR">
                     <label for="">22HR</label>
-                    <input type="radio" name="entry.1159793844">
-                    <input type="radio" name="entry.1159793844">
-                    <input type="radio" name="entry.1159793844">
+                    <input type="radio" name="entry.1159793844" value="０点">
+                    <input type="radio" name="entry.1159793844" value="１点">
+                    <input type="radio" name="entry.1159793844" value="２点">
                 </div>
                 <div id="23HR">
                     <label for="">23HR</label>
-                    <input type="radio" name="entry.1697085817">
-                    <input type="radio" name="entry.1697085817">
-                    <input type="radio" name="entry.1697085817">
+                    <input type="radio" name="entry.1697085817" value="０点">
+                    <input type="radio" name="entry.1697085817" value="１点">
+                    <input type="radio" name="entry.1697085817" value="２点">
                 </div>
                 <div id="24HR">
                     <label for="">24HR</label>
-                    <input type="radio" name="entry.1735837588">
-                    <input type="radio" name="entry.1735837588">
-                    <input type="radio" name="entry.1735837588">
+                    <input type="radio" name="entry.1735837588" value="０点">
+                    <input type="radio" name="entry.1735837588" value="１点">
+                    <input type="radio" name="entry.1735837588" value="２点">
                 </div>
                 <div id="25HR">
                     <label for="">25HR</label>
-                    <input type="radio" name="entry.593853303">
-                    <input type="radio" name="entry.593853303">
-                    <input type="radio" name="entry.593853303">
+                    <input type="radio" name="entry.593853303" value="０点">
+                    <input type="radio" name="entry.593853303" value="１点">
+                    <input type="radio" name="entry.593853303" value="２点">
                 </div>
                 <div id="26HR">
                     <label for="">26HR</label>
-                    <input type="radio" name="entry.177526831">
-                    <input type="radio" name="entry.177526831">
-                    <input type="radio" name="entry.177526831">
+                    <input type="radio" name="entry.177526831" value="０点">
+                    <input type="radio" name="entry.177526831" value="１点">
+                    <input type="radio" name="entry.177526831" value="２点">
                 </div>
                 <div id="31HR">
                     <label for="">31HR</label>
-                    <input type="radio" name="entry.1368722233">
-                    <input type="radio" name="entry.1368722233">
-                    <input type="radio" name="entry.1368722233">
+                    <input type="radio" name="entry.1368722233" value="０点">
+                    <input type="radio" name="entry.1368722233" value="１点">
+                    <input type="radio" name="entry.1368722233" value="２点">
                 </div>
                 <div id="32HR">
                     <label for="">32HR</label>
-                    <input type="radio" name="entry.1670704581">
-                    <input type="radio" name="entry.1670704581">
-                    <input type="radio" name="entry.1670704581">
+                    <input type="radio" name="entry.1670704581" value="０点">
+                    <input type="radio" name="entry.1670704581" value="１点">
+                    <input type="radio" name="entry.1670704581" value="２点">
                 </div>
                 <div id="33HR">
                     <label for="">33HR</label>
-                    <input type="radio" name="entry.1483849224">
-                    <input type="radio" name="entry.1483849224">
-                    <input type="radio" name="entry.1483849224">
+                    <input type="radio" name="entry.1483849224" value="０点">
+                    <input type="radio" name="entry.1483849224" value="１点">
+                    <input type="radio" name="entry.1483849224" value="２点">
                 </div>
                 <div id="34HR">
                     <label for="">34HR</label>
-                    <input type="radio" name="entry.42765907">
-                    <input type="radio" name="entry.42765907">
-                    <input type="radio" name="entry.42765907">
+                    <input type="radio" name="entry.42765907" value="０点">
+                    <input type="radio" name="entry.42765907" value="１点">
+                    <input type="radio" name="entry.42765907" value="２点">
                 </div>
                 <div id="35HR">
                     <label for="">35HR</label>
-                    <input type="radio" name="entry.614844642">
-                    <input type="radio" name="entry.614844642">
-                    <input type="radio" name="entry.614844642">
+                    <input type="radio" name="entry.614844642" value="０点">
+                    <input type="radio" name="entry.614844642" value="１点">
+                    <input type="radio" name="entry.614844642" value="２点">
                 </div>
                 <div id="36HR">
                     <label for="">36HR</label>
-                    <input type="radio" name="entry.1290732062">
-                    <input type="radio" name="entry.1290732062">
-                    <input type="radio" name="entry.1290732062">
+                    <input type="radio" name="entry.1290732062" value="０点">
+                    <input type="radio" name="entry.1290732062" value="１点">
+                    <input type="radio" name="entry.1290732062" value="２点">
                 </div>
             </div>
             <div id="question5">
                 <h1>クラT賞<br>クラスTシャツのデザインで良いと思ったHRを１つ選んでください</h1>
-                <input type="radio" name="entry.1755872211">11HR<br>
-                <input type="radio" name="entry.1755872211">12HR<br>
-                <input type="radio" name="entry.1755872211">13HR<br>
-                <input type="radio" name="entry.1755872211">14HR<br>
-                <input type="radio" name="entry.1755872211">15HR<br>
-                <input type="radio" name="entry.1755872211">16HR<br>
-                <input type="radio" name="entry.1755872211">17HR<br>
-                <input type="radio" name="entry.1755872211">21HR<br>
-                <input type="radio" name="entry.1755872211">22HR<br>
-                <input type="radio" name="entry.1755872211">23HR<br>
-                <input type="radio" name="entry.1755872211">24HR<br>
-                <input type="radio" name="entry.1755872211">25HR<br>
-                <input type="radio" name="entry.1755872211">26HR<br>
-                <input type="radio" name="entry.1755872211">31HR<br>
-                <input type="radio" name="entry.1755872211">32HR<br>
-                <input type="radio" name="entry.1755872211">33HR<br>
-                <input type="radio" name="entry.1755872211">34HR<br>
-                <input type="radio" name="entry.1755872211">35HR<br>
-                <input type="radio" name="entry.1755872211">36HR<br>
-                <input type="radio" name="entry.1755872211">投票しない<br>
+                <input type="radio" name="entry.1755872211" value="11HR">11HR<br>
+                <input type="radio" name="entry.1755872211" value="12HR">12HR<br>
+                <input type="radio" name="entry.1755872211" value="13HR">13HR<br>
+                <input type="radio" name="entry.1755872211" value="14HR">14HR<br>
+                <input type="radio" name="entry.1755872211" value="15HR">15HR<br>
+                <input type="radio" name="entry.1755872211" value="16HR">16HR<br>
+                <input type="radio" name="entry.1755872211" value="17HR">17HR<br>
+                <input type="radio" name="entry.1755872211" value="21HR">21HR<br>
+                <input type="radio" name="entry.1755872211" value="22HR">22HR<br>
+                <input type="radio" name="entry.1755872211" value="23HR">23HR<br>
+                <input type="radio" name="entry.1755872211" value="24HR">24HR<br>
+                <input type="radio" name="entry.1755872211" value="25HR">25HR<br>
+                <input type="radio" name="entry.1755872211" value="26HR">26HR<br>
+                <input type="radio" name="entry.1755872211" value="31HR">31HR<br>
+                <input type="radio" name="entry.1755872211" value="32HR">32HR<br>
+                <input type="radio" name="entry.1755872211" value="33HR">33HR<br>
+                <input type="radio" name="entry.1755872211" value="34HR">34HR<br>
+                <input type="radio" name="entry.1755872211" value="35HR">35HR<br>
+                <input type="radio" name="entry.1755872211" value="36HR">36HR<br>
+                <input type="radio" name="entry.1755872211" value="投票しない">投票しない<br>
             </div>
             <div id="question6">
                 <h1>ベストコーディネート賞<br>異装のデザインで良いと思ったHR・部活動を１つ選んでください。</h1>
-                <input type="radio" name="entry.401001952">11HR<br>
-                <input type="radio" name="entry.401001952">12HR<br>
-                <input type="radio" name="entry.401001952">13HR<br>
-                <input type="radio" name="entry.401001952">14HR<br>
-                <input type="radio" name="entry.401001952">15HR<br>
-                <input type="radio" name="entry.401001952">16HR<br>
-                <input type="radio" name="entry.401001952">17HR<br>
-                <input type="radio" name="entry.401001952">21HR<br>
-                <input type="radio" name="entry.401001952">22HR<br>
-                <input type="radio" name="entry.401001952">23HR<br>
-                <input type="radio" name="entry.401001952">24HR<br>
-                <input type="radio" name="entry.401001952">25HR<br>
-                <input type="radio" name="entry.401001952">26HR<br>
-                <input type="radio" name="entry.401001952">31HR<br>
-                <input type="radio" name="entry.401001952">32HR<br>
-                <input type="radio" name="entry.401001952">33HR<br>
-                <input type="radio" name="entry.401001952">34HR<br>
-                <input type="radio" name="entry.401001952">35HR<br>
-                <input type="radio" name="entry.401001952">36HR<br>
-                <input type="radio" name="entry.401001952">投票しない<br>
+                <input type="radio" name="entry.401001952" value="11HR">11HR<br>
+                <input type="radio" name="entry.401001952" value="12HR">12HR<br>
+                <input type="radio" name="entry.401001952" value="13HR">13HR<br>
+                <input type="radio" name="entry.401001952" value="14HR">14HR<br>
+                <input type="radio" name="entry.401001952" value="15HR">15HR<br>
+                <input type="radio" name="entry.401001952" value="16HR">16HR<br>
+                <input type="radio" name="entry.401001952" value="17HR">17HR<br>
+                <input type="radio" name="entry.401001952" value="21HR">21HR<br>
+                <input type="radio" name="entry.401001952" value="22HR">22HR<br>
+                <input type="radio" name="entry.401001952" value="23HR">23HR<br>
+                <input type="radio" name="entry.401001952" value="24HR">24HR<br>
+                <input type="radio" name="entry.401001952" value="25HR">25HR<br>
+                <input type="radio" name="entry.401001952" value="26HR">26HR<br>
+                <input type="radio" name="entry.401001952" value="31HR">31HR<br>
+                <input type="radio" name="entry.401001952" value="32HR">32HR<br>
+                <input type="radio" name="entry.401001952" value="33HR">33HR<br>
+                <input type="radio" name="entry.401001952" value="34HR">34HR<br>
+                <input type="radio" name="entry.401001952" value="35HR">35HR<br>
+                <input type="radio" name="entry.401001952" value="36HR">36HR<br>
+                <input type="radio" name="entry.401001952" value="投票しない">投票しない<br>
             </div>
             <button type="submit">送信</button>
         </form>
