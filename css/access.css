@@ -1,0 +1,70 @@
+/*スマホ用のスタイル*/
+@media only screen and (max-width: 600px) {
+
+}
+
+
+/*タブレット・パソコン用のスタイル*/
+@media only screen and (min-width: 600px) {
+    #topImage_desktop{
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .section{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 80px;
+    }
+
+    .access_letter img{
+        height: 26px;
+        margin: 16px 0;
+    }
+
+    .access_letter{
+        margin-top: 80px;
+    }
+
+    .map_box img{
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .map_box p{
+        margin-top: 30px;
+    }
+
+    .map_box{
+        margin-left: 20px;
+    }
+    
+    p{
+        top: 0px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 240.5%;
+        letter-spacing: 0.12em;
+        color: #2E2E2E;
+    }
+
+    #red{
+        color: #FF6B60;
+        margin-top: 0;
+    }
+
+    #button{
+        border: 2px solid #000000;
+        border-radius: 8px;
+        width: 30%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #button p{
+        margin-top: 17px;
+    }
+
+}
