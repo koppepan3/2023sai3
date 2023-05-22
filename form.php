@@ -7,6 +7,7 @@
         <meta name="description" content="2023年度浜松西高等学校・同中等部文化祭「彩西祭」公式ウェブサイトへようこそ。当日の情報から準備の様子まで、様々なことを発信していきます。" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/form.css">
         <!-- Favicon設定-->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link type="image/x-icon" rel="icon" href="favicon.ico">
@@ -37,27 +38,27 @@
             <!--  ハンバーガーボタン  -->
             <div class="hamburger"><span></span><span></span><span></span></div>
             <nav class="hamburger_list">
-                <div id="header_top" class="header_menu"><a href="index.html" class="header_menu"><h1>トップページ</h1></a></div>
-                <div id="header_contents" class="header_menu toggle_menu"><a href="index.html#section_contents" class="header_menu"><h1>コンテンツ</h1></a><div class="subMenu"><span></span><span></span></div></div>
+                <div id="header_top" class="header_menu"><a href="index.html" class="header_menu"><p>トップページ</p></a></div>
+                <div id="header_contents" class="header_menu toggle_menu"><a href="index.html#section_contents" class="header_menu"><p>コンテンツ</p></a><div class="subMenu"><span></span><span></span></div></div>
                 <a class="menu_open" href="pamphlet.html"><h3>デジタル版パンフレット</h3></a>
                 <a class="menu_open" href="themeillust.html"><h3>テーマイラスト紹介</h3></a>
                 <a class="menu_open" href="map.html"><h3>校内マップ</h3></a>
                 <a class="menu_open" href="tenji.html"><h3>展示内容紹介</h3></a>
-                <div id="header_articles" class="header_menu"><a href="articles.html"><h1>記事一覧</h1></a></div>
-                <div id="header_about" class="header_menu"><a href="about.html" class="header_menu"><h1>彩西祭について</h1></a></div>
+                <div id="header_articles" class="header_menu"><a href="articles.html"><p>記事一覧</p></a></div>
+                <div id="header_about" class="header_menu"><a href="about.html" class="header_menu"><p>彩西祭について</p></a></div>
             </nav>
             <div class="circle-bg"></div>
         </header>
         <h1>投票</h1>
         <form action="https://docs.google.com/forms/d/e/1FAIpQLScoQ9qllKNb7BU6SHNCXMxxlj4cZ20PQBQ2O1FxU5BddVed6Q/formResponse" method="post">
             <div id="question1">
-                <h1>当てはまるものを選んでください</h1>
+                <h3>当てはまるものを選んでください</h3>
                 <input type="radio" name="entry.1503197076" value="中等部生">中等部生<br>
                 <input type="radio" name="entry.1503197076" value="高校生">高校生<br>
                 <input type="radio" name="entry.1503197076" value="一般の方">一般の方<br>
             </div>
             <div id="question2">
-                <h1>所属するHRを選んでください</h1>
+                <h3>所属するHRを選んでください</h3>
                 <input type="radio" name="entry.538058966" value="1AHR">1AHR<br>
                 <input type="radio" name="entry.538058966" value="1BHR">1BHR<br>
                 <input type="radio" name="entry.538058966" value="1CHR">1CHR<br>
@@ -91,7 +92,7 @@
                 <input type="radio" name="entry.538058966" value="36HR">36HR<br>
             </div>
             <div id="question3">
-                <h1>所属する部活動を選んでください</h1>
+                <h3>所属する部活動を選んでください</h3>
                 <input type="radio" name="entry.290451178" value="科学研究部自然化学班">科学研究部自然化学班<br>
                 <input type="radio" name="entry.290451178" value="科学研究部工学情報班">科学研究部工学情報班<br>
                 <input type="radio" name="entry.290451178" value="国際文化部">国際文化部<br>
@@ -105,10 +106,11 @@
                 <input type="radio" name="entry.290451178" value="その他">その他<br>
             </div>
             <div id="question4">
-                <h1>HR展賞<br>入場した展示を0点～2点の中で評価してください</h1>
-                <h2>0点</h2>
-                <h2>1点</h2>
-                <h2>2点</h2>
+                <h3>HR展賞</h3>
+                <p>入場した展示を0点～2点の中で評価してください</p>
+                    <p class="points">0点</p>
+                    <p class="points">1点</p>
+                    <p class="points">2点</p>
                 <div id="11HR">
                     <label for="">11HR</label>
                     <input type="radio" name="entry.885215657" value="０点">
@@ -225,7 +227,8 @@
                 </div>
             </div>
             <div id="question5">
-                <h1>クラT賞<br>クラスTシャツのデザインで良いと思ったHRを１つ選んでください</h1>
+                <h3>クラT賞</h3>
+                <p>クラスTシャツのデザインで良いと思ったHRを１つ選んでください</p>
                 <input type="radio" name="entry.1755872211" value="11HR">11HR<br>
                 <input type="radio" name="entry.1755872211" value="12HR">12HR<br>
                 <input type="radio" name="entry.1755872211" value="13HR">13HR<br>
@@ -248,7 +251,8 @@
                 <input type="radio" name="entry.1755872211" value="投票しない">投票しない<br>
             </div>
             <div id="question6">
-                <h1>ベストコーディネート賞<br>異装のデザインで良いと思ったHR・部活動を１つ選んでください。</h1>
+                <h3>ベストコーディネート賞</h3>
+                <p>異装のデザインで良いと思ったHR・部活動を１つ選んでください。</p>
                 <input type="radio" name="entry.401001952" value="11HR">11HR<br>
                 <input type="radio" name="entry.401001952" value="12HR">12HR<br>
                 <input type="radio" name="entry.401001952" value="13HR">13HR<br>
