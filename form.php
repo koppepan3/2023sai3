@@ -49,16 +49,17 @@
             </nav>
             <div class="circle-bg"></div>
         </header>
+        <iframe name="to_success" style="display:none;" onload="if(submitted){window.location='index.html';}"></iframe>
         <h1>投票</h1>
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLScoQ9qllKNb7BU6SHNCXMxxlj4cZ20PQBQ2O1FxU5BddVed6Q/formResponse" method="post">
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLScoQ9qllKNb7BU6SHNCXMxxlj4cZ20PQBQ2O1FxU5BddVed6Q/formResponse" method="post" target="to_success" onsubmit="submitted=true;">
             <div id="question1">
-                <h3>当てはまるものを選んでください</h3>
+                <h3>当てはまるものを選んでください(必須)</h3>
                 <input type="radio" name="entry.1503197076" value="中等部生">中等部生<br>
                 <input type="radio" name="entry.1503197076" value="高校生">高校生<br>
                 <input type="radio" name="entry.1503197076" value="一般の方">一般の方<br>
             </div>
             <div id="question2">
-                <h3>所属するHRを選んでください</h3>
+                <h3>所属するHRを選んでください(必須)</h3>
                 <input type="radio" name="entry.538058966" value="1AHR">1AHR<br>
                 <input type="radio" name="entry.538058966" value="1BHR">1BHR<br>
                 <input type="radio" name="entry.538058966" value="1CHR">1CHR<br>
@@ -92,7 +93,7 @@
                 <input type="radio" name="entry.538058966" value="36HR">36HR<br>
             </div>
             <div id="question3">
-                <h3>所属する部活動を選んでください</h3>
+                <h3>所属する部活動を選んでください(必須)</h3>
                 <input type="radio" name="entry.290451178" value="科学研究部自然化学班">科学研究部自然化学班<br>
                 <input type="radio" name="entry.290451178" value="科学研究部工学情報班">科学研究部工学情報班<br>
                 <input type="radio" name="entry.290451178" value="国際文化部">国際文化部<br>
@@ -227,7 +228,7 @@
                 </div>
             </div>
             <div id="question5">
-                <h3>クラT賞</h3>
+                <h3>クラT賞(必須)</h3>
                 <p>クラスTシャツのデザインで良いと思ったHRを１つ選んでください</p>
                 <input type="radio" name="entry.1755872211" value="11HR">11HR<br>
                 <input type="radio" name="entry.1755872211" value="12HR">12HR<br>
@@ -251,7 +252,7 @@
                 <input type="radio" name="entry.1755872211" value="投票しない">投票しない<br>
             </div>
             <div id="question6">
-                <h3>ベストコーディネート賞</h3>
+                <h3>ベストコーディネート賞(必須)</h3>
                 <p>異装のデザインで良いと思ったHR・部活動を１つ選んでください。</p>
                 <input type="radio" name="entry.401001952" value="11HR">11HR<br>
                 <input type="radio" name="entry.401001952" value="12HR">12HR<br>
@@ -320,12 +321,6 @@
                     }
                 });
 
-            });
-        </script>
-        <!--EmbedPost読み込み JS-->
-        <script>
-            $(function(){
-                $("#articles_holder").load("latestposts.html");
             });
         </script>
     </body>
