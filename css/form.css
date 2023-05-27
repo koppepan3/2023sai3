@@ -1,3 +1,88 @@
+.section{
+    margin-top: 100px;
+    border: 1px #E2E2E2 solid;
+    border-radius: 13px;
+    width: 88%;
+    margin-left: 6%;
+    margin-bottom: 30px;
+}
+
+.red{
+    color: #FF7272;
+    font-family: 'Zen Kaku Gothic New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 230.5%;
+    letter-spacing: 0.025em;
+}
+
+.title h3{
+    font-family: 'Zen Kaku Gothic New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 230.5%;
+    letter-spacing: 0.025em;
+    color: #515151;
+    margin-left: 5px;
+}
+
+.title h5{    
+    font-family: 'Zen Kaku Gothic New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 230.5%;
+    letter-spacing: 0.025em;
+    color: #515151;
+    margin-left: 5px;
+}
+
+.title p{
+    font-family: 'Zen Kaku Gothic New';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 196%;
+    letter-spacing: 0.1em;
+    color: #515151;
+    margin-left: 10px;
+}
+
+#decoration{
+    content: "";
+    background-color: #353535;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    width: 100%;
+    height: 13px;
+}
+
+#question4 label{
+    font-family: 'Zen Kaku Gothic New';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 196%;
+    letter-spacing: 0.1em;
+    color: #515151;
+    margin-left: 10px;
+}
+
 .points{
     display: inline-block;
+}
+
+.button{
+    border: 1px solid #000000;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Zen Kaku Gothic New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #515151;
+    padding: 3px 24px;
 }
