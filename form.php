@@ -35,10 +35,10 @@
         </script>
     </head>
     <body>
-        <!-- <header>
-            <a href="index.html"><img id="header_icon" src="files/header_icon.png"></a> -->
+        <header>
+            <a href="index.html"><img id="header_icon" src="files/header_icon.png"></a>
             <!--  ハンバーガーボタン  -->
-            <!-- <div class="hamburger"><span></span><span></span><span></span></div>
+            <div class="hamburger"><span></span><span></span><span></span></div>
             <nav class="hamburger_list">
                 <div id="header_top" class="header_menu"><a href="index.html" class="header_menu"><p>トップページ</p></a></div>
                 <div id="header_contents" class="header_menu toggle_menu"><a href="index.html#section_contents" class="header_menu"><p>コンテンツ</p></a><div class="subMenu"><span></span><span></span></div></div>
@@ -50,71 +50,71 @@
                 <div id="header_about" class="header_menu"><a href="about.html" class="header_menu"><p>彩西祭について</p></a></div>
             </nav>
             <div class="circle-bg"></div>
-        </header> -->
+        </header>
         <iframe name="to_success" style="display:none;" onload="if(submitted){window.location='index.html';}"></iframe>
         <form action="https://docs.google.com/forms/d/e/1FAIpQLScoQ9qllKNb7BU6SHNCXMxxlj4cZ20PQBQ2O1FxU5BddVed6Q/formResponse" method="post" target="to_success" onsubmit="submitted=true;">
-            <input type="radio" id="return" name="button" checked>
-            <label class="button" for="return">＜戻る</label>
-            <input type="radio" id="forward" name="button">
-            <label class="button" for="forward">次に進む＞</label>
-            <div class="page1">
-                    <div id="decoration"></div>
-                    <div id="question1" class="title">
-                        <h3>１．当てはまるものを選んでください<span class="red">(必須)</span></h3>
-                        <p><input type="radio" name="entry.1503197076" value="中等部生">中等部生</p>
-                        <p><input type="radio" name="entry.1503197076" value="高校生">高校生</p>
-                        <p><input type="radio" name="entry.1503197076" value="一般の方">一般の方</p>
+            <div class="section">
+                <input type="radio" id="return" name="button" checked>
+                <input type="radio" id="forward" name="button">
+                <div class="page1">
+                        <div id="decoration"></div>
+                        <div id="question1" class="title">
+                            <h3>１．当てはまるものを選んでください<span class="red">(必須)</span></h3>
+                            <p><input type="radio" name="entry.1503197076" value="中等部生">中等部生</p>
+                            <p><input type="radio" name="entry.1503197076" value="高校生">高校生</p>
+                            <p><input type="radio" name="entry.1503197076" value="一般の方">一般の方</p>
+                        </div>
+                        <div id="question2" class="title">
+                            <h3>２．所属するHRを選んでください<span class="red">(必須)</span></h3>
+                            <p><input type="radio" name="entry.538058966" value="1AHR" onclick="console.log('Radio: ', formElements.radio.entry.538058966);">1AHR</p>
+                            <p><input type="radio" name="entry.538058966" value="1BHR">1BHR</p>
+                            <p><input type="radio" name="entry.538058966" value="1CHR">1CHR</p>
+                            <p><input type="radio" name="entry.538058966" value="1DHR">1DHR</p>
+                            <p><input type="radio" name="entry.538058966" value="2AHR">2AHR</p>
+                            <p><input type="radio" name="entry.538058966" value="2BHR">2BHR</p>
+                            <p><input type="radio" name="entry.538058966" value="2CHR">2CHR</p>
+                            <p><input type="radio" name="entry.538058966" value="2DHR">2DHR</p>
+                            <p><input type="radio" name="entry.538058966" value="3AHR">3AHR</p>
+                            <p><input type="radio" name="entry.538058966" value="3BHR">3BHR</p>
+                            <p><input type="radio" name="entry.538058966" value="3CHR">3CHR</p>
+                            <p><input type="radio" name="entry.538058966" value="3DHR">3DHR</p>
+                            <p><input type="radio" name="entry.538058966" value="11HR">11HR</p>
+                            <p><input type="radio" name="entry.538058966" value="12HR">12HR</p>
+                            <p><input type="radio" name="entry.538058966" value="13HR">13HR</p>
+                            <p><input type="radio" name="entry.538058966" value="14HR">14HR</p>
+                            <p><input type="radio" name="entry.538058966" value="15HR">15HR</p>
+                            <p><input type="radio" name="entry.538058966" value="16HR">16HR</p>
+                            <p><input type="radio" name="entry.538058966" value="17HR">17HR</p>
+                            <p><input type="radio" name="entry.538058966" value="21HR">21HR</p>
+                            <p><input type="radio" name="entry.538058966" value="22HR">22HR</p>
+                            <p><input type="radio" name="entry.538058966" value="23HR">23HR</p>
+                            <p><input type="radio" name="entry.538058966" value="24HR">24HR</p>
+                            <p><input type="radio" name="entry.538058966" value="25HR">25HR</p>
+                            <p><input type="radio" name="entry.538058966" value="26HR">26HR</p>
+                            <p><input type="radio" name="entry.538058966" value="31HR">31HR</p>
+                            <p><input type="radio" name="entry.538058966" value="32HR">32HR</p>
+                            <p><input type="radio" name="entry.538058966" value="33HR">33HR</p>
+                            <p><input type="radio" name="entry.538058966" value="34HR">34HR</p>
+                            <p><input type="radio" name="entry.538058966" value="35HR">35HR</p>
+                            <p><input type="radio" name="entry.538058966" value="36HR">36HR</p>
+                        </div>
+                        <div id="question3" class="title">
+                            <h3>３．所属する部活動を選んでください<span class="red">(必須)</span></h3>
+                            <p><input type="radio" name="entry.290451178" value="科学研究部自然化学班">科学研究部自然化学班</p>
+                            <p><input type="radio" name="entry.290451178" value="科学研究部工学情報班">科学研究部工学情報班</p>
+                            <p><input type="radio" name="entry.290451178" value="国際文化部">国際文化部</p>
+                            <p><input type="radio" name="entry.290451178" value="演劇部">演劇部</p>
+                            <p><input type="radio" name="entry.290451178" value="美術写真部美術班">美術写真部美術班</p>
+                            <p><input type="radio" name="entry.290451178" value="美術写真部写真班">美術写真部写真班</p>
+                            <p><input type="radio" name="entry.290451178" value="吹奏楽部">吹奏楽部</p>
+                            <p><input type="radio" name="entry.290451178" value="弦楽部">弦楽部</p>
+                            <p><input type="radio" name="entry.290451178" value="百人一首部">百人一首部</p>
+                            <p><input type="radio" name="entry.290451178" value="生活文化部">生活文化部</p>
+                            <p><input type="radio" name="entry.290451178" value="その他">その他</p>
+                        </div>
                     </div>
-                    <div id="question2" class="title">
-                        <h3>２．所属するHRを選んでください<span class="red">(必須)</span></h3>
-                        <p><input type="radio" name="entry.538058966" value="1AHR" onclick="console.log('Radio: ', formElements.radio.entry.538058966);">1AHR</p>
-                        <p><input type="radio" name="entry.538058966" value="1BHR">1BHR</p>
-                        <p><input type="radio" name="entry.538058966" value="1CHR">1CHR</p>
-                        <p><input type="radio" name="entry.538058966" value="1DHR">1DHR</p>
-                        <p><input type="radio" name="entry.538058966" value="2AHR">2AHR</p>
-                        <p><input type="radio" name="entry.538058966" value="2BHR">2BHR</p>
-                        <p><input type="radio" name="entry.538058966" value="2CHR">2CHR</p>
-                        <p><input type="radio" name="entry.538058966" value="2DHR">2DHR</p>
-                        <p><input type="radio" name="entry.538058966" value="3AHR">3AHR</p>
-                        <p><input type="radio" name="entry.538058966" value="3BHR">3BHR</p>
-                        <p><input type="radio" name="entry.538058966" value="3CHR">3CHR</p>
-                        <p><input type="radio" name="entry.538058966" value="3DHR">3DHR</p>
-                        <p><input type="radio" name="entry.538058966" value="11HR">11HR</p>
-                        <p><input type="radio" name="entry.538058966" value="12HR">12HR</p>
-                        <p><input type="radio" name="entry.538058966" value="13HR">13HR</p>
-                        <p><input type="radio" name="entry.538058966" value="14HR">14HR</p>
-                        <p><input type="radio" name="entry.538058966" value="15HR">15HR</p>
-                        <p><input type="radio" name="entry.538058966" value="16HR">16HR</p>
-                        <p><input type="radio" name="entry.538058966" value="17HR">17HR</p>
-                        <p><input type="radio" name="entry.538058966" value="21HR">21HR</p>
-                        <p><input type="radio" name="entry.538058966" value="22HR">22HR</p>
-                        <p><input type="radio" name="entry.538058966" value="23HR">23HR</p>
-                        <p><input type="radio" name="entry.538058966" value="24HR">24HR</p>
-                        <p><input type="radio" name="entry.538058966" value="25HR">25HR</p>
-                        <p><input type="radio" name="entry.538058966" value="26HR">26HR</p>
-                        <p><input type="radio" name="entry.538058966" value="31HR">31HR</p>
-                        <p><input type="radio" name="entry.538058966" value="32HR">32HR</p>
-                        <p><input type="radio" name="entry.538058966" value="33HR">33HR</p>
-                        <p><input type="radio" name="entry.538058966" value="34HR">34HR</p>
-                        <p><input type="radio" name="entry.538058966" value="35HR">35HR</p>
-                        <p><input type="radio" name="entry.538058966" value="36HR">36HR</p>
-                    </div>
-                    <div id="question3" class="title">
-                        <h3>３．所属する部活動を選んでください<span class="red">(必須)</span></h3>
-                        <p><input type="radio" name="entry.290451178" value="科学研究部自然化学班">科学研究部自然化学班</p>
-                        <p><input type="radio" name="entry.290451178" value="科学研究部工学情報班">科学研究部工学情報班</p>
-                        <p><input type="radio" name="entry.290451178" value="国際文化部">国際文化部</p>
-                        <p><input type="radio" name="entry.290451178" value="演劇部">演劇部</p>
-                        <p><input type="radio" name="entry.290451178" value="美術写真部美術班">美術写真部美術班</p>
-                        <p><input type="radio" name="entry.290451178" value="美術写真部写真班">美術写真部写真班</p>
-                        <p><input type="radio" name="entry.290451178" value="吹奏楽部">吹奏楽部</p>
-                        <p><input type="radio" name="entry.290451178" value="弦楽部">弦楽部</p>
-                        <p><input type="radio" name="entry.290451178" value="百人一首部">百人一首部</p>
-                        <p><input type="radio" name="entry.290451178" value="生活文化部">生活文化部</p>
-                        <p><input type="radio" name="entry.290451178" value="その他">その他</p>
-                    </div>
-                </div>
-            <div class="page2">
+                <div class="page2">
+                <div id="decoration"></div>
                     <div id="question4" class="title">
                         <h3>HR展賞</h3>
                         <h5>入場した展示を0点～2点の中で評価してください</h5>
@@ -286,7 +286,10 @@
                     </div>
                 </div>
             </div>
-            <button type="submit">送信</button>
+        </div>
+            <label class="button" for="return">＜戻る</label>
+            <label class="button" for="forward">次に進む＞</label>
+            <button class="button" type="submit">送信</button>
         </form>
         <footer>
             <div class="footer_contents">

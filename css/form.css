@@ -104,14 +104,20 @@
     display: none;
 }
 
-#return:checked .page1 *{
+#return:checked ~ .page1{
     display: block;
 }
 
-#forward:checked .page2 *{
+#forward:checked ~ .page2{
     display: block;
 }
 
 .hide_default{
     display: none;
+}
+
+
+input[type="radio"]{
+  position: relative;
+  top: 2px;
 }
