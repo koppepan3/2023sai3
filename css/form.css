@@ -111,3 +111,7 @@
 #forward:checked .page2 *{
     display: block;
 }
+
+.hide_default{
+    display: none;
+}

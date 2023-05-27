@@ -1,3 +1,5 @@
+<?php 
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -65,7 +67,7 @@
                     </div>
                     <div id="question2" class="title">
                         <h3>２．所属するHRを選んでください<span class="red">(必須)</span></h3>
-                        <p><input type="radio" name="entry.538058966" value="1AHR">1AHR</p>
+                        <p><input type="radio" name="entry.538058966" value="1AHR" onclick="console.log('Radio: ', formElements.radio.entry.538058966);">1AHR</p>
                         <p><input type="radio" name="entry.538058966" value="1BHR">1BHR</p>
                         <p><input type="radio" name="entry.538058966" value="1CHR">1CHR</p>
                         <p><input type="radio" name="entry.538058966" value="1DHR">1DHR</p>
@@ -119,115 +121,115 @@
                         <p class="points">0点</p>
                         <p class="points">1点</p>
                         <p class="points">2点</p>
-                        <div id="11HR">
+                        <div class="hide_default" id="group11">
                             <label for="">11HR</label>
                             <input type="radio" name="entry.885215657" value="０点">
                             <input type="radio" name="entry.885215657" value="１点">
                             <input type="radio" name="entry.885215657" value="２点">
                         </div>
-                        <div id="12HR">
+                        <div class="hide_default" id="group12">
                             <label for="">12HR</label>
                             <input type="radio" name="entry.1150789038" value="０点">
                             <input type="radio" name="entry.1150789038" value="１点">
                             <input type="radio" name="entry.1150789038" value="２点">
                         </div>
-                        <div id="13HR">
+                        <div class="hide_default" id="group13">
                             <label for="">13HR</label>
                             <input type="radio" name="entry.1923943701" value="０点">
                             <input type="radio" name="entry.1923943701" value="１点">
                             <input type="radio" name="entry.1923943701" value="２点">
                         </div>
-                        <div id="14HR">
+                        <div class="hide_default" id="group14">
                             <label for="">14HR</label>
                             <input type="radio" name="entry.755345731" value="０点">
                             <input type="radio" name="entry.755345731" value="１点">
                             <input type="radio" name="entry.755345731" value="２点">
                         </div>
-                        <div id="15HR">
+                        <div class="hide_default" id="group15">
                             <label for="">15HR</label>
                             <input type="radio" name="entry.72649444" value="０点">
                             <input type="radio" name="entry.72649444" value="１点">
                             <input type="radio" name="entry.72649444" value="２点">
                         </div>
-                        <div id="16HR">
+                        <div class="hide_default" id="group16">
                             <label for="">16HR</label>
                             <input type="radio" name="entry.797552058" value="０点">
                             <input type="radio" name="entry.797552058" value="１点">
                             <input type="radio" name="entry.797552058" value="２点">
                         </div>
-                        <div id="17HR">
+                        <div class="hide_default" id="group17">
                             <label for="">17HR</label>
                             <input type="radio" name="entry.36314777" value="０点">
                             <input type="radio" name="entry.36314777" value="１点">
                             <input type="radio" name="entry.36314777" value="２点">
                         </div>
-                        <div id="21HR">
+                        <div class="hide_default" id="group21">
                             <label for="">21HR</label>
                             <input type="radio" name="entry.1356478900" value="０点">
                             <input type="radio" name="entry.1356478900" value="１点">
                             <input type="radio" name="entry.1356478900" value="２点">
                         </div>
-                        <div id="22HR">
+                        <div class="hide_default" id="group22">
                             <label for="">22HR</label>
                             <input type="radio" name="entry.1159793844" value="０点">
                             <input type="radio" name="entry.1159793844" value="１点">
                             <input type="radio" name="entry.1159793844" value="２点">
                         </div>
-                        <div id="23HR">
+                        <div class="hide_default" id="group23">
                             <label for="">23HR</label>
                             <input type="radio" name="entry.1697085817" value="０点">
                             <input type="radio" name="entry.1697085817" value="１点">
                             <input type="radio" name="entry.1697085817" value="２点">
                         </div>
-                        <div id="24HR">
+                        <div class="hide_default" id="group24">
                             <label for="">24HR</label>
                             <input type="radio" name="entry.1735837588" value="０点">
                             <input type="radio" name="entry.1735837588" value="１点">
                             <input type="radio" name="entry.1735837588" value="２点">
                         </div>
-                        <div id="25HR">
+                        <div class="hide_default" id="group25">
                             <label for="">25HR</label>
                             <input type="radio" name="entry.593853303" value="０点">
                             <input type="radio" name="entry.593853303" value="１点">
                             <input type="radio" name="entry.593853303" value="２点">
                         </div>
-                        <div id="26HR">
+                        <div class="hide_default" id="group26">
                             <label for="">26HR</label>
                             <input type="radio" name="entry.177526831" value="０点">
                             <input type="radio" name="entry.177526831" value="１点">
                             <input type="radio" name="entry.177526831" value="２点">
                         </div>
-                        <div id="31HR">
+                        <div class="hide_default" id="group31">
                             <label for="">31HR</label>
                             <input type="radio" name="entry.1368722233" value="０点">
                             <input type="radio" name="entry.1368722233" value="１点">
                             <input type="radio" name="entry.1368722233" value="２点">
                         </div>
-                        <div id="32HR">
+                        <div class="hide_default" id="group32">
                             <label for="">32HR</label>
                             <input type="radio" name="entry.1670704581" value="０点">
                             <input type="radio" name="entry.1670704581" value="１点">
                             <input type="radio" name="entry.1670704581" value="２点">
                         </div>
-                        <div id="33HR">
+                        <div class="hide_default" id="group33">
                             <label for="">33HR</label>
                             <input type="radio" name="entry.1483849224" value="０点">
                             <input type="radio" name="entry.1483849224" value="１点">
                             <input type="radio" name="entry.1483849224" value="２点">
                         </div>
-                        <div id="34HR">
+                        <div class="hide_default" id="group34">
                             <label for="">34HR</label>
                             <input type="radio" name="entry.42765907" value="０点">
                             <input type="radio" name="entry.42765907" value="１点">
                             <input type="radio" name="entry.42765907" value="２点">
                         </div>
-                        <div id="35HR">
+                        <div class="hide_default" id="group35">
                             <label for="">35HR</label>
                             <input type="radio" name="entry.614844642" value="０点">
                             <input type="radio" name="entry.614844642" value="１点">
                             <input type="radio" name="entry.614844642" value="２点">
                         </div>
-                        <div id="36HR">
+                        <div class="hide_default" id="group36">
                             <label for="">36HR</label>
                             <input type="radio" name="entry.1290732062" value="０点">
                             <input type="radio" name="entry.1290732062" value="１点">
@@ -332,6 +334,23 @@
                 });
 
             });
+        </script>
+        <?php
+        $count = 11;
+        while($count <= 51) {
+            if(isset($_COOKIE[$count])){
+            if($_COOKIE[$count] == 1){
+            ?>
+        <script>
+            $(<?php echo "\"#group".$count."\""; ?>).removeClass("hide_default");
+        </script>
+        <?php
+            }}
+           $count++;
+        }
+        ?>
+        <script>
+            console.log('Radio: ', formElements.radio.entry.538058966);
         </script>
     </body>
 </html>
