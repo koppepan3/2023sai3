@@ -85,4 +85,29 @@
     font-size: 14px;
     color: #515151;
     padding: 3px 24px;
+    cursor: pointer;
+}
+
+#return{
+    display: none;
+}
+
+#forward{
+    display: none;
+}
+
+.page2{
+    display: none;
+}
+
+.page1{
+    display: none;
+}
+
+#return:checked .page1 *{
+    display: block;
+}
+
+#forward:checked .page2 *{
+    display: block;
 }
