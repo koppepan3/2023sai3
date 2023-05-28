@@ -117,11 +117,19 @@
     display: none;
 }
 
+#submit{
+    display: none;
+}
+
 #return:checked ~ .page1{
     display: block;
 }
 
 #forward:checked ~ .page2{
+    display: block;
+}
+
+#forward:checked ~ #submit{
     display: block;
 }
 

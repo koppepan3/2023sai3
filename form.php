@@ -53,9 +53,9 @@
         </header>
         <iframe name="to_success" style="display:none;" onload="if(submitted){window.location='index.html';}"></iframe>
         <form action="https://docs.google.com/forms/d/e/1FAIpQLScoQ9qllKNb7BU6SHNCXMxxlj4cZ20PQBQ2O1FxU5BddVed6Q/formResponse" method="post" target="to_success" onsubmit="submitted=true;">
+            <input type="radio" id="return" name="button" checked>
+            <input type="radio" id="forward" name="button">
             <div class="section">
-                <input type="radio" id="return" name="button" checked>
-                <input type="radio" id="forward" name="button">
                 <div class="page1">
                         <div id="question1" class="title">
                             <h3>１．当てはまるものを選んでください<span class="red">(必須)</span></h3>
@@ -287,7 +287,7 @@
         </div>
             <label class="button" for="return">＜戻る</label>
             <label class="button" for="forward">次に進む＞</label>
-            <button class="button" type="submit">送信</button>
+            <button  id="submit" class="button" type="submit">送信</button>
         </form>
         <footer>
             <div class="footer_contents">
