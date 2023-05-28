@@ -57,7 +57,6 @@
                 <input type="radio" id="return" name="button" checked>
                 <input type="radio" id="forward" name="button">
                 <div class="page1">
-                        <div id="decoration"></div>
                         <div id="question1" class="title">
                             <h3>１．当てはまるものを選んでください<span class="red">(必須)</span></h3>
                             <p><input type="radio" name="entry.1503197076" value="中等部生">中等部生</p>
@@ -66,7 +65,7 @@
                         </div>
                         <div id="question2" class="title">
                             <h3>２．所属するHRを選んでください<span class="red">(必須)</span></h3>
-                            <p><input type="radio" name="entry.538058966" value="1AHR" onclick="console.log('Radio: ', formElements.radio.entry.538058966);">1AHR</p>
+                            <p><input type="radio" name="entry.538058966" value="1AHR">1AHR</p>
                             <p><input type="radio" name="entry.538058966" value="1BHR">1BHR</p>
                             <p><input type="radio" name="entry.538058966" value="1CHR">1CHR</p>
                             <p><input type="radio" name="entry.538058966" value="1DHR">1DHR</p>
@@ -78,7 +77,7 @@
                             <p><input type="radio" name="entry.538058966" value="3BHR">3BHR</p>
                             <p><input type="radio" name="entry.538058966" value="3CHR">3CHR</p>
                             <p><input type="radio" name="entry.538058966" value="3DHR">3DHR</p>
-                            <p><input type="radio" name="entry.538058966" value="11HR">11HR</p>
+                            <p><input type="radio" name="entry.538058966" value="11HR" onclick="$('#group11').addClass('hide_default');">11HR</p>
                             <p><input type="radio" name="entry.538058966" value="12HR">12HR</p>
                             <p><input type="radio" name="entry.538058966" value="13HR">13HR</p>
                             <p><input type="radio" name="entry.538058966" value="14HR">14HR</p>
@@ -114,9 +113,8 @@
                         </div>
                     </div>
                 <div class="page2">
-                <div id="decoration"></div>
                     <div id="question4" class="title">
-                        <h3>HR展賞</h3>
+                        <h2>HR展賞</h2>
                         <h5>入場した展示を0点～2点の中で評価してください</h5>
                         <p class="points">0点</p>
                         <p class="points">1点</p>
@@ -237,7 +235,7 @@
                         </div>
                     </div>
                     <div id="question5" class="title">
-                        <h3>クラT賞<span class="red">(必須)</span></h3>
+                        <h2>クラT賞<span class="red">(必須)</span></h2>
                         <h5>クラスTシャツのデザインで良いと思ったHRを１つ選んでください</h5>
                         <p><input type="radio" name="entry.1755872211" value="11HR">11HR</p>
                         <p><input type="radio" name="entry.1755872211" value="12HR">12HR</p>
