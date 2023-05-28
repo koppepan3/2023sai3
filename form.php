@@ -53,8 +53,7 @@
         </header>
         <iframe name="to_success" style="display:none;" onload="if(submitted){window.location='index.html';}"></iframe>
         <form action="https://docs.google.com/forms/d/e/1FAIpQLScoQ9qllKNb7BU6SHNCXMxxlj4cZ20PQBQ2O1FxU5BddVed6Q/formResponse" method="post" target="to_success" onsubmit="submitted=true;">
-            <input type="radio" id="return" name="button" checked>
-            <input type="radio" id="forward" name="button">
+            <div id="top" style=" display:none;"></div>
             <div class="section">
                 <div class="page1">
                         <div id="question1" class="title">
@@ -112,7 +111,7 @@
                             <p><input type="radio" name="entry.290451178" value="その他">その他</p>
                         </div>
                     </div>
-                <div class="page2">
+                <div class="page2 hide_default">
                     <div id="question4" class="title">
                         <h2>HR展賞</h2>
                         <h5>入場した展示を0点～2点の中で評価してください</h5>
@@ -285,9 +284,11 @@
                 </div>
             </div>
         </div>
-            <label class="button" for="return">＜戻る</label>
-            <label class="button" for="forward">次に進む＞</label>
-            <button  id="submit" class="button" type="submit">送信</button>
+        <div id="buttons">
+            <a class="button unavailable_button" id="returnButton" onclick="pageReturn()">＜戻る</a>
+            <a class="button" id="forwardButton" onclick="pageForward()">次に進む＞</a>
+            <button id="submit" class="button hide_default" type="submit">送信する</button>
+        </div>
         </form>
         <footer>
             <div class="footer_contents">
@@ -333,8 +334,45 @@
                         $('.menu_open').removeClass('active');
                     }
                 });
-
             });
+
+            let page = 1;
+
+            function pageReturn(){
+                if(page == 2){
+                    $('.page1').removeClass('hide_default');
+                    $('.page2').addClass('hide_default');
+                    //スクロールさせる条件を指定
+                    var scrollToOptions = {
+                        top : 0, //スクロール位置にページ最上部を指定
+                        behavior : 'smooth' //スムーズに移動させる条件を指定
+                    };
+                    //スクロールを実施する
+                    window.scrollTo(scrollToOptions);
+                    $('#forwardButton').removeClass('hide_default');
+                    $('#returnButton').addClass('unavailable_button');
+                    $('#submit').addClass('hide_default');
+                    page--;
+                }
+            }
+
+            function pageForward(){
+                if(page == 1){
+                    $('.page2').removeClass('hide_default');
+                    $('.page1').addClass('hide_default');
+                    //スクロールさせる条件を指定
+                    var scrollToOptions1 = {
+                        top : 0, //スクロール位置にページ最上部を指定
+                        behavior : 'smooth' //スムーズに移動させる条件を指定
+                    };
+                    //スクロールを実施する
+                    window.scrollTo(scrollToOptions1);
+                    $('#returnButton').removeClass('unavailable_button');
+                    $('#forwardButton').addClass('hide_default');
+                    $('#submit').removeClass('hide_default');
+                    page++;
+                }
+            }
         </script>
         <?php
         $count = 11;

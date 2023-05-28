@@ -89,6 +89,7 @@
 
 .button{
     border: 1px solid #000000;
+    background-color: white;
     border-radius: 6px;
     text-align: center;
     display: inline-block;
@@ -99,38 +100,11 @@
     color: #515151;
     padding: 8px 24px;
     cursor: pointer;
+    margin: 0 10px;
 }
 
-#return{
-    display: none;
-}
-
-#forward{
-    display: none;
-}
-
-.page2{
-    display: none;
-}
-
-.page1{
-    display: none;
-}
-
-#submit{
-    display: none;
-}
-
-#return:checked ~ .page1{
-    display: block;
-}
-
-#forward:checked ~ .page2{
-    display: block;
-}
-
-#forward:checked ~ #submit{
-    display: block;
+.unavailable_button{
+    opacity: 0.5;
 }
 
 .hide_default{
