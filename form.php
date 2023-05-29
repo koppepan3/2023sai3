@@ -381,7 +381,7 @@
                                 <div class="swiper-slide"><img src="files/kurat/36HR.png" alt=""></div>
                                 </div>
                             </div>
-        </div>
+                        </div>
                     </div>
                     <div id="question7" class="title">
                         <h3>ベストコーディネート賞<span class="red">(必須)</span></h3>
