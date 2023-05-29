@@ -114,75 +114,75 @@
                 <div class="page2 hide_default">
                     <div id="question4" class="title">
                         <h2>HR展賞</h2>
-                        <h5>入場した展示を0点～2点の中で評価してください</h5>
+                        <h5>入場したHR展示を0点～2点の中で評価してください</h5>
                         <p class="points">0点</p>
                         <p class="points">1点</p>
                         <p class="points">2点</p>
                         <div class="hide_default" id="group11">
                             <label for="">11HR</label>
-                            <input type="radio" name="entry.885215657" value="０点">
-                            <input type="radio" name="entry.885215657" value="１点">
-                            <input type="radio" name="entry.885215657" value="２点">
+                            <input type="radio" name="entry.2047245777" value="０点">
+                            <input type="radio" name="entry.2047245777" value="１点">
+                            <input type="radio" name="entry.2047245777" value="２点">
                         </div>
                         <div class="hide_default" id="group12">
                             <label for="">12HR</label>
-                            <input type="radio" name="entry.1150789038" value="０点">
-                            <input type="radio" name="entry.1150789038" value="１点">
-                            <input type="radio" name="entry.1150789038" value="２点">
+                            <input type="radio" name="entry.2097788876" value="０点">
+                            <input type="radio" name="entry.2097788876" value="１点">
+                            <input type="radio" name="entry.2097788876" value="２点">
                         </div>
                         <div class="hide_default" id="group13">
                             <label for="">13HR</label>
-                            <input type="radio" name="entry.1923943701" value="０点">
-                            <input type="radio" name="entry.1923943701" value="１点">
-                            <input type="radio" name="entry.1923943701" value="２点">
+                            <input type="radio" name="entry.77105071" value="０点">
+                            <input type="radio" name="entry.77105071" value="１点">
+                            <input type="radio" name="entry.77105071" value="２点">
                         </div>
                         <div class="hide_default" id="group14">
                             <label for="">14HR</label>
-                            <input type="radio" name="entry.755345731" value="０点">
-                            <input type="radio" name="entry.755345731" value="１点">
-                            <input type="radio" name="entry.755345731" value="２点">
+                            <input type="radio" name="entry.1871474642" value="０点">
+                            <input type="radio" name="entry.1871474642" value="１点">
+                            <input type="radio" name="entry.1871474642" value="２点">
                         </div>
                         <div class="hide_default" id="group15">
                             <label for="">15HR</label>
-                            <input type="radio" name="entry.72649444" value="０点">
-                            <input type="radio" name="entry.72649444" value="１点">
-                            <input type="radio" name="entry.72649444" value="２点">
+                            <input type="radio" name="entry.1653191176" value="０点">
+                            <input type="radio" name="entry.1653191176" value="１点">
+                            <input type="radio" name="entry.1653191176" value="２点">
                         </div>
                         <div class="hide_default" id="group16">
                             <label for="">16HR</label>
-                            <input type="radio" name="entry.797552058" value="０点">
-                            <input type="radio" name="entry.797552058" value="１点">
-                            <input type="radio" name="entry.797552058" value="２点">
+                            <input type="radio" name="entry.1540895753" value="０点">
+                            <input type="radio" name="entry.1540895753" value="１点">
+                            <input type="radio" name="entry.1540895753" value="２点">
                         </div>
                         <div class="hide_default" id="group17">
                             <label for="">17HR</label>
-                            <input type="radio" name="entry.36314777" value="０点">
-                            <input type="radio" name="entry.36314777" value="１点">
-                            <input type="radio" name="entry.36314777" value="２点">
+                            <input type="radio" name="entry.1073777215" value="０点">
+                            <input type="radio" name="entry.1073777215" value="１点">
+                            <input type="radio" name="entry.1073777215" value="２点">
                         </div>
                         <div class="hide_default" id="group21">
                             <label for="">21HR</label>
-                            <input type="radio" name="entry.1356478900" value="０点">
-                            <input type="radio" name="entry.1356478900" value="１点">
-                            <input type="radio" name="entry.1356478900" value="２点">
+                            <input type="radio" name="entry.43992030" value="０点">
+                            <input type="radio" name="entry.43992030" value="１点">
+                            <input type="radio" name="entry.43992030" value="２点">
                         </div>
                         <div class="hide_default" id="group22">
                             <label for="">22HR</label>
-                            <input type="radio" name="entry.1159793844" value="０点">
-                            <input type="radio" name="entry.1159793844" value="１点">
-                            <input type="radio" name="entry.1159793844" value="２点">
+                            <input type="radio" name="entry.126832499" value="０点">
+                            <input type="radio" name="entry.126832499" value="１点">
+                            <input type="radio" name="entry.126832499" value="２点">
                         </div>
                         <div class="hide_default" id="group23">
                             <label for="">23HR</label>
-                            <input type="radio" name="entry.1697085817" value="０点">
-                            <input type="radio" name="entry.1697085817" value="１点">
-                            <input type="radio" name="entry.1697085817" value="２点">
+                            <input type="radio" name="entry.1092554946" value="０点">
+                            <input type="radio" name="entry.1092554946" value="１点">
+                            <input type="radio" name="entry.1092554946" value="２点">
                         </div>
                         <div class="hide_default" id="group24">
                             <label for="">24HR</label>
-                            <input type="radio" name="entry.1735837588" value="０点">
-                            <input type="radio" name="entry.1735837588" value="１点">
-                            <input type="radio" name="entry.1735837588" value="２点">
+                            <input type="radio" name="entry.1588147744" value="０点">
+                            <input type="radio" name="entry.1588147744" value="１点">
+                            <input type="radio" name="entry.1588147744" value="２点">
                         </div>
                         <div class="hide_default" id="group25">
                             <label for="">25HR</label>
@@ -234,6 +234,80 @@
                         </div>
                     </div>
                     <div id="question5" class="title">
+                        <h2>部展賞</h2>
+                        <h5>入場した部活動展示を0点～2点の中で評価してください</h5>
+                        <p class="points">0点</p>
+                        <p class="points">1点</p>
+                        <p class="points">2点</p>
+                        <div class="hide_default" id="group41">
+                            <label class="text_decoration" for="">美術写真部美術班</label>
+                            <input type="radio" name="entry.2047245777" value="０点">
+                            <input type="radio" name="entry.2047245777" value="１点">
+                            <input type="radio" name="entry.2047245777" value="２点">
+                        </div>
+                        <div class="hide_default" id="group42">
+                            <label class="text_decoration" for="">美術写真部写真班</label>
+                            <input type="radio" name="entry.2097788876" value="０点">
+                            <input type="radio" name="entry.2097788876" value="１点">
+                            <input type="radio" name="entry.2097788876" value="２点">
+                        </div>
+                        <div class="hide_default" id="group43">
+                            <label class="text_decoration" for="">生活文化部</label>
+                            <input type="radio" name="entry.77105071" value="０点">
+                            <input type="radio" name="entry.77105071" value="１点">
+                            <input type="radio" name="entry.77105071" value="２点">
+                        </div>
+                        <div class="hide_default" id="group44">
+                            <label class="text_decoration" for="">百人一首部</label>
+                            <input type="radio" name="entry.1871474642" value="０点">
+                            <input type="radio" name="entry.1871474642" value="１点">
+                            <input type="radio" name="entry.1871474642" value="２点">
+                        </div>
+                        <div class="hide_default" id="group45">
+                            <label class="text_decoration" for="">科学研究部工学情報班</label>
+                            <input type="radio" name="entry.1653191176" value="０点">
+                            <input type="radio" name="entry.1653191176" value="１点">
+                            <input type="radio" name="entry.1653191176" value="２点">
+                        </div>
+                        <div class="hide_default" id="group46">
+                            <label class="text_decoration" for="">科学研究部自然科学班</label>
+                            <input type="radio" name="entry.1540895753" value="０点">
+                            <input type="radio" name="entry.1540895753" value="１点">
+                            <input type="radio" name="entry.1540895753" value="２点">
+                        </div>
+                        <div class="hide_default" id="group47">
+                            <label class="text_decoration" for="">演劇部</label>
+                            <input type="radio" name="entry.1073777215" value="０点">
+                            <input type="radio" name="entry.1073777215" value="１点">
+                            <input type="radio" name="entry.1073777215" value="２点">
+                        </div>
+                        <div class="hide_default" id="group48">
+                            <label class="text_decoration" for="">吹奏楽部</label>
+                            <input type="radio" name="entry.43992030" value="０点">
+                            <input type="radio" name="entry.43992030" value="１点">
+                            <input type="radio" name="entry.43992030" value="２点">
+                        </div>
+                        <div class="hide_default" id="group49">
+                            <label class="text_decoration" for="">弦楽部</label>
+                            <input type="radio" name="entry.126832499" value="０点">
+                            <input type="radio" name="entry.126832499" value="１点">
+                            <input type="radio" name="entry.126832499" value="２点">
+                        </div>
+                        <div class="hide_default" id="group50">
+                            <label class="text_decoration" for="">国際文化部</label>
+                            <input type="radio" name="entry.1092554946" value="０点">
+                            <input type="radio" name="entry.1092554946" value="１点">
+                            <input type="radio" name="entry.1092554946" value="２点">
+                        </div>
+                        <div class="hide_default" id="group51">
+                            <label class="text_decoration" for="">囲碁将棋部</label>
+                            <input type="radio" name="entry.1588147744" value="０点">
+                            <input type="radio" name="entry.1588147744" value="１点">
+                            <input type="radio" name="entry.1588147744" value="２点">
+                        </div>
+
+                    </div>
+                    <div id="question6" class="title">
                         <h2>クラT賞<span class="red">(必須)</span></h2>
                         <h5>クラスTシャツのデザインで良いと思ったHRを１つ選んでください</h5>
                         <p><input type="radio" name="entry.1755872211" value="11HR">11HR</p>
@@ -257,7 +331,7 @@
                         <p><input type="radio" name="entry.1755872211" value="36HR">36HR</p>
                         <p><input type="radio" name="entry.1755872211" value="投票しない">投票しない</p>
                     </div>
-                    <div id="question6" class="title">
+                    <div id="question7" class="title">
                         <h3>ベストコーディネート賞<span class="red">(必須)</span></h3>
                         <h5>異装のデザインで良いと思ったHR・部活動を１つ選んでください。</h5>
                         <p><input type="radio" name="entry.401001952" value="11HR">11HR</p>
@@ -281,6 +355,7 @@
                         <p><input type="radio" name="entry.401001952" value="36HR">36HR</p>
                         <p><input type="radio" name="entry.401001952" value="投票しない">投票しない</p>
                     </div>
+                    
                 </div>
             </div>
         </div>

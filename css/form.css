@@ -121,3 +121,14 @@ input[type="radio"]{
     width: 95%;
     margin: 30px 2.5%;
 }
+
+.text_decoration{
+    font-family: 'Zen Kaku Gothic New';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 196%;
+    letter-spacing: 0.1em;
+    color: #515151;
+    margin-left: 10px;
+}

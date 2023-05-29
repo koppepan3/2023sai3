@@ -74,7 +74,7 @@ function translate($dantai_code){
             $return_value = "科学研究部工学情報班";
             break;
         case 46:
-            $return_value = "科学研究部自然化学班";
+            $return_value = "科学研究部自然科学班";
                 break;
         case 47:
             $return_value = "演劇部";
