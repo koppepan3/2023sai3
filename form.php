@@ -333,7 +333,7 @@
                     </div>
                     <div id="question7" class="title">
                         <h3>ベストコーディネート賞<span class="red">(必須)</span></h3>
-                        <h5>異装のデザインで良いと思ったHR・部活動を１つ選んでください。</h5>
+                        <h5>異装のデザインで良いと思ったHR・部活動を１つ選んでください。以下の写真をご参考ください。</h5>
                         <p><input type="radio" name="entry.401001952" value="11HR">11HR</p>
                         <p><input type="radio" name="entry.401001952" value="12HR">12HR</p>
                         <p><input type="radio" name="entry.401001952" value="13HR">13HR</p>
@@ -354,6 +354,17 @@
                         <p><input type="radio" name="entry.401001952" value="35HR">35HR</p>
                         <p><input type="radio" name="entry.401001952" value="36HR">36HR</p>
                         <p><input type="radio" name="entry.401001952" value="投票しない">投票しない</p>
+                        <div class="isou_image_block">
+                            <div id="isou_31HR" class="isou_image" >31HR</div>
+                            <div id="isou_33HR" class="isou_image">33HR</div>
+                            <div id="isou_1" class="isou_image">?</div>
+                            <div id="isou_2" class="isou_image">?</div>
+                            <div id="isou_3" class="isou_image">?</div>
+                            <div id="isou_4" class="isou_image">?</div>
+                            <div id="isou_5" class="isou_image">?</div>
+                            <div id="isou_6" class="isou_image">?</div>
+                            <div id="isou_karuta" class="isou_image">百人一首部</div>
+                        </div>
                     </div>
                     
                 </div>
