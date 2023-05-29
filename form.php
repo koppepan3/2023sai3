@@ -309,7 +309,7 @@
                     </div>
                     <div id="question6" class="title">
                         <h2>クラT賞<span class="red">(必須)</span></h2>
-                        <h5>クラスTシャツのデザインで良いと思ったHRを１つ選んでください</h5>
+                        <h5>クラスTシャツのデザインで良いと思ったHRを１つ選んでください。以下の写真をご参考ください。</h5>
                         <p><input type="radio" name="entry.1755872211" value="11HR">11HR</p>
                         <p><input type="radio" name="entry.1755872211" value="12HR">12HR</p>
                         <p><input type="radio" name="entry.1755872211" value="13HR">13HR</p>
@@ -330,6 +330,58 @@
                         <p><input type="radio" name="entry.1755872211" value="35HR">35HR</p>
                         <p><input type="radio" name="entry.1755872211" value="36HR">36HR</p>
                         <p><input type="radio" name="entry.1755872211" value="投票しない">投票しない</p>
+                        <div class="section">
+                            <div class="pamphlet_letter">
+                                <img src="files/kurat_text1.svg" alt="">
+                            </div>
+                            <div class="swiper-button-next1"></div>
+                            <div class="swiper-button-prev1"></div>
+                            <div class="swiper mySwiper1">
+                                <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="files/kurat/11HR.png" alt=""></div>
+                                <div class="swiper-slide"><img src="files/kurat/12HR.png" alt=""></div>
+                                <div class="swiper-slide"><img src="files/kurat/13HR.png" alt=""></div>
+                                <div class="swiper-slide"><img src="files/kurat/14HR.png" alt=""></div>
+                                <div class="swiper-slide"><img src="files/kurat/15HR.png" alt=""></div>
+                                <div class="swiper-slide"><img src="files/kurat/16HR.png" alt=""></div>
+                                <div class="swiper-slide"><img src="files/kurat/17HR.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="pamphlet_letter">
+                                <img src="files/kurat_text2.svg" alt="">
+                            </div>
+                            <div class="swiper-button-next2"></div>
+                            <div class="swiper-button-prev2"></div>
+                            <div class="swiper mySwiper2">
+                                <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="files/kurat/21HR.png" alt=""></div>
+                                <div class="swiper-slide"><img src="files/kurat/22HR.png" alt=""></div>
+                                <div class="swiper-slide"><img src="files/kurat/23HR.png" alt=""></div>
+                                <div class="swiper-slide"><img src="files/kurat/24HR.png" alt=""></div>
+                                <div class="swiper-slide"><img src="files/kurat/25HR.png" alt=""></div>
+                                <div class="swiper-slide"><img src="files/kurat/26HR.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="pamphlet_letter">
+                                <img src="files/kurat_text3.svg" alt="">
+                            </div>
+                            <div class="swiper-button-next3"></div>
+                            <div class="swiper-button-prev3"></div>
+                            <div class="swiper mySwiper3">
+                                <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="files/kurat/31HR.png" alt=""></div>
+                                <div class="swiper-slide"><img src="files/kurat/32HR.png" alt=""></div>
+                                <div class="swiper-slide"><img src="files/kurat/33HR.png" alt=""></div>
+                                <div class="swiper-slide"><img src="files/kurat/34HR.png" alt=""></div>
+                                <div class="swiper-slide"><img src="files/kurat/35HR.png" alt=""></div>
+                                <div class="swiper-slide"><img src="files/kurat/36HR.png" alt=""></div>
+                                </div>
+                            </div>
+        </div>
                     </div>
                     <div id="question7" class="title">
                         <h3>ベストコーディネート賞<span class="red">(必須)</span></h3>
@@ -476,6 +528,71 @@
         ?>
         <script>
             console.log('Radio: ', formElements.radio.entry.538058966);
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper1", {
+                cssMode: true,
+                navigation: {
+                    nextEl: ".swiper-button-next1",
+                    prevEl: ".swiper-button-prev1",
+                },
+                pagination: {
+                el: ".swiper-pagination",
+                },
+                mousewheel: true,
+                keyboard: true,
+                slidesPerView: 1,
+                spaceBetween: 20,
+                breakpoints:{
+                    600: {
+                        slidesPerView: 4,
+                    }
+                },
+            });
+        </script>
+        <script>
+            var swiper = new Swiper(".mySwiper2", {
+                cssMode: true,
+                navigation: {
+                    nextEl: ".swiper-button-next2",
+                    prevEl: ".swiper-button-prev2",
+                },
+                pagination: {
+                el: ".swiper-pagination",
+                },
+                mousewheel: true,
+                keyboard: true,
+                slidesPerView: 1,
+                spaceBetween: 20,
+                breakpoints:{
+                    600: {
+                        slidesPerView: 4,
+                    }
+                },
+            });
+        </script>
+        <script>
+            var swiper = new Swiper(".mySwiper3", {
+                cssMode: true,
+                navigation: {
+                    nextEl: ".swiper-button-next3",
+                    prevEl: ".swiper-button-prev3",
+                },
+                pagination: {
+                el: ".swiper-pagination",
+                },
+                mousewheel: true,
+                keyboard: true,
+                slidesPerView: 1,
+                spaceBetween: 20,
+                breakpoints:{
+                    600: {
+                        slidesPerView: 4,
+                    }
+                },
+            });
         </script>
     </body>
 </html>
