@@ -137,7 +137,7 @@ input[type="radio"]{
     /* display: none; */
 }
 
-.isou_image{
+.image{
     content: "";
     font-family: 'Zen Kaku Gothic New';
     font-style: normal;
@@ -148,7 +148,8 @@ input[type="radio"]{
     color: #515151;
     background-size: contain;
     background-repeat: no-repeat;
-    max-width: 100%;
+    max-width: 88%;
+    margin-left: 6%;
     width: 400px;
     aspect-ratio: 2/3;
     border-radius: 20px;
@@ -156,80 +157,174 @@ input[type="radio"]{
 
 }
 
+#kurat_1AHR{
+    background-image: url(../files/kurat/1AHR.jpg);
+}
+
+#kurat_1BHR{
+    background-image: url(../files/kurat/1BHR.jpg);
+}
+
+#kurat_1CHR{
+    background-image: url(../files/kurat/1CHR.jpg);
+}
+
+#kurat_1DHR{
+    background-image: url(../files/kurat/1DHR.jpg);
+}
+
+#kurat_2AHR{
+    background-image: url(../files/kurat/2AHR.jpg);
+}
+
+#kurat_2BHR{
+    background-image: url(../files/kurat/2BHR.jpg);
+}
+
+#kurat_2CHR{
+    background-image: url(../files/kurat/2CHR.jpg);
+}
+
+#kurat_2DHR{
+    background-image: url(../files/kurat/2DHR.jpg);
+}
+
+#kurat_3AHR{
+    background-image: url(../files/kurat/3AHR.jpg);
+}
+
+#kurat_3BHR{
+    background-image: url(../files/kurat/3BHR.jpg);
+}
+
+#kurat_3CHR{
+    background-image: url(../files/kurat/3CHR.jpg);
+}
+
+#kurat_3DHR{
+    background-image: url(../files/kurat/3DHR.jpg);
+}
+
+#kurat_11HR{
+    background-image: url(../files/kurat/11HR.png);
+}
+
+#kurat_12HR{
+    background-image: url(../files/kurat/12HR.png);
+}
+
+#kurat_13HR{
+    background-image: url(../files/kurat/13HR.png);
+}
+
+#kurat_14HR{
+    background-image: url(../files/kurat/14HR.png);
+}
+
+#kurat_15HR{
+    background-image: url(../files/kurat/15HR.png);
+}
+
+#kurat_16HR{
+    background-image: url(../files/kurat/16HR.png);
+}
+
+#kurat_17HR{
+    background-image: url(../files/kurat/17HR.png);
+}
+
+#kurat_21HR{
+    background-image: url(../files/kurat/21HR.png);
+}
+
+#kurat_22HR{
+    background-image: url(../files/kurat/22HR.png);
+}
+
+#kurat_23HR{
+    background-image: url(../files/kurat/23HR.png);
+}
+
+#kurat_24HR{
+    background-image: url(../files/kurat/24HR.png);
+}
+
+#kurat_25HR{
+    background-image: url(../files/kurat/25HR.png);
+}
+
+#kurat_26HR{
+    background-image: url(../files/kurat/26HR.png);
+}
+
+#kurat_31HR{
+    background-image: url(../files/kurat/31HR.png);
+}
+
+#kurat_32HR{
+    background-image: url(../files/kurat/32HR.png);
+}
+
+#kurat_33HR{
+    background-image: url(../files/kurat/33HR.png);
+}
+
+#kurat_34HR{
+    background-image: url(../files/kurat/34HR.png);
+}
+
+#kurat_35HR{
+    background-image: url(../files/kurat/35HR.png);
+}
+
+#kurat_36HR{
+    background-image: url(../files/kurat/36HR.png);
+}
+
+#isou_11HR{
+    background-image: url(../vote/isou/11HR.png);
+}
+
+#isou_13HR{
+    background-image: url(../vote/isou/13HR.png);
+}
+
+#isou_14HR{
+    background-image: url(../vote/isou/14HR.png);
+}
+
+#isou_21HR{
+    background-image: url(../vote/isou/21HR.png);
+}
+
+#isou_25HR{
+    background-image: url(../vote/isou/25HR.png);
+}
+
 #isou_31HR{
     background-image: url(../vote/isou/31HR.png);
+}
+
+#isou_32HR{
+    background-image: url(../vote/isou/32HR.png);
 }
 
 #isou_33HR{
     background-image: url(../vote/isou/33HR.png);
 }
 
-#isou_1{
-    background-image: url(../vote/isou/Group\ 60.png);
+#isou_34HR{
+    background-image: url(../vote/isou/34HR.png);
 }
 
-#isou_2{
-    background-image: url(../vote/isou/Group\ 61.png);
+#isou_35HR{
+    background-image: url(../vote/isou/35HR.png);
 }
 
-#isou_3{
-    background-image: url(../vote/isou/Group\ 62.png);
-}
-
-#isou_4{
-    background-image: url(../vote/isou/Group\ 63.png);
-}
-
-#isou_5{
-    background-image: url(../vote/isou/Group\ 64.png);
-}
-
-#isou_6{
-    background-image: url(../vote/isou/Group\ 65.png);
+#isou_36HR{
+    background-image: url(../vote/isou/36HR.png);
 }
 
 #isou_karuta{
     background-image: url(../vote/isou/karuta.png);
-}
-
-
-.section{
-    position: relative;
-    width: 88%;
-    margin-left: 6%;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.pamphlet_letter img{
-    height: 20px;
-    margin: 6px 0;
-}
-
-#pamphlet_icon{
-    margin-left: 10px;
-}
-
-.swiper-slide {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.swiper-slide img {
-  height: auto;
-  width: 100%;
-  -webkit-touch-callout:none;
-    -webkit-user-select:none;
-    -moz-touch-callout:none;
-    -moz-user-select:none;
-    user-select:none;
-    pointer-events: none;
-}
-
-.swiper-pagination{
-    position: relative;
-    margin: 20px 0 70px;
 }

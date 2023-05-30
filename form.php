@@ -310,113 +310,80 @@
                     <div id="question6" class="title">
                         <h2>クラT賞<span class="red">(必須)</span></h2>
                         <h5>クラスTシャツのデザインで良いと思ったHRを１つ選んでください。以下の写真をご参考ください。</h5>
-                        <p><input type="radio" name="entry.1755872211" value="11HR">11HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="12HR">12HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="13HR">13HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="14HR">14HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="15HR">15HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="16HR">16HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="17HR">17HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="21HR">21HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="22HR">22HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="23HR">23HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="24HR">24HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="25HR">25HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="26HR">26HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="31HR">31HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="32HR">32HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="33HR">33HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="34HR">34HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="35HR">35HR</p>
-                        <p><input type="radio" name="entry.1755872211" value="36HR">36HR</p>
+                        <p><input type="radio" name="entry.1755872211" value="1AHR">1AHR</p><div id="kurat_1AHR" class="image"></div>
+                        <p><input type="radio" name="entry.1755872211" value="1BHR">1BHR</p><div id="kurat_1BHR" class="image"></div>
+                        <p><input type="radio" name="entry.1755872211" value="1CHR">1CHR</p><div id="kurat_1CHR" class="image"></div>
+                        <p><input type="radio" name="entry.1755872211" value="1DHR">1DHR</p><div id="kurat_1DHR" class="image"></div>
                         <p><input type="radio" name="entry.1755872211" value="投票しない">投票しない</p>
-                        <div class="section">
-                            <div class="pamphlet_letter">
-                                <img src="files/kurat_text1.svg" alt="">
-                            </div>
-                            <div class="swiper-button-next1"></div>
-                            <div class="swiper-button-prev1"></div>
-                            <div class="swiper mySwiper1">
-                                <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="files/kurat/11HR.png" alt=""></div>
-                                <div class="swiper-slide"><img src="files/kurat/12HR.png" alt=""></div>
-                                <div class="swiper-slide"><img src="files/kurat/13HR.png" alt=""></div>
-                                <div class="swiper-slide"><img src="files/kurat/14HR.png" alt=""></div>
-                                <div class="swiper-slide"><img src="files/kurat/15HR.png" alt=""></div>
-                                <div class="swiper-slide"><img src="files/kurat/16HR.png" alt=""></div>
-                                <div class="swiper-slide"><img src="files/kurat/17HR.png" alt=""></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="section">
-                            <div class="pamphlet_letter">
-                                <img src="files/kurat_text2.svg" alt="">
-                            </div>
-                            <div class="swiper-button-next2"></div>
-                            <div class="swiper-button-prev2"></div>
-                            <div class="swiper mySwiper2">
-                                <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="files/kurat/21HR.png" alt=""></div>
-                                <div class="swiper-slide"><img src="files/kurat/22HR.png" alt=""></div>
-                                <div class="swiper-slide"><img src="files/kurat/23HR.png" alt=""></div>
-                                <div class="swiper-slide"><img src="files/kurat/24HR.png" alt=""></div>
-                                <div class="swiper-slide"><img src="files/kurat/25HR.png" alt=""></div>
-                                <div class="swiper-slide"><img src="files/kurat/26HR.png" alt=""></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="section">
-                            <div class="pamphlet_letter">
-                                <img src="files/kurat_text3.svg" alt="">
-                            </div>
-                            <div class="swiper-button-next3"></div>
-                            <div class="swiper-button-prev3"></div>
-                            <div class="swiper mySwiper3">
-                                <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="files/kurat/31HR.png" alt=""></div>
-                                <div class="swiper-slide"><img src="files/kurat/32HR.png" alt=""></div>
-                                <div class="swiper-slide"><img src="files/kurat/33HR.png" alt=""></div>
-                                <div class="swiper-slide"><img src="files/kurat/34HR.png" alt=""></div>
-                                <div class="swiper-slide"><img src="files/kurat/35HR.png" alt=""></div>
-                                <div class="swiper-slide"><img src="files/kurat/36HR.png" alt=""></div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                     <div id="question7" class="title">
+                        <h2>クラT賞<span class="red">(必須)</span></h2>
+                        <h5>クラスTシャツのデザインで良いと思ったHRを１つ選んでください。以下の写真をご参考ください。</h5>
+                        <p><input type="radio" name="entry.1445752978" value="2AHR">2AHR</p><div id="kurat_2AHR" class="image"></div>
+                        <p><input type="radio" name="entry.1445752978" value="2BHR">2BHR</p><div id="kurat_2BHR" class="image"></div>
+                        <p><input type="radio" name="entry.1445752978" value="2CHR">2CHR</p><div id="kurat_2CHR" class="image"></div>
+                        <p><input type="radio" name="entry.1445752978" value="2DHR">2DHR</p><div id="kurat_2DHR" class="image"></div>
+                        <p><input type="radio" name="entry.1445752978" value="投票しない">投票しない</p>
+                    </div>
+                    <div id="question8" class="title">
+                        <h2>クラT賞<span class="red">(必須)</span></h2>
+                        <h5>クラスTシャツのデザインで良いと思ったHRを１つ選んでください。以下の写真をご参考ください。</h5>
+                        <p><input type="radio" name="entry.2049555148" value="3AHR">3AHR</p><div id="kurat_3AHR" class="image"></div>
+                        <p><input type="radio" name="entry.2049555148" value="3BHR">3BHR</p><div id="kurat_3BHR" class="image"></div>
+                        <p><input type="radio" name="entry.2049555148" value="3CHR">3CHR</p><div id="kurat_3CHR" class="image"></div>
+                        <p><input type="radio" name="entry.2049555148" value="3DHR">3DHR</p><div id="kurat_3DHR" class="image"></div>
+                        <p><input type="radio" name="entry.2049555148" value="投票しない">投票しない</p>
+                    </div>
+                    <div id="question9" class="title">
+                        <h2>クラT賞<span class="red">(必須)</span></h2>
+                        <h5>クラスTシャツのデザインで良いと思ったHRを１つ選んでください。以下の写真をご参考ください。</h5>
+                        <p><input type="radio" name="entry.130477202" value="11HR">11HR</p><div id="kurat_11HR" class="image"></div>
+                        <p><input type="radio" name="entry.130477202" value="12HR">12HR</p><div id="kurat_12HR" class="image"></div>
+                        <p><input type="radio" name="entry.130477202" value="13HR">13HR</p><div id="kurat_13HR" class="image"></div>
+                        <p><input type="radio" name="entry.130477202" value="14HR">14HR</p><div id="kurat_14HR" class="image"></div>
+                        <p><input type="radio" name="entry.130477202" value="15HR">15HR</p><div id="kurat_15HR" class="image"></div>
+                        <p><input type="radio" name="entry.130477202" value="16HR">16HR</p><div id="kurat_16HR" class="image"></div>
+                        <p><input type="radio" name="entry.130477202" value="17HR">17HR</p><div id="kurat_17HR" class="image"></div>
+                        <p><input type="radio" name="entry.130477202" value="投票しない">投票しない</p>
+                    </div>
+                    <div id="question10" class="title">
+                        <h2>クラT賞<span class="red">(必須)</span></h2>
+                        <h5>クラスTシャツのデザインで良いと思ったHRを１つ選んでください。以下の写真をご参考ください。</h5>
+                        <p><input type="radio" name="entry.353120643" value="21HR">21HR</p><div id="kurat_21HR" class="image"></div>
+                        <p><input type="radio" name="entry.353120643" value="22HR">22HR</p><div id="kurat_22HR" class="image"></div>
+                        <p><input type="radio" name="entry.353120643" value="23HR">23HR</p><div id="kurat_23HR" class="image"></div>
+                        <p><input type="radio" name="entry.353120643" value="24HR">24HR</p><div id="kurat_24HR" class="image"></div>
+                        <p><input type="radio" name="entry.353120643" value="25HR">25HR</p><div id="kurat_25HR" class="image"></div>
+                        <p><input type="radio" name="entry.353120643" value="26HR">26HR</p><div id="kurat_26HR" class="image"></div>
+                        <p><input type="radio" name="entry.353120643" value="投票しない">投票しない</p>
+                    </div>
+                    <div id="question11" class="title">
+                        <h2>クラT賞<span class="red">(必須)</span></h2>
+                        <h5>クラスTシャツのデザインで良いと思ったHRを１つ選んでください。以下の写真をご参考ください。</h5>
+                        <p><input type="radio" name="entry.1661289845" value="31HR">31HR</p><div id="kurat_31HR" class="image"></div>
+                        <p><input type="radio" name="entry.1661289845" value="32HR">32HR</p><div id="kurat_32HR" class="image"></div>
+                        <p><input type="radio" name="entry.1661289845" value="33HR">33HR</p><div id="kurat_33HR" class="image"></div>
+                        <p><input type="radio" name="entry.1661289845" value="34HR">34HR</p><div id="kurat_34HR" class="image"></div>
+                        <p><input type="radio" name="entry.1661289845" value="35HR">35HR</p><div id="kurat_35HR" class="image"></div>
+                        <p><input type="radio" name="entry.1661289845" value="36HR">36HR</p><div id="kurat_36HR" class="image"></div>
+                        <p><input type="radio" name="entry.1661289845" value="投票しない">投票しない</p>
+                    </div>
+                    <div id="question12" class="title">
                         <h3>ベストコーディネート賞<span class="red">(必須)</span></h3>
                         <h5>異装のデザインで良いと思ったHR・部活動を１つ選んでください。以下の写真をご参考ください。</h5>
-                        <p><input type="radio" name="entry.401001952" value="11HR">11HR</p>
-                        <p><input type="radio" name="entry.401001952" value="12HR">12HR</p>
-                        <p><input type="radio" name="entry.401001952" value="13HR">13HR</p>
-                        <p><input type="radio" name="entry.401001952" value="14HR">14HR</p>
-                        <p><input type="radio" name="entry.401001952" value="15HR">15HR</p>
-                        <p><input type="radio" name="entry.401001952" value="16HR">16HR</p>
-                        <p><input type="radio" name="entry.401001952" value="17HR">17HR</p>
-                        <p><input type="radio" name="entry.401001952" value="21HR">21HR</p>
-                        <p><input type="radio" name="entry.401001952" value="22HR">22HR</p>
-                        <p><input type="radio" name="entry.401001952" value="23HR">23HR</p>
-                        <p><input type="radio" name="entry.401001952" value="24HR">24HR</p>
-                        <p><input type="radio" name="entry.401001952" value="25HR">25HR</p>
-                        <p><input type="radio" name="entry.401001952" value="26HR">26HR</p>
-                        <p><input type="radio" name="entry.401001952" value="31HR">31HR</p>
-                        <p><input type="radio" name="entry.401001952" value="32HR">32HR</p>
-                        <p><input type="radio" name="entry.401001952" value="33HR">33HR</p>
-                        <p><input type="radio" name="entry.401001952" value="34HR">34HR</p>
-                        <p><input type="radio" name="entry.401001952" value="35HR">35HR</p>
-                        <p><input type="radio" name="entry.401001952" value="36HR">36HR</p>
+                        <p><input type="radio" name="entry.401001952" value="11HR">11HR</p><div id="isou_11HR" class="image"></div>
+                        <p><input type="radio" name="entry.401001952" value="13HR">13HR</p><div id="isou_13HR" class="image"></div>
+                        <p><input type="radio" name="entry.401001952" value="14HR">14HR</p><div id="isou_14HR" class="image"></div>
+                        <p><input type="radio" name="entry.401001952" value="21HR">21HR</p><div id="isou_21HR" class="image"></div>
+                        <p><input type="radio" name="entry.401001952" value="25HR">25HR</p><div id="isou_25HR" class="image"></div>
+                        <p><input type="radio" name="entry.401001952" value="31HR">31HR</p><div id="isou_31HR" class="image"></div>
+                        <p><input type="radio" name="entry.401001952" value="32HR">32HR</p><div id="isou_32HR" class="image"></div>
+                        <p><input type="radio" name="entry.401001952" value="33HR">33HR</p><div id="isou_33HR" class="image"></div>
+                        <p><input type="radio" name="entry.401001952" value="34HR">34HR</p><div id="isou_34HR" class="image"></div>
+                        <p><input type="radio" name="entry.401001952" value="35HR">35HR</p><div id="isou_35HR" class="image"></div>
+                        <p><input type="radio" name="entry.401001952" value="36HR">36HR</p><div id="isou_36HR" class="image"></div>
+                        <p><input type="radio" name="entry.401001952" value="百人一首部">百人一首部</p><div id="isou_karuta" class="image"></div>
                         <p><input type="radio" name="entry.401001952" value="投票しない">投票しない</p>
-                        <div class="isou_image_block">
-                            <div id="isou_31HR" class="isou_image" >31HR</div>
-                            <div id="isou_33HR" class="isou_image">33HR</div>
-                            <div id="isou_1" class="isou_image">?</div>
-                            <div id="isou_2" class="isou_image">?</div>
-                            <div id="isou_3" class="isou_image">?</div>
-                            <div id="isou_4" class="isou_image">?</div>
-                            <div id="isou_5" class="isou_image">?</div>
-                            <div id="isou_6" class="isou_image">?</div>
-                            <div id="isou_karuta" class="isou_image">百人一首部</div>
-                        </div>
                     </div>
                     
                 </div>
