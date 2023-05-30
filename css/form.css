@@ -117,11 +117,6 @@ input[type="radio"]{
   top: 2px;
 }
 
-#question1, #question2, #question3, #question4, #question5, #question6{
-    width: 95%;
-    margin: 30px 2.5%;
-}
-
 .text_decoration{
     font-family: 'Zen Kaku Gothic New';
     font-style: normal;
@@ -131,10 +126,6 @@ input[type="radio"]{
     letter-spacing: 0.1em;
     color: #515151;
     margin-left: 10px;
-}
-
-.isou_image_block{
-    /* display: none; */
 }
 
 .image{

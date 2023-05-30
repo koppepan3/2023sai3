@@ -307,6 +307,8 @@
                         </div>
 
                     </div>
+                </div>
+                <div class="page3 hide_default">
                     <div id="question6" class="title">
                         <h2>クラT賞<span class="red">(必須)</span></h2>
                         <h5>クラスTシャツのデザインで良いと思ったHRを１つ選んでください。以下の写真をご参考ください。</h5>
@@ -316,6 +318,8 @@
                         <p><input type="radio" name="entry.1755872211" value="1DHR">1DHR</p><div id="kurat_1DHR" class="image"></div>
                         <p><input type="radio" name="entry.1755872211" value="投票しない">投票しない</p>
                     </div>
+                </div>
+                <div class="page4 hide_default">
                     <div id="question7" class="title">
                         <h2>クラT賞<span class="red">(必須)</span></h2>
                         <h5>クラスTシャツのデザインで良いと思ったHRを１つ選んでください。以下の写真をご参考ください。</h5>
@@ -325,6 +329,8 @@
                         <p><input type="radio" name="entry.1445752978" value="2DHR">2DHR</p><div id="kurat_2DHR" class="image"></div>
                         <p><input type="radio" name="entry.1445752978" value="投票しない">投票しない</p>
                     </div>
+                </div>
+                <div class="page5 hide_default">
                     <div id="question8" class="title">
                         <h2>クラT賞<span class="red">(必須)</span></h2>
                         <h5>クラスTシャツのデザインで良いと思ったHRを１つ選んでください。以下の写真をご参考ください。</h5>
@@ -334,6 +340,8 @@
                         <p><input type="radio" name="entry.2049555148" value="3DHR">3DHR</p><div id="kurat_3DHR" class="image"></div>
                         <p><input type="radio" name="entry.2049555148" value="投票しない">投票しない</p>
                     </div>
+                </div>
+                <div class="page6 hide_default">
                     <div id="question9" class="title">
                         <h2>クラT賞<span class="red">(必須)</span></h2>
                         <h5>クラスTシャツのデザインで良いと思ったHRを１つ選んでください。以下の写真をご参考ください。</h5>
@@ -346,6 +354,8 @@
                         <p><input type="radio" name="entry.130477202" value="17HR">17HR</p><div id="kurat_17HR" class="image"></div>
                         <p><input type="radio" name="entry.130477202" value="投票しない">投票しない</p>
                     </div>
+                </div>
+                <div class="page7 hide_default">
                     <div id="question10" class="title">
                         <h2>クラT賞<span class="red">(必須)</span></h2>
                         <h5>クラスTシャツのデザインで良いと思ったHRを１つ選んでください。以下の写真をご参考ください。</h5>
@@ -357,6 +367,8 @@
                         <p><input type="radio" name="entry.353120643" value="26HR">26HR</p><div id="kurat_26HR" class="image"></div>
                         <p><input type="radio" name="entry.353120643" value="投票しない">投票しない</p>
                     </div>
+                </div>
+                <div class="page8 hide_default">
                     <div id="question11" class="title">
                         <h2>クラT賞<span class="red">(必須)</span></h2>
                         <h5>クラスTシャツのデザインで良いと思ったHRを１つ選んでください。以下の写真をご参考ください。</h5>
@@ -368,6 +380,8 @@
                         <p><input type="radio" name="entry.1661289845" value="36HR">36HR</p><div id="kurat_36HR" class="image"></div>
                         <p><input type="radio" name="entry.1661289845" value="投票しない">投票しない</p>
                     </div>
+                </div>
+                <div class="page9 hide_default">
                     <div id="question12" class="title">
                         <h3>ベストコーディネート賞<span class="red">(必須)</span></h3>
                         <h5>異装のデザインで良いと思ったHR・部活動を１つ選んでください。以下の写真をご参考ください。</h5>
@@ -385,7 +399,6 @@
                         <p><input type="radio" name="entry.401001952" value="百人一首部">百人一首部</p><div id="isou_karuta" class="image"></div>
                         <p><input type="radio" name="entry.401001952" value="投票しない">投票しない</p>
                     </div>
-                    
                 </div>
             </div>
         </div>
@@ -447,6 +460,13 @@
                 if(page == 2){
                     $('.page1').removeClass('hide_default');
                     $('.page2').addClass('hide_default');
+                    $('.page3').addClass('hide_default');
+                    $('.page4').addClass('hide_default');
+                    $('.page5').addClass('hide_default');
+                    $('.page6').addClass('hide_default');
+                    $('.page7').addClass('hide_default');
+                    $('.page8').addClass('hide_default');
+                    $('.page9').addClass('hide_default');
                     //スクロールさせる条件を指定
                     var scrollToOptions = {
                         top : 0, //スクロール位置にページ最上部を指定
@@ -459,10 +479,171 @@
                     $('#submit').addClass('hide_default');
                     page--;
                 }
+                else if(page == 3){
+                    $('.page1').addClass('hide_default');
+                    $('.page2').removeClass('hide_default');
+                    $('.page3').addClass('hide_default');
+                    $('.page4').addClass('hide_default');
+                    $('.page5').addClass('hide_default');
+                    $('.page6').addClass('hide_default');
+                    $('.page7').addClass('hide_default');
+                    $('.page8').addClass('hide_default');
+                    $('.page9').addClass('hide_default');
+                    //スクロールさせる条件を指定
+                    var scrollToOptions9 = {
+                        top : 0, //スクロール位置にページ最上部を指定
+                        behavior : 'smooth' //スムーズに移動させる条件を指定
+                    };
+                    //スクロールを実施する
+                    window.scrollTo(scrollToOptions9);
+                    $('#forwardButton').removeClass('hide_default');
+                    $('#returnButton').removeClass('unavailable_button');
+                    $('#submit').addClass('hide_default');
+                    page--;
+                }
+                else if(page == 4){
+                    $('.page1').addClass('hide_default');
+                    $('.page2').addClass('hide_default');
+                    $('.page3').removeClass('hide_default');
+                    $('.page4').addClass('hide_default');
+                    $('.page5').addClass('hide_default');
+                    $('.page6').addClass('hide_default');
+                    $('.page7').addClass('hide_default');
+                    $('.page8').addClass('hide_default');
+                    $('.page9').addClass('hide_default');
+                    //スクロールさせる条件を指定
+                    var scrollToOptions10 = {
+                        top : 0, //スクロール位置にページ最上部を指定
+                        behavior : 'smooth' //スムーズに移動させる条件を指定
+                    };
+                    //スクロールを実施する
+                    window.scrollTo(scrollToOptions10);
+                    $('#forwardButton').removeClass('hide_default');
+                    $('#returnButton').removeClass('unavailable_button');
+                    $('#submit').addClass('hide_default');
+                    page--;
+                }
+                else if(page == 5){
+                    $('.page1').addClass('hide_default');
+                    $('.page2').addClass('hide_default');
+                    $('.page3').addClass('hide_default');
+                    $('.page4').removeClass('hide_default');
+                    $('.page5').addClass('hide_default');
+                    $('.page6').addClass('hide_default');
+                    $('.page7').addClass('hide_default');
+                    $('.page8').addClass('hide_default');
+                    $('.page9').addClass('hide_default');
+                    //スクロールさせる条件を指定
+                    var scrollToOptions11 = {
+                        top : 0, //スクロール位置にページ最上部を指定
+                        behavior : 'smooth' //スムーズに移動させる条件を指定
+                    };
+                    //スクロールを実施する
+                    window.scrollTo(scrollToOptions11);
+                    $('#forwardButton').removeClass('hide_default');
+                    $('#returnButton').removeClass('unavailable_button');
+                    $('#submit').addClass('hide_default');
+                    page--;
+                }
+                else if(page == 6){
+                    $('.page1').addClass('hide_default');
+                    $('.page2').addClass('hide_default');
+                    $('.page3').addClass('hide_default');
+                    $('.page4').addClass('hide_default');
+                    $('.page5').removeClass('hide_default');
+                    $('.page6').addClass('hide_default');
+                    $('.page7').addClass('hide_default');
+                    $('.page8').addClass('hide_default');
+                    $('.page9').addClass('hide_default');
+                    //スクロールさせる条件を指定
+                    var scrollToOptions12 = {
+                        top : 0, //スクロール位置にページ最上部を指定
+                        behavior : 'smooth' //スムーズに移動させる条件を指定
+                    };
+                    //スクロールを実施する
+                    window.scrollTo(scrollToOptions12);
+                    $('#forwardButton').removeClass('hide_default');
+                    $('#returnButton').removeClass('unavailable_button');
+                    $('#submit').addClass('hide_default');
+                    page--;
+                }
+                else if(page == 7){
+                    $('.page1').addClass('hide_default');
+                    $('.page2').addClass('hide_default');
+                    $('.page3').addClass('hide_default');
+                    $('.page4').addClass('hide_default');
+                    $('.page5').addClass('hide_default');
+                    $('.page6').removeClass('hide_default');
+                    $('.page7').addClass('hide_default');
+                    $('.page8').addClass('hide_default');
+                    $('.page9').addClass('hide_default');
+                    //スクロールさせる条件を指定
+                    var scrollToOptions13 = {
+                        top : 0, //スクロール位置にページ最上部を指定
+                        behavior : 'smooth' //スムーズに移動させる条件を指定
+                    };
+                    //スクロールを実施する
+                    window.scrollTo(scrollToOptions13);
+                    $('#forwardButton').removeClass('hide_default');
+                    $('#returnButton').removeClass('unavailable_button');
+                    $('#submit').addClass('hide_default');
+                    page--;
+                }
+                else if(page == 8){
+                    $('.page1').addClass('hide_default');
+                    $('.page2').addClass('hide_default');
+                    $('.page3').addClass('hide_default');
+                    $('.page4').addClass('hide_default');
+                    $('.page5').addClass('hide_default');
+                    $('.page6').addClass('hide_default');
+                    $('.page7').removeClass('hide_default');
+                    $('.page8').addClass('hide_default');
+                    $('.page9').addClass('hide_default');
+                    //スクロールさせる条件を指定
+                    var scrollToOptions14 = {
+                        top : 0, //スクロール位置にページ最上部を指定
+                        behavior : 'smooth' //スムーズに移動させる条件を指定
+                    };
+                    //スクロールを実施する
+                    window.scrollTo(scrollToOptions14);
+                    $('#forwardButton').removeClass('hide_default');
+                    $('#returnButton').removeClass('unavailable_button');
+                    $('#submit').addClass('hide_default');
+                    page--;
+                }
+                else if(page == 9){
+                    $('.page1').addClass('hide_default');
+                    $('.page2').addClass('hide_default');
+                    $('.page3').addClass('hide_default');
+                    $('.page4').addClass('hide_default');
+                    $('.page5').addClass('hide_default');
+                    $('.page6').addClass('hide_default');
+                    $('.page7').addClass('hide_default');
+                    $('.page8').removeClass('hide_default');
+                    $('.page9').addClass('hide_default');
+                    //スクロールさせる条件を指定
+                    var scrollToOptions15 = {
+                        top : 0, //スクロール位置にページ最上部を指定
+                        behavior : 'smooth' //スムーズに移動させる条件を指定
+                    };
+                    //スクロールを実施する
+                    window.scrollTo(scrollToOptions15);
+                    $('#forwardButton').removeClass('hide_default');
+                    $('#returnButton').removeClass('unavailable_button');
+                    $('#submit').addClass('hide_default');
+                    page--;
+                }
             }
 
             function pageForward(){
                 if(page == 1){
+                    $('.page9').addClass('hide_default');
+                    $('.page8').addClass('hide_default');
+                    $('.page7').addClass('hide_default');
+                    $('.page6').addClass('hide_default');
+                    $('.page5').addClass('hide_default');
+                    $('.page4').addClass('hide_default');
+                    $('.page3').addClass('hide_default');
                     $('.page2').removeClass('hide_default');
                     $('.page1').addClass('hide_default');
                     //スクロールさせる条件を指定
@@ -472,6 +653,160 @@
                     };
                     //スクロールを実施する
                     window.scrollTo(scrollToOptions1);
+                    $('#returnButton').removeClass('unavailable_button');
+                    $('#forwardButton').removeClass('hide_default');
+                    $('#submit').addClass('hide_default');
+                    page++;
+                }
+                else if(page == 2){
+                    $('.page9').addClass('hide_default');
+                    $('.page8').addClass('hide_default');
+                    $('.page7').addClass('hide_default');
+                    $('.page6').addClass('hide_default');
+                    $('.page5').addClass('hide_default');
+                    $('.page4').addClass('hide_default');
+                    $('.page3').removeClass('hide_default');
+                    $('.page2').addClass('hide_default');
+                    $('.page1').addClass('hide_default');
+                    //スクロールさせる条件を指定
+                    var scrollToOptions2 = {
+                        top : 0, //スクロール位置にページ最上部を指定
+                        behavior : 'smooth' //スムーズに移動させる条件を指定
+                    };
+                    //スクロールを実施する
+                    window.scrollTo(scrollToOptions2);
+                    $('#returnButton').removeClass('unavailable_button');
+                    $('#forwardButton').removeClass('hide_default');
+                    $('#submit').addClass('hide_default');
+                    page++;
+                }
+                else if(page == 3){
+                    $('.page9').addClass('hide_default');
+                    $('.page8').addClass('hide_default');
+                    $('.page7').addClass('hide_default');
+                    $('.page6').addClass('hide_default');
+                    $('.page5').addClass('hide_default');
+                    $('.page4').removeClass('hide_default');
+                    $('.page3').addClass('hide_default');
+                    $('.page2').addClass('hide_default');
+                    $('.page1').addClass('hide_default');
+                    //スクロールさせる条件を指定
+                    var scrollToOptions3 = {
+                        top : 0, //スクロール位置にページ最上部を指定
+                        behavior : 'smooth' //スムーズに移動させる条件を指定
+                    };
+                    //スクロールを実施する
+                    window.scrollTo(scrollToOptions3);
+                    $('#returnButton').removeClass('unavailable_button');
+                    $('#forwardButton').removeClass('hide_default');
+                    $('#submit').addClass('hide_default');
+                    page++;
+                }
+                else if(page == 4){
+                    $('.page9').addClass('hide_default');
+                    $('.page8').addClass('hide_default');
+                    $('.page7').addClass('hide_default');
+                    $('.page6').addClass('hide_default');
+                    $('.page5').removeClass('hide_default');
+                    $('.page4').addClass('hide_default');
+                    $('.page3').addClass('hide_default');
+                    $('.page2').addClass('hide_default');
+                    $('.page1').addClass('hide_default');
+                    //スクロールさせる条件を指定
+                    var scrollToOptions4 = {
+                        top : 0, //スクロール位置にページ最上部を指定
+                        behavior : 'smooth' //スムーズに移動させる条件を指定
+                    };
+                    //スクロールを実施する
+                    window.scrollTo(scrollToOptions4);
+                    $('#returnButton').removeClass('unavailable_button');
+                    $('#forwardButton').removeClass('hide_default');
+                    $('#submit').addClass('hide_default');
+                    page++;
+                }
+                else if(page == 5){
+                    $('.page9').addClass('hide_default');
+                    $('.page8').addClass('hide_default');
+                    $('.page7').addClass('hide_default');
+                    $('.page6').removeClass('hide_default');
+                    $('.page5').addClass('hide_default');
+                    $('.page4').addClass('hide_default');
+                    $('.page3').addClass('hide_default');
+                    $('.page2').addClass('hide_default');
+                    $('.page1').addClass('hide_default');
+                    //スクロールさせる条件を指定
+                    var scrollToOptions5 = {
+                        top : 0, //スクロール位置にページ最上部を指定
+                        behavior : 'smooth' //スムーズに移動させる条件を指定
+                    };
+                    //スクロールを実施する
+                    window.scrollTo(scrollToOptions5);
+                    $('#returnButton').removeClass('unavailable_button');
+                    $('#forwardButton').removeClass('hide_default');
+                    $('#submit').addClass('hide_default');
+                    page++;
+                }
+                else if(page == 6){
+                    $('.page9').addClass('hide_default');
+                    $('.page8').addClass('hide_default');
+                    $('.page7').removeClass('hide_default');
+                    $('.page6').addClass('hide_default');
+                    $('.page5').addClass('hide_default');
+                    $('.page4').addClass('hide_default');
+                    $('.page3').addClass('hide_default');
+                    $('.page2').addClass('hide_default');
+                    $('.page1').addClass('hide_default');
+                    //スクロールさせる条件を指定
+                    var scrollToOptions6 = {
+                        top : 0, //スクロール位置にページ最上部を指定
+                        behavior : 'smooth' //スムーズに移動させる条件を指定
+                    };
+                    //スクロールを実施する
+                    window.scrollTo(scrollToOptions6);
+                    $('#returnButton').removeClass('unavailable_button');
+                    $('#forwardButton').removeClass('hide_default');
+                    $('#submit').addClass('hide_default');
+                    page++;
+                }
+                else if(page == 7){
+                    $('.page9').addClass('hide_default');
+                    $('.page8').removeClass('hide_default');
+                    $('.page7').addClass('hide_default');
+                    $('.page6').addClass('hide_default');
+                    $('.page5').addClass('hide_default');
+                    $('.page4').addClass('hide_default');
+                    $('.page3').addClass('hide_default');
+                    $('.page2').addClass('hide_default');
+                    $('.page1').addClass('hide_default');
+                    //スクロールさせる条件を指定
+                    var scrollToOptions7 = {
+                        top : 0, //スクロール位置にページ最上部を指定
+                        behavior : 'smooth' //スムーズに移動させる条件を指定
+                    };
+                    //スクロールを実施する
+                    window.scrollTo(scrollToOptions7);
+                    $('#returnButton').removeClass('unavailable_button');
+                    $('#forwardButton').removeClass('hide_default');
+                    $('#submit').addClass('hide_default');
+                    page++;
+                }
+                else if(page == 8){
+                    $('.page9').removeClass('hide_default');
+                    $('.page8').addClass('hide_default');
+                    $('.page7').addClass('hide_default');
+                    $('.page6').addClass('hide_default');
+                    $('.page5').addClass('hide_default');
+                    $('.page4').addClass('hide_default');
+                    $('.page3').addClass('hide_default');
+                    $('.page2').addClass('hide_default');
+                    $('.page1').addClass('hide_default');
+                    //スクロールさせる条件を指定
+                    var scrollToOptions8 = {
+                        top : 0, //スクロール位置にページ最上部を指定
+                        behavior : 'smooth' //スムーズに移動させる条件を指定
+                    };
+                    //スクロールを実施する
+                    window.scrollTo(scrollToOptions8);
                     $('#returnButton').removeClass('unavailable_button');
                     $('#forwardButton').addClass('hide_default');
                     $('#submit').removeClass('hide_default');
@@ -495,71 +830,6 @@
         ?>
         <script>
             console.log('Radio: ', formElements.radio.entry.538058966);
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-        <!-- Initialize Swiper -->
-        <script>
-            var swiper = new Swiper(".mySwiper1", {
-                cssMode: true,
-                navigation: {
-                    nextEl: ".swiper-button-next1",
-                    prevEl: ".swiper-button-prev1",
-                },
-                pagination: {
-                el: ".swiper-pagination",
-                },
-                mousewheel: true,
-                keyboard: true,
-                slidesPerView: 1,
-                spaceBetween: 20,
-                breakpoints:{
-                    600: {
-                        slidesPerView: 4,
-                    }
-                },
-            });
-        </script>
-        <script>
-            var swiper = new Swiper(".mySwiper2", {
-                cssMode: true,
-                navigation: {
-                    nextEl: ".swiper-button-next2",
-                    prevEl: ".swiper-button-prev2",
-                },
-                pagination: {
-                el: ".swiper-pagination",
-                },
-                mousewheel: true,
-                keyboard: true,
-                slidesPerView: 1,
-                spaceBetween: 20,
-                breakpoints:{
-                    600: {
-                        slidesPerView: 4,
-                    }
-                },
-            });
-        </script>
-        <script>
-            var swiper = new Swiper(".mySwiper3", {
-                cssMode: true,
-                navigation: {
-                    nextEl: ".swiper-button-next3",
-                    prevEl: ".swiper-button-prev3",
-                },
-                pagination: {
-                el: ".swiper-pagination",
-                },
-                mousewheel: true,
-                keyboard: true,
-                slidesPerView: 1,
-                spaceBetween: 20,
-                breakpoints:{
-                    600: {
-                        slidesPerView: 4,
-                    }
-                },
-            });
         </script>
     </body>
 </html>
