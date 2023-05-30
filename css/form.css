@@ -60,7 +60,7 @@
     line-height: 196%;
     letter-spacing: 0.1em;
     color: #515151;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 #decoration{
@@ -76,7 +76,7 @@
     font-family: 'Zen Kaku Gothic New';
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 196%;
     letter-spacing: 0.1em;
     color: #515151;
@@ -85,6 +85,22 @@
 
 .points{
     display: inline-block;
+    font-family: 'Zen Kaku Gothic New';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 196%;
+    color: #515151;
+}
+
+.test{
+    float: right;
+    margin-right: 15px;    
+}
+
+.point_box{
+    text-align: right;
+    margin-right: 10px;
 }
 
 .button{
