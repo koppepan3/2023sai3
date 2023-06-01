@@ -35,7 +35,6 @@
     #stamps_background{
         width: 100%;
         margin-top: 70px;
-        height: 320px;
         background: #F4F0E9;
         border-radius:40px 40px 0px 0px;
     }
@@ -46,10 +45,17 @@
 
     .stamp_imgs{
         opacity: 1;
+        width: 25%;
     }
 
     .stamp_unavailable{
         opacity: 0.2 !important;
+        width: 25%;
+    }
+
+    #stamps{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 

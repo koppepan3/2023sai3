@@ -54,7 +54,7 @@
             <div class="title" id="news_title">
                 <img class="title_svg" src="files/howtovote.svg">
             </div>
-            <p>　ネットオウル株式会社（以下「当社」）は、お客様の個人情報保護の重要性を強く認識し、お客様との信頼関係を今後も恒久的に築いて行くため、『個人情報の保護に関する法律』、『電気通信事業法』、その他個人情報保護関連法令及びガイドラインを遵守し、以下の通りプライバシーポリシーを定め、お客様の個人情報の適切な保護に努めます。</p>
+            <p></p>
         </div>
         <div id="stamps_background">
             <div id="section_stamps" class="section">
@@ -62,16 +62,37 @@
                     <img class="title_svg" src="files/stamps.svg">
                 </div>
                 <div id="stamps">
-                    <img class="stamp_imgs stamp_unavailable" id="group11" src="vote/stamp_temp.svg">
-                    <img class="stamp_imgs stamp_unavailable" id="group12" src="vote/stamp_temp.svg">
-                    <img class="stamp_imgs stamp_unavailable" id="group13" src="vote/stamp_temp.svg">
-                    <img class="stamp_imgs stamp_unavailable" id="group14" src="vote/stamp_temp.svg">
+                    <img class="stamp_imgs stamp_unavailable" id="group11" src="vote/stamp/11HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group12" src="vote/stamp/12HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group13" src="vote/stamp/13HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group14" src="vote/stamp/14HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group15" src="vote/stamp/15HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group16" src="vote/stamp/16HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group17" src="vote/stamp/17HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group21" src="vote/stamp/21HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group22" src="vote/stamp/22HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group23" src="vote/stamp/23HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group24" src="vote/stamp/24HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group25" src="vote/stamp/25HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group26" src="vote/stamp/26HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group31" src="vote/stamp/31HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group32" src="vote/stamp/32HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group33" src="vote/stamp/33HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group34" src="vote/stamp/34HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group35" src="vote/stamp/35HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group36" src="vote/stamp/36HR.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group41" src="vote/stamp/美術班.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group42" src="vote/stamp/写真班.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group43" src="vote/stamp/生活文化部.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group44" src="vote/stamp/百人一首部.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group45" src="vote/stamp/工学情報班.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group46" src="vote/stamp/自然科学班.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group47" src="vote/stamp/演劇部.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group48" src="vote/stamp/吹奏楽部.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group49" src="vote/stamp/弦楽部.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group50" src="vote/stamp/国際文化部.png">
+                    <img class="stamp_imgs stamp_unavailable" id="group51" src="vote/stamp/囲碁将棋部.png">
                 </div>
-                <p>11HR:<?php if(isset($_COOKIE['11'])) { echo $_COOKIE['11'];} ?>
-            12HR:<?php if(isset($_COOKIE['12'])) { echo $_COOKIE['12'];} ?>
-            13HR:<?php if(isset($_COOKIE['13'])) { echo $_COOKIE['13'];} ?>
-            14HR:<?php if(isset($_COOKIE['14'])) { echo $_COOKIE['14'];} ?>
-            </p>
             </div>
         </div>
 
