@@ -1,3 +1,11 @@
+<?php 
+ if($_COOKIE[$count] == 1){
+    header('location: vote.php');
+ }
+ if(){
+    
+ }
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -73,37 +81,37 @@
                             <p><input type="radio" name="entry.538058966" value="3CHR">3CHR</p>
                             <p><input type="radio" name="entry.538058966" value="3DHR">3DHR</p>
                             <p><input type="radio" name="entry.538058966" value="11HR" onclick="$('#group11').addClass('hide_default');">11HR</p>
-                            <p><input type="radio" name="entry.538058966" value="12HR">12HR</p>
-                            <p><input type="radio" name="entry.538058966" value="13HR">13HR</p>
-                            <p><input type="radio" name="entry.538058966" value="14HR">14HR</p>
-                            <p><input type="radio" name="entry.538058966" value="15HR">15HR</p>
-                            <p><input type="radio" name="entry.538058966" value="16HR">16HR</p>
-                            <p><input type="radio" name="entry.538058966" value="17HR">17HR</p>
-                            <p><input type="radio" name="entry.538058966" value="21HR">21HR</p>
-                            <p><input type="radio" name="entry.538058966" value="22HR">22HR</p>
-                            <p><input type="radio" name="entry.538058966" value="23HR">23HR</p>
-                            <p><input type="radio" name="entry.538058966" value="24HR">24HR</p>
-                            <p><input type="radio" name="entry.538058966" value="25HR">25HR</p>
-                            <p><input type="radio" name="entry.538058966" value="26HR">26HR</p>
-                            <p><input type="radio" name="entry.538058966" value="31HR">31HR</p>
-                            <p><input type="radio" name="entry.538058966" value="32HR">32HR</p>
-                            <p><input type="radio" name="entry.538058966" value="33HR">33HR</p>
-                            <p><input type="radio" name="entry.538058966" value="34HR">34HR</p>
-                            <p><input type="radio" name="entry.538058966" value="35HR">35HR</p>
-                            <p><input type="radio" name="entry.538058966" value="36HR">36HR</p>
+                            <p><input type="radio" name="entry.538058966" value="12HR" onclick="$('#group12').addClass('hide_default');">12HR</p>
+                            <p><input type="radio" name="entry.538058966" value="13HR" onclick="$('#group13').addClass('hide_default');">13HR</p>
+                            <p><input type="radio" name="entry.538058966" value="14HR" onclick="$('#group14').addClass('hide_default');">14HR</p>
+                            <p><input type="radio" name="entry.538058966" value="15HR" onclick="$('#group15').addClass('hide_default');">15HR</p>
+                            <p><input type="radio" name="entry.538058966" value="16HR" onclick="$('#group16').addClass('hide_default');">16HR</p>
+                            <p><input type="radio" name="entry.538058966" value="17HR" onclick="$('#group17').addClass('hide_default');">17HR</p>
+                            <p><input type="radio" name="entry.538058966" value="21HR" onclick="$('#group21').addClass('hide_default');">21HR</p>
+                            <p><input type="radio" name="entry.538058966" value="22HR" onclick="$('#group22').addClass('hide_default');">22HR</p>
+                            <p><input type="radio" name="entry.538058966" value="23HR" onclick="$('#group23').addClass('hide_default');">23HR</p>
+                            <p><input type="radio" name="entry.538058966" value="24HR" onclick="$('#group24').addClass('hide_default');">24HR</p>
+                            <p><input type="radio" name="entry.538058966" value="25HR" onclick="$('#group25').addClass('hide_default');">25HR</p>
+                            <p><input type="radio" name="entry.538058966" value="26HR" onclick="$('#group26').addClass('hide_default');">26HR</p>
+                            <p><input type="radio" name="entry.538058966" value="31HR" onclick="$('#group31').addClass('hide_default');">31HR</p>
+                            <p><input type="radio" name="entry.538058966" value="32HR" onclick="$('#group32').addClass('hide_default');">32HR</p>
+                            <p><input type="radio" name="entry.538058966" value="33HR" onclick="$('#group33').addClass('hide_default');">33HR</p>
+                            <p><input type="radio" name="entry.538058966" value="34HR" onclick="$('#group34').addClass('hide_default');">34HR</p>
+                            <p><input type="radio" name="entry.538058966" value="35HR" onclick="$('#group35').addClass('hide_default');">35HR</p>
+                            <p><input type="radio" name="entry.538058966" value="36HR" onclick="$('#group36').addClass('hide_default');">36HR</p>
                         </div>
                         <div id="question3" class="title">
                             <h3>３．所属する部活動を選んでください<span class="red">(必須)</span></h3>
-                            <p><input type="radio" name="entry.290451178" value="科学研究部自然化学班">科学研究部自然化学班</p>
-                            <p><input type="radio" name="entry.290451178" value="科学研究部工学情報班">科学研究部工学情報班</p>
-                            <p><input type="radio" name="entry.290451178" value="国際文化部">国際文化部</p>
-                            <p><input type="radio" name="entry.290451178" value="演劇部">演劇部</p>
-                            <p><input type="radio" name="entry.290451178" value="美術写真部美術班">美術写真部美術班</p>
-                            <p><input type="radio" name="entry.290451178" value="美術写真部写真班">美術写真部写真班</p>
-                            <p><input type="radio" name="entry.290451178" value="吹奏楽部">吹奏楽部</p>
-                            <p><input type="radio" name="entry.290451178" value="弦楽部">弦楽部</p>
-                            <p><input type="radio" name="entry.290451178" value="百人一首部">百人一首部</p>
-                            <p><input type="radio" name="entry.290451178" value="生活文化部">生活文化部</p>
+                            <p><input type="radio" name="entry.290451178" value="科学研究部自然化学班" onclick="$('#group46').addClass('hide_default');">科学研究部自然科学班</p>
+                            <p><input type="radio" name="entry.290451178" value="科学研究部工学情報班" onclick="$('#group45').addClass('hide_default');">科学研究部工学情報班</p>
+                            <p><input type="radio" name="entry.290451178" value="国際文化部" onclick="$('#group50').addClass('hide_default');">国際文化部</p>
+                            <p><input type="radio" name="entry.290451178" value="演劇部" onclick="$('#group47').addClass('hide_default');">演劇部</p>
+                            <p><input type="radio" name="entry.290451178" value="美術写真部美術班" onclick="$('#group41').addClass('hide_default');">美術写真部美術班</p>
+                            <p><input type="radio" name="entry.290451178" value="美術写真部写真班" onclick="$('#group42').addClass('hide_default');">美術写真部写真班</p>
+                            <p><input type="radio" name="entry.290451178" value="吹奏楽部" onclick="$('#group48').addClass('hide_default');">吹奏楽部</p>
+                            <p><input type="radio" name="entry.290451178" value="弦楽部" onclick="$('#group49').addClass('hide_default');">弦楽部</p>
+                            <p><input type="radio" name="entry.290451178" value="百人一首部" onclick="$('#group44').addClass('hide_default');">百人一首部</p>
+                            <p><input type="radio" name="entry.290451178" value="生活文化部" onclick="$('#group43').addClass('hide_default');">生活文化部</p>
                             <p><input type="radio" name="entry.290451178" value="その他">その他</p>
                         </div>
                     </div>
@@ -465,7 +473,7 @@
         <div id="buttons">
             <a class="button unavailable_button" id="returnButton" onclick="pageReturn()">＜戻る</a>
             <a class="button" id="forwardButton" onclick="pageForward()">次に進む＞</a>
-            <button id="submit" class="button hide_default" type="submit">送信する</button>
+            <button id="submit" class="button hide_default" type="submit" onclick="document.cookie = 'form_submittion = 1'">送信する</button>
         </div>
         </form>
         <footer>
@@ -715,6 +723,8 @@
 
             function pageForward(){
                 if(page == 1){
+                    var result1 = $('input[name="entry.1503197076"]:checked').val();
+                    if(result1){
                     $('.page9').addClass('hide_default');
                     $('.page8').addClass('hide_default');
                     $('.page7').addClass('hide_default');
@@ -735,6 +745,9 @@
                     $('#forwardButton').removeClass('hide_default');
                     $('#submit').addClass('hide_default');
                     page++;
+                    }else{
+                        alert("回答していない項目があります。");
+                    }
                 }
                 else if(page == 2){
                     $('.page9').addClass('hide_default');
@@ -759,136 +772,166 @@
                     page++;
                 }
                 else if(page == 3){
-                    $('.page9').addClass('hide_default');
-                    $('.page8').addClass('hide_default');
-                    $('.page7').addClass('hide_default');
-                    $('.page6').addClass('hide_default');
-                    $('.page5').addClass('hide_default');
-                    $('.page4').removeClass('hide_default');
-                    $('.page3').addClass('hide_default');
-                    $('.page2').addClass('hide_default');
-                    $('.page1').addClass('hide_default');
-                    //スクロールさせる条件を指定
-                    var scrollToOptions3 = {
-                        top : 0, //スクロール位置にページ最上部を指定
-                        behavior : 'smooth' //スムーズに移動させる条件を指定
-                    };
-                    //スクロールを実施する
-                    window.scrollTo(scrollToOptions3);
-                    $('#returnButton').removeClass('unavailable_button');
-                    $('#forwardButton').removeClass('hide_default');
-                    $('#submit').addClass('hide_default');
-                    page++;
+                    var result1 = $('input[name="entry.1755872211"]:checked').val();
+                    if(result1){
+                        $('.page9').addClass('hide_default');
+                        $('.page8').addClass('hide_default');
+                        $('.page7').addClass('hide_default');
+                        $('.page6').addClass('hide_default');
+                        $('.page5').addClass('hide_default');
+                        $('.page4').removeClass('hide_default');
+                        $('.page3').addClass('hide_default');
+                        $('.page2').addClass('hide_default');
+                        $('.page1').addClass('hide_default');
+                        //スクロールさせる条件を指定
+                        var scrollToOptions3 = {
+                            top : 0, //スクロール位置にページ最上部を指定
+                            behavior : 'smooth' //スムーズに移動させる条件を指定
+                        };
+                        //スクロールを実施する
+                        window.scrollTo(scrollToOptions3);
+                        $('#returnButton').removeClass('unavailable_button');
+                        $('#forwardButton').removeClass('hide_default');
+                        $('#submit').addClass('hide_default');
+                        page++;
+                    }else{
+                        alert("回答していない項目があります。");
+                    }
                 }
                 else if(page == 4){
-                    $('.page9').addClass('hide_default');
-                    $('.page8').addClass('hide_default');
-                    $('.page7').addClass('hide_default');
-                    $('.page6').addClass('hide_default');
-                    $('.page5').removeClass('hide_default');
-                    $('.page4').addClass('hide_default');
-                    $('.page3').addClass('hide_default');
-                    $('.page2').addClass('hide_default');
-                    $('.page1').addClass('hide_default');
-                    //スクロールさせる条件を指定
-                    var scrollToOptions4 = {
-                        top : 0, //スクロール位置にページ最上部を指定
-                        behavior : 'smooth' //スムーズに移動させる条件を指定
-                    };
-                    //スクロールを実施する
-                    window.scrollTo(scrollToOptions4);
-                    $('#returnButton').removeClass('unavailable_button');
-                    $('#forwardButton').removeClass('hide_default');
-                    $('#submit').addClass('hide_default');
-                    page++;
+                    var result1 = $('input[name="entry.1445752978"]:checked').val();
+                    if(result1){
+                        $('.page9').addClass('hide_default');
+                        $('.page8').addClass('hide_default');
+                        $('.page7').addClass('hide_default');
+                        $('.page6').addClass('hide_default');
+                        $('.page5').removeClass('hide_default');
+                        $('.page4').addClass('hide_default');
+                        $('.page3').addClass('hide_default');
+                        $('.page2').addClass('hide_default');
+                        $('.page1').addClass('hide_default');
+                        //スクロールさせる条件を指定
+                        var scrollToOptions4 = {
+                            top : 0, //スクロール位置にページ最上部を指定
+                            behavior : 'smooth' //スムーズに移動させる条件を指定
+                        };
+                        //スクロールを実施する
+                        window.scrollTo(scrollToOptions4);
+                        $('#returnButton').removeClass('unavailable_button');
+                        $('#forwardButton').removeClass('hide_default');
+                        $('#submit').addClass('hide_default');
+                        page++;
+                    }else{
+                        alert("回答していない項目があります。");
+                    }
                 }
                 else if(page == 5){
-                    $('.page9').addClass('hide_default');
-                    $('.page8').addClass('hide_default');
-                    $('.page7').addClass('hide_default');
-                    $('.page6').removeClass('hide_default');
-                    $('.page5').addClass('hide_default');
-                    $('.page4').addClass('hide_default');
-                    $('.page3').addClass('hide_default');
-                    $('.page2').addClass('hide_default');
-                    $('.page1').addClass('hide_default');
-                    //スクロールさせる条件を指定
-                    var scrollToOptions5 = {
-                        top : 0, //スクロール位置にページ最上部を指定
-                        behavior : 'smooth' //スムーズに移動させる条件を指定
-                    };
-                    //スクロールを実施する
-                    window.scrollTo(scrollToOptions5);
-                    $('#returnButton').removeClass('unavailable_button');
-                    $('#forwardButton').removeClass('hide_default');
-                    $('#submit').addClass('hide_default');
-                    page++;
+                    var result1 = $('input[name="entry.2049555148"]:checked').val();
+                    if(result1){
+                        $('.page9').addClass('hide_default');
+                        $('.page8').addClass('hide_default');
+                        $('.page7').addClass('hide_default');
+                        $('.page6').removeClass('hide_default');
+                        $('.page5').addClass('hide_default');
+                        $('.page4').addClass('hide_default');
+                        $('.page3').addClass('hide_default');
+                        $('.page2').addClass('hide_default');
+                        $('.page1').addClass('hide_default');
+                        //スクロールさせる条件を指定
+                        var scrollToOptions5 = {
+                            top : 0, //スクロール位置にページ最上部を指定
+                            behavior : 'smooth' //スムーズに移動させる条件を指定
+                        };
+                        //スクロールを実施する
+                        window.scrollTo(scrollToOptions5);
+                        $('#returnButton').removeClass('unavailable_button');
+                        $('#forwardButton').removeClass('hide_default');
+                        $('#submit').addClass('hide_default');
+                        page++;
+                    }else{
+                        alert("回答していない項目があります。");
+                    }
                 }
                 else if(page == 6){
-                    $('.page9').addClass('hide_default');
-                    $('.page8').addClass('hide_default');
-                    $('.page7').removeClass('hide_default');
-                    $('.page6').addClass('hide_default');
-                    $('.page5').addClass('hide_default');
-                    $('.page4').addClass('hide_default');
-                    $('.page3').addClass('hide_default');
-                    $('.page2').addClass('hide_default');
-                    $('.page1').addClass('hide_default');
-                    //スクロールさせる条件を指定
-                    var scrollToOptions6 = {
-                        top : 0, //スクロール位置にページ最上部を指定
-                        behavior : 'smooth' //スムーズに移動させる条件を指定
-                    };
-                    //スクロールを実施する
-                    window.scrollTo(scrollToOptions6);
-                    $('#returnButton').removeClass('unavailable_button');
-                    $('#forwardButton').removeClass('hide_default');
-                    $('#submit').addClass('hide_default');
-                    page++;
+                    var result1 = $('input[name="entry.130477202"]:checked').val();
+                    if(result1){
+                        $('.page9').addClass('hide_default');
+                        $('.page8').addClass('hide_default');
+                        $('.page7').removeClass('hide_default');
+                        $('.page6').addClass('hide_default');
+                        $('.page5').addClass('hide_default');
+                        $('.page4').addClass('hide_default');
+                        $('.page3').addClass('hide_default');
+                        $('.page2').addClass('hide_default');
+                        $('.page1').addClass('hide_default');
+                        //スクロールさせる条件を指定
+                        var scrollToOptions6 = {
+                            top : 0, //スクロール位置にページ最上部を指定
+                            behavior : 'smooth' //スムーズに移動させる条件を指定
+                        };
+                        //スクロールを実施する
+                        window.scrollTo(scrollToOptions6);
+                        $('#returnButton').removeClass('unavailable_button');
+                        $('#forwardButton').removeClass('hide_default');
+                        $('#submit').addClass('hide_default');
+                        page++;
+                    }else{
+                        alert("回答していない項目があります。");
+                    }
                 }
                 else if(page == 7){
-                    $('.page9').addClass('hide_default');
-                    $('.page8').removeClass('hide_default');
-                    $('.page7').addClass('hide_default');
-                    $('.page6').addClass('hide_default');
-                    $('.page5').addClass('hide_default');
-                    $('.page4').addClass('hide_default');
-                    $('.page3').addClass('hide_default');
-                    $('.page2').addClass('hide_default');
-                    $('.page1').addClass('hide_default');
-                    //スクロールさせる条件を指定
-                    var scrollToOptions7 = {
-                        top : 0, //スクロール位置にページ最上部を指定
-                        behavior : 'smooth' //スムーズに移動させる条件を指定
-                    };
-                    //スクロールを実施する
-                    window.scrollTo(scrollToOptions7);
-                    $('#returnButton').removeClass('unavailable_button');
-                    $('#forwardButton').removeClass('hide_default');
-                    $('#submit').addClass('hide_default');
-                    page++;
+                    var result1 = $('input[name="entry.353120643"]:checked').val();
+                    if(result1){
+                        $('.page9').addClass('hide_default');
+                        $('.page8').removeClass('hide_default');
+                        $('.page7').addClass('hide_default');
+                        $('.page6').addClass('hide_default');
+                        $('.page5').addClass('hide_default');
+                        $('.page4').addClass('hide_default');
+                        $('.page3').addClass('hide_default');
+                        $('.page2').addClass('hide_default');
+                        $('.page1').addClass('hide_default');
+                        //スクロールさせる条件を指定
+                        var scrollToOptions7 = {
+                            top : 0, //スクロール位置にページ最上部を指定
+                            behavior : 'smooth' //スムーズに移動させる条件を指定
+                        };
+                        //スクロールを実施する
+                        window.scrollTo(scrollToOptions7);
+                        $('#returnButton').removeClass('unavailable_button');
+                        $('#forwardButton').removeClass('hide_default');
+                        $('#submit').addClass('hide_default');
+                        page++;
+                    }else{
+                        alert("回答していない項目があります。");
+                    }
                 }
                 else if(page == 8){
-                    $('.page9').removeClass('hide_default');
-                    $('.page8').addClass('hide_default');
-                    $('.page7').addClass('hide_default');
-                    $('.page6').addClass('hide_default');
-                    $('.page5').addClass('hide_default');
-                    $('.page4').addClass('hide_default');
-                    $('.page3').addClass('hide_default');
-                    $('.page2').addClass('hide_default');
-                    $('.page1').addClass('hide_default');
-                    //スクロールさせる条件を指定
-                    var scrollToOptions8 = {
-                        top : 0, //スクロール位置にページ最上部を指定
-                        behavior : 'smooth' //スムーズに移動させる条件を指定
-                    };
-                    //スクロールを実施する
-                    window.scrollTo(scrollToOptions8);
-                    $('#returnButton').removeClass('unavailable_button');
-                    $('#forwardButton').addClass('hide_default');
-                    $('#submit').removeClass('hide_default');
-                    page++;
+                    var result1 = $('input[name="entry.1661289845"]:checked').val();
+                    if(result1){
+                        $('.page9').removeClass('hide_default');
+                        $('.page8').addClass('hide_default');
+                        $('.page7').addClass('hide_default');
+                        $('.page6').addClass('hide_default');
+                        $('.page5').addClass('hide_default');
+                        $('.page4').addClass('hide_default');
+                        $('.page3').addClass('hide_default');
+                        $('.page2').addClass('hide_default');
+                        $('.page1').addClass('hide_default');
+                        //スクロールさせる条件を指定
+                        var scrollToOptions8 = {
+                            top : 0, //スクロール位置にページ最上部を指定
+                            behavior : 'smooth' //スムーズに移動させる条件を指定
+                        };
+                        //スクロールを実施する
+                        window.scrollTo(scrollToOptions8);
+                        $('#returnButton').removeClass('unavailable_button');
+                        $('#forwardButton').addClass('hide_default');
+                        $('#submit').removeClass('hide_default');
+                        page++;
+                    }else{
+                        alert("回答していない項目があります。");
+                    }
                 }
             }
         </script>
