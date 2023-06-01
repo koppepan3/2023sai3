@@ -517,14 +517,18 @@
             $('input[name="entry.1503197076"]').change(function(){
                 var result = $(this).val();
                 switch(result){
-                    case "一般の方":4
-
-                    
-
+                    case "一般の方":
+                        $('#question2').addClass('question_hidden');
+                        $('input[name="entry.538058966"]').prop('disabled',true);
+                        $('#question3').addClass('question_hidden');
+                        $('input[name="entry.290451178"]').prop('disabled',true);
+                        break;
+                    default:
+                        $('#question2').removeClass('question_hidden');
+                        $('input[name="entry.538058966"]').prop('disabled',false);
+                        $('#question3').removeClass('question_hidden');
+                        $('input[name="entry.290451178"]').prop('disabled',false);
                 }
-                $('#question2').addClass('question_hidden');
-                $('#question3').addClass('question_hidden');
-                console.log('apple');
             })
 
 
