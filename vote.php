@@ -51,6 +51,7 @@
             <img id="topImage_mobile" src="files/vote_top.png">
         </div>
         <div id="section_howtovote" class="section">
+            <a id="vote_button" href="form.php"><img src="files/vote_now.svg" alt=""></a>
             <div class="title" id="news_title">
                 <img class="title_svg" src="files/howtovote.svg">
             </div>
