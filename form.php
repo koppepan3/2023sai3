@@ -1,11 +1,9 @@
-<?php 
-?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>投票</title>
+        <title>投票ページ-彩西祭2023</title>
         <meta name="description" content="2023年度浜松西高等学校・同中等部文化祭「彩西祭」公式ウェブサイトへようこそ。当日の情報から準備の様子まで、様々なことを発信していきます。" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
         <link rel="stylesheet" href="css/style.css">
@@ -18,12 +16,10 @@
         <!-- OG image settings-->
         <meta property="og:description" content="2023年度浜松西高等学校・同中等部文化祭「彩西祭」公式ウェブサイトへようこそ。当日の情報から準備の様子まで、様々なことを発信していきます。">
         <meta property="og:image" content="file/og_image.png">
-        <!--Google Fonts読み込み-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+         <!--Google Fonts読み込み-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Zen+Kaku+Gothic+Antique:wght@500;700&family=Zen+Kaku+Gothic+New:wght@500;700&display=swap"
-            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Zen+Kaku+Gothic+Antique:wght@500;700&family=Zen+Kaku+Gothic+New:wght@500;700&display=swap" rel="stylesheet">
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-V9BGKPTSGR"></script>
         <script>
@@ -40,14 +36,14 @@
             <!--  ハンバーガーボタン  -->
             <div class="hamburger"><span></span><span></span><span></span></div>
             <nav class="hamburger_list">
-                <div id="header_top" class="header_menu"><a href="index.html" class="header_menu"><p>トップページ</p></a></div>
-                <div id="header_contents" class="header_menu toggle_menu"><a href="index.html#section_contents" class="header_menu"><p>コンテンツ</p></a><div class="subMenu"><span></span><span></span></div></div>
+                <div id="header_top" class="header_menu"><a href="index.html" class="header_menu"><h1>トップページ</h1></a></div>
+                <div id="header_contents" class="header_menu toggle_menu"><a href="index.html#section_contents" class="header_menu"><h1>コンテンツ</h1></a><div class="subMenu"><span></span><span></span></div></div>
                 <a class="menu_open" href="pamphlet.html"><h3>デジタル版パンフレット</h3></a>
                 <a class="menu_open" href="themeillust.html"><h3>テーマイラスト紹介</h3></a>
                 <a class="menu_open" href="map.html"><h3>校内マップ</h3></a>
                 <a class="menu_open" href="tenji.html"><h3>展示内容紹介</h3></a>
-                <div id="header_articles" class="header_menu"><a href="articles.html"><p>記事一覧</p></a></div>
-                <div id="header_about" class="header_menu"><a href="about.html" class="header_menu"><p>彩西祭について</p></a></div>
+                <div id="header_articles" class="header_menu"><a href="articles.html"><h1>記事一覧</h1></a></div>
+                <div id="header_about" class="header_menu"><a href="about.html" class="header_menu"><h1>彩西祭について</h1></a></div>
             </nav>
             <div class="circle-bg"></div>
         </header>
@@ -58,9 +54,9 @@
                 <div class="page1">
                         <div id="question1" class="title">
                             <h3>１．当てはまるものを選んでください<span class="red">(必須)</span></h3>
-                            <p><input type="radio" name="entry.1503197076" value="中等部生">中等部生</p>
-                            <p><input type="radio" name="entry.1503197076" value="高校生">高校生</p>
-                            <p><input type="radio" name="entry.1503197076" value="一般の方">一般の方</p>
+                            <p><input type="radio" name="entry.1503197076" id="option_seito" value="中等部生">中等部生</p>
+                            <p><input type="radio" name="entry.1503197076" id="option_seito" value="高校生">高校生</p>
+                            <p><input type="radio" name="entry.1503197076" id="option_ippan" value="一般の方">一般の方</p>
                         </div>
                         <div id="question2" class="title">
                             <h3>２．所属するHRを選んでください<span class="red">(必須)</span></h3>
@@ -517,6 +513,20 @@
                     }
                 });
             });
+
+            $('input[name="entry.1503197076"]').change(function(){
+                var result = $(this).val();
+                switch(result){
+                    case "一般の方":4
+
+                    
+
+                }
+                $('#question2').addClass('question_hidden');
+                $('#question3').addClass('question_hidden');
+                console.log('apple');
+            })
+
 
             let page = 1;
 

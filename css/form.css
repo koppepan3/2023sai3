@@ -335,3 +335,8 @@ input[type="radio"]{
 #isou_karuta{
     background-image: url(../vote/isou/karuta.png);
 }
+
+
+.question_hidden{
+    opacity: 0.5;
+}
