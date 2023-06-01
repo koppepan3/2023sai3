@@ -1,9 +1,19 @@
 <?php 
- if($_COOKIE[$count] == 1){
+ if(isset($_COOKIE[$count]) == 1){
     header('location: vote.php');
  }
- if(){
-    
+
+ $day1start = new DateTime('2023-6-2 12:00:00');
+ $day1end = new DateTime('2023-6-2 14:00:00');
+ $day2start = new DateTime('2023-6-3 9:00:00');
+ $day2end = new DateTime('2023-6-3 14:10:00');
+ $now = new DateTime('now');
+ if($day1start < $now && $now < $day1end){
+
+ }elseif($day2start < $now && $now < $day2end){
+
+ }else{
+    header('location: vote.php');
  }
 ?>
 <!DOCTYPE html>
