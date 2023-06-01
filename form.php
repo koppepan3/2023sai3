@@ -1,9 +1,11 @@
 <?php 
- if(isset($_COOKIE[$count]) == 1){
-    header('location: vote.php');
+ if(isset($_COOKIE['form_submittion'])){
+    if($_COOKIE['form_submittion'] == 1){
+        header('location: vote.php');
+    }
  }
 
- $day1start = new DateTime('2023-6-2 12:00:00');
+ $day1start = new DateTime('2023-6-1 12:00:00');
  $day1end = new DateTime('2023-6-2 14:00:00');
  $day2start = new DateTime('2023-6-3 9:00:00');
  $day2end = new DateTime('2023-6-3 14:10:00');
@@ -65,7 +67,7 @@
             </nav>
             <div class="circle-bg"></div>
         </header>
-        <iframe name="to_success" style="display:none;" onload="if(submitted){window.location='index.html';}"></iframe>
+        <iframe name="to_success" style="display:none;" onload="if(submitted){window.location='submitted.html';}"></iframe>
         <form action="https://docs.google.com/forms/d/e/1FAIpQLScoQ9qllKNb7BU6SHNCXMxxlj4cZ20PQBQ2O1FxU5BddVed6Q/formResponse" method="post" target="to_success" onsubmit="submitted=true;">
             <div id="top" style=" display:none;"></div>
             <div class="section">
