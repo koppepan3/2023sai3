@@ -57,6 +57,10 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+    .red{
+        color: #FF7878;
+    }
 }
 
 /*タブレット・パソコン用のスタイル*/
