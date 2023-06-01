@@ -57,6 +57,17 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+    .red{
+        color: #FF7878;
+    }
+
+    #vote_button{
+        position: fixed;
+        right: 5px;
+        bottom: 5px;
+        z-index: 150;
+    }
 }
 
 /*タブレット・パソコン用のスタイル*/

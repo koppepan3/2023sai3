@@ -51,10 +51,16 @@
             <img id="topImage_mobile" src="files/vote_top.png">
         </div>
         <div id="section_howtovote" class="section">
+            <a id="vote_button" href="form.php"><img src="files/vote_now.svg" alt=""></a>
             <div class="title" id="news_title">
                 <img class="title_svg" src="files/howtovote.svg">
             </div>
-            <p></p>
+            <p>1. 展示を回ってスタンプを記録する。<br>
+                　紙で投票を行う場合は担当者から紙にスタンプをもらうようにしてください。<br>
+               2. 投票をする。<br>
+            　<a class="link" href="vote.php">こちら</a>より投票をお願いします。投票受付時間は6月2日(金)12:00～14:00、6月3日(土) 9:00～14:10となります。紙で投票を行う場合は投票所となっている2BHRまで足をお運びください。<br>
+              <span class="red">※投票可能回数は1回となります。複数投票はできませんのでご注意ください。</span> 
+            </p>
         </div>
         <div id="stamps_background">
             <div id="section_stamps" class="section">
