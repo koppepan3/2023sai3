@@ -7,8 +7,8 @@
 
  $day1start = new DateTime('2023-6-1 12:00:00');
  $day1end = new DateTime('2023-6-2 14:00:00');
- $day2start = new DateTime('2023-6-3 9:00:00');
- $day2end = new DateTime('2023-6-3 14:10:00');
+ $day2start = new DateTime('2023-6-6 9:00:00');
+ $day2end = new DateTime('2023-6-6 12:15:00');
  $now = new DateTime('now');
  if($day1start < $now && $now < $day1end){
 
@@ -68,7 +68,7 @@
             <div class="circle-bg"></div>
         </header>
         <iframe name="to_success" style="display:none;" onload="if(submitted){window.location='submitted.html';}"></iframe>
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLScoQ9qllKNb7BU6SHNCXMxxlj4cZ20PQBQ2O1FxU5BddVed6Q/formResponse" method="post" target="to_success" onsubmit="submitted=true;">
+        <form id="voting_form" action="https://docs.google.com/forms/d/e/1FAIpQLScoQ9qllKNb7BU6SHNCXMxxlj4cZ20PQBQ2O1FxU5BddVed6Q/formResponse" method="post" target="to_success" onsubmit="submitted=true;">
             <div id="top" style=" display:none;"></div>
             <div class="section">
                 <div class="page1">
@@ -485,7 +485,7 @@
         <div id="buttons">
             <a class="button unavailable_button" id="returnButton" onclick="pageReturn()">＜戻る</a>
             <a class="button" id="forwardButton" onclick="pageForward()">次に進む＞</a>
-            <button id="submit" class="button hide_default" type="submit" onclick="document.cookie = 'form_submittion = 1'">送信する</button>
+            <button id="submit" class="button hide_default" type="submit" onclick="document.cookie = 'form_submittion = 1;Expires:3;'   ">送信する</button>
         </div>
         </form>
         <footer>
@@ -946,6 +946,13 @@
                     }
                 }
             }
+        </script>
+        <script>
+            function on_submit(){
+                // ボタン 'btn' を disabled に。
+                document.getElementById('submit').disabled = true;
+            }
+            document.getElementById('voting_form').addEventListener('submit',on_submit);
         </script>
         <?php
         $count = 11;
