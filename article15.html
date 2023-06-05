@@ -3,22 +3,26 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>彩西祭2023</title>
+        <title>終了のお知らせ-彩西祭2023</title>
         <meta name="description" content="2023年度浜松西高等学校・同中等部文化祭「彩西祭」公式ウェブサイトへようこそ。当日の情報から準備の様子まで、様々なことを発信していきます。" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/article.css">
         <link rel="stylesheet" href="css/article_list.css">
         <!-- Favicon設定-->
-        <link rel="apple-touch-icon" href="">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link type="image/x-icon" rel="icon" href="favicon.ico">
+        <!-- Googlebot-->
+        <meta name="robots" content="noindex">
         <!-- OG image settings-->
         <meta property="og:description" content="2023年度浜松西高等学校・同中等部文化祭「彩西祭」公式ウェブサイトへようこそ。当日の情報から準備の様子まで、様々なことを発信していきます。">
         <meta property="og:image" content="file/og_image.png">
         <!--Google Fonts読み込み-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Zen+Kaku+Gothic+Antique:wght@500;700&family=Zen+Kaku+Gothic+New:wght@500;700&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Zen+Kaku+Gothic+Antique:wght@500;700&family=Zen+Kaku+Gothic+New:wght@500;700&display=swap"
+            rel="stylesheet">
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-V9BGKPTSGR"></script>
         <script>
@@ -47,63 +51,24 @@
             <div class="circle-bg"></div>
         </header>
         <div id="topImage">
-            <img id="topImage_mobile" src="files/top_image_mobile.png">
-            <img id="topImage_desktop" src="files/top_image.png">
+            <img id="topImage_desktop" src="files/articles/article_top_15.png" alt="">
         </div>
-        <div id="section_news" class="section">
-            <div class="title" id="news_title">
-            <img class="title_svg" src="files/news.svg">
-            </div>
-            <a href="articles.html"><img id="news_link" src="files/news_link.svg"></a>
-            <div id="news_holder">
-                <a href="article1.html">
-                    <div class="news_contents" style="border-bottom: 1px solid #DEDEDE;">
-                    <p>2023.5.8 ｜ 重要連絡</p>
-                    <h1>ホームページを開設しました！</h1>
-                    </div>
-                </a>
-                <a href="article7.html">
-                    <div class="news_contents" style="border-bottom: 1px solid #DEDEDE;">
-                    <p>2023.5.8 ｜ 重要連絡</p>
-                    <h1>開催形式が決定しました</h1>
-                    </div>
-                </a>
-                <a href="article15.html">
-                    <div class="news_contents" style="border-bottom: 1px solid #DEDEDE;">
-                    <p>2023.6.6 ｜ 重要連絡</p>
-                    <h1>終了のお知らせ</h1>
-                    </div>
-                </a>
-                <!--枠線を要素の上につけているため最後の行だけ手動で下にもつける-->
-            </div>
-        </div>
-        <div class="theme_all">
-            <div id="section_theme" class="section">
-                <div class="title" id="theme_title">
-                    <img class="title_svg" src="files/theme.svg">
-                </div>
-                <img id="theme_2023" src="files/theme_byoshin.svg">
-                <div class="theme_contents">
-                    <p>　歯車が噛み合って小さな秒針を回すように、個々の努力を積み重ねることで最高の文化祭を創り上げたいという思いを込めました。 お客様がいてこその彩西祭であり、私たちと一緒に楽しんでいただきたいと考えています。</p>
+        <div class="section">
+            <div id="article_title"><h1>終了のお知らせ</h1></div>
+            <div id="article_organization">
+                <img src="files/articles/icon_kouhou.png" alt="">
+                <div id="organization_text">
+                    <h2>重要連絡</h2>
+                    <h3>2023.6.6</h3>
                 </div>
             </div>
-        </div>
-        <div id="section_contents" class="section">
-            <div class="title">
-                <img class="title_svg" src="files/contents.svg">
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div #swiperRef="" class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide" id="swiper_pamphlet"><a href="pamphlet.html"><img src="files\contents\pamphlet.png" alt=""></a></div>
-                    <div class="swiper-slide" id="swiper_themeillust"><a href="themeillust.html"><img src="files\contents\themeillust.png" alt=""></a></div>
-                    <div class="swiper-slide" id="swiper_map"><a href="map.html"><img src="files\contents\map.png" alt=""></a></div>
-                    <div class="swiper-slide" id="swiper_tenji"><a href="tenji.html"><img src="files\contents\tenji.png" alt=""></a></div>
-                    <div class="swiper-slide" id="swiper_komi"><a href="#"><img src="files\contents\komi.png" alt=""></a></div>
-                </div>
+            <div id="article_text">
+                <p>　本日で、令和５年度彩西祭が終了となりました。<br>
+                    　台風の影響で、予定していた日程での開催から大きな変更がありましたが、仲間と団結し、最後まで楽しむことができました。本年度文化祭を開催するにあたり、ご協力頂いた皆様、及びご来校頂いた皆様、誠にありがとうございました。</p>
             </div>
         </div>
+        <!--
+        <div id="article_img" class="section"><img src="files/article_example.png" alt=""></div>-->
         <div id="section_articles" class="section">
             <div class="title">
                 <img class="title_svg" src="files/articles.svg">
@@ -165,7 +130,5 @@
                 $("#articles_holder").load("latestposts.html");
             });
         </script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-        <script src="index.js"></script>
     </body>
 </html>
