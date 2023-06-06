@@ -93,24 +93,24 @@
                             <p><input type="radio" name="entry.538058966" value="3CHR">3CHR</p>
                             <p><input type="radio" name="entry.538058966" value="3DHR">3DHR</p>
                             <p><input type="radio" name="entry.538058966" value="11HR" onclick="$('#group11,#kurat11').addClass('hide_default');">11HR</p>
-                            <p><input type="radio" name="entry.538058966" value="12HR" onclick="$('#group12,#kurat11').addClass('hide_default');">12HR</p>
-                            <p><input type="radio" name="entry.538058966" value="13HR" onclick="$('#group13,#kurat11').addClass('hide_default');">13HR</p>
-                            <p><input type="radio" name="entry.538058966" value="14HR" onclick="$('#group14,#kurat11').addClass('hide_default');">14HR</p>
-                            <p><input type="radio" name="entry.538058966" value="15HR" onclick="$('#group15,#kurat11').addClass('hide_default');">15HR</p>
-                            <p><input type="radio" name="entry.538058966" value="16HR" onclick="$('#group16,#kurat11').addClass('hide_default');">16HR</p>
-                            <p><input type="radio" name="entry.538058966" value="17HR" onclick="$('#group17,#kurat11').addClass('hide_default');">17HR</p>
-                            <p><input type="radio" name="entry.538058966" value="21HR" onclick="$('#group21,#kurat11').addClass('hide_default');">21HR</p>
-                            <p><input type="radio" name="entry.538058966" value="22HR" onclick="$('#group22,#kurat11').addClass('hide_default');">22HR</p>
-                            <p><input type="radio" name="entry.538058966" value="23HR" onclick="$('#group23,#kurat11').addClass('hide_default');">23HR</p>
-                            <p><input type="radio" name="entry.538058966" value="24HR" onclick="$('#group24,#kurat11').addClass('hide_default');">24HR</p>
-                            <p><input type="radio" name="entry.538058966" value="25HR" onclick="$('#group25,#kurat11').addClass('hide_default');">25HR</p>
-                            <p><input type="radio" name="entry.538058966" value="26HR" onclick="$('#group26,#kurat11').addClass('hide_default');">26HR</p>
-                            <p><input type="radio" name="entry.538058966" value="31HR" onclick="$('#group31,#kurat11').addClass('hide_default');">31HR</p>
-                            <p><input type="radio" name="entry.538058966" value="32HR" onclick="$('#group32,#kurat11').addClass('hide_default');">32HR</p>
-                            <p><input type="radio" name="entry.538058966" value="33HR" onclick="$('#group33,#kurat11').addClass('hide_default');">33HR</p>
-                            <p><input type="radio" name="entry.538058966" value="34HR" onclick="$('#group34,#kurat11').addClass('hide_default');">34HR</p>
-                            <p><input type="radio" name="entry.538058966" value="35HR" onclick="$('#group35,#kurat11').addClass('hide_default');">35HR</p>
-                            <p><input type="radio" name="entry.538058966" value="36HR" onclick="$('#group36,#kurat11').addClass('hide_default');">36HR</p>
+                            <p><input type="radio" name="entry.538058966" value="12HR" onclick="$('#group12,#kurat12').addClass('hide_default');">12HR</p>
+                            <p><input type="radio" name="entry.538058966" value="13HR" onclick="$('#group13,#kurat13').addClass('hide_default');">13HR</p>
+                            <p><input type="radio" name="entry.538058966" value="14HR" onclick="$('#group14,#kurat14').addClass('hide_default');">14HR</p>
+                            <p><input type="radio" name="entry.538058966" value="15HR" onclick="$('#group15,#kurat15').addClass('hide_default');">15HR</p>
+                            <p><input type="radio" name="entry.538058966" value="16HR" onclick="$('#group16,#kurat16').addClass('hide_default');">16HR</p>
+                            <p><input type="radio" name="entry.538058966" value="17HR" onclick="$('#group17,#kurat17').addClass('hide_default');">17HR</p>
+                            <p><input type="radio" name="entry.538058966" value="21HR" onclick="$('#group21,#kurat21').addClass('hide_default');">21HR</p>
+                            <p><input type="radio" name="entry.538058966" value="22HR" onclick="$('#group22,#kurat22').addClass('hide_default');">22HR</p>
+                            <p><input type="radio" name="entry.538058966" value="23HR" onclick="$('#group23,#kurat23').addClass('hide_default');">23HR</p>
+                            <p><input type="radio" name="entry.538058966" value="24HR" onclick="$('#group24,#kurat24').addClass('hide_default');">24HR</p>
+                            <p><input type="radio" name="entry.538058966" value="25HR" onclick="$('#group25,#kurat25').addClass('hide_default');">25HR</p>
+                            <p><input type="radio" name="entry.538058966" value="26HR" onclick="$('#group26,#kurat26').addClass('hide_default');">26HR</p>
+                            <p><input type="radio" name="entry.538058966" value="31HR" onclick="$('#group31,#kurat31').addClass('hide_default');">31HR</p>
+                            <p><input type="radio" name="entry.538058966" value="32HR" onclick="$('#group32,#kurat32').addClass('hide_default');">32HR</p>
+                            <p><input type="radio" name="entry.538058966" value="33HR" onclick="$('#group33,#kurat33').addClass('hide_default');">33HR</p>
+                            <p><input type="radio" name="entry.538058966" value="34HR" onclick="$('#group34,#kurat34').addClass('hide_default');">34HR</p>
+                            <p><input type="radio" name="entry.538058966" value="35HR" onclick="$('#group35,#kurat35').addClass('hide_default');">35HR</p>
+                            <p><input type="radio" name="entry.538058966" value="36HR" onclick="$('#group36,#kurat36').addClass('hide_default');">36HR</p>
                         </div>
                         <div id="question3" class="title">
                             <h3>３．所属する部活動を選んでください<span class="red">(必須)</span></h3>
@@ -432,7 +432,7 @@
                         <p><input type="radio" id="kurat15" name="entry.130477202" value="15HR">15HR</p><div id="kurat_15HR" class="image"></div>
                         <p><input type="radio" id="kurat16" name="entry.130477202" value="16HR">16HR</p><div id="kurat_16HR" class="image"></div>
                         <p><input type="radio" id="kurat17" name="entry.130477202" value="17HR">17HR</p><div id="kurat_17HR" class="image"></div>
-                        <p><input type="radio" id="kurat18" name="entry.130477202" value="投票しない">投票しない</p>
+                        <p><input type="radio" name="entry.130477202" value="投票しない">投票しない</p>
                     </div>
                 </div>
                 <div class="page7 hide_default">
