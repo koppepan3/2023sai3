@@ -272,6 +272,7 @@
     .theme_all{
         position: relative;
         width: 95%;
+        margin-top: 150px;
         margin-right: 5%;
         height: 520px;
         background: #F4F0E9;
